@@ -1,0 +1,2489 @@
+AL TIORA
+D I S C E  .  C R E A  .  A S C E N D E
+ Govt. Engineering College, Barton Hill
+2025-26
+IT DEPT
+Govt. Engineering College, Barton Hill
+AL TIORA
+D I S C E  .  C R E A  .  A S C E N D E
+DEPARTMENT OF INFORMATION TECHNOLOGY 
+2025-26
+2
+3
+Head of Department’s Message
+It gives me immense pleasure to present ALTIORA, the annual magazin e of the
+Department of Information Technology, Govt. Engineering College, Barton Hill.
+A department is defined not only by its academic achievements but also by the ideas,
+aspirations, and accomplishments of its students and faculty. ALTIOR A has been
+envisioned as a platform to celebrate these achievements while fostering  a culture of
+learning, creativity, and innovation. Through its pages, we capture the milestone s of the
+academic year, highlight the talents of our students, and showcase th e vibrant spirit that
+defines our department.
+The Department of Information Technology has always strived to cre ate an environment
+that encourages intellectual curiosity, technical excellence, and holistic d evelopment. The
+achievements featured in this magazine, ranging from academic a ccomplishments and
+technical innovations to extracurricular successes, reflect the dedication, p erseverance,
+and potential of our students. Equally important are the contribut ions of our faculty
+members, whose guidance and commitment continue to inspire and sha pe future
+professionals.
+As technology continues to transform the world around us, it is esse ntial that we
+cultivate not only technical expertise but also creativity, adaptability,  and a sense of
+responsibility. I hope that ALTIORA serves as a source of inspiration for e very reader and
+motivates our students to pursue excellence in all their endeavours.
+I extend my sincere appreciation to the editorial team, faculty mem bers, and students
+whose efforts have made this publication possible. May ALTIORA continue to document
+our journey, celebrate our achievements, and inspire future generations.
+I wish ALTIORA every success in the years to come.
+Dr. Deepthi Sasidharan
+Head of Department
+Department of Information Technology
+Govt. Engineering College, Barton Hill
+4
+It is a matter of great pride to be part of ALTIORA . A department thrives not
+only through academic excellence but also through t he collective achievements,
+ideas, and aspirations of its students and faculty.  This magazine serves as a
+reflection of that journey.
+Over the years, our students have consistently demo nstrated their potential
+through academic accomplishments, technical innovation, research activities, and
+participation in various competitions and events. T heir achievements showcased
+in these pages are a testament to their dedication,  perseverance, and willingness
+to embrace challenges beyond the classroom.
+As educators, our role extends beyond imparting knowledge. We strive to nurture
+curiosity, encourage critical thinking, and create opportunities for students to
+explore their interests and talents. It is gratifyi ng to see these efforts reflected
+in the accomplishments documented in this magazine.
+I congratulate the editorial team and all contributors who have worked diligently
+to bring this publication to life. May ALTIORA continue to inspire future batches
+of students to learn, innovate, and strive for excellence in every endeavour.
+Josna V R
+Faculty Editor
+5
+Message from the Faculty Editor
+6
+The true strength of a department lies not only in its academic accomplishments
+but also in the enthusiasm, creativity, and determi nation of its students. Every
+project undertaken, competition participated in, ac hievement earned, and idea
+explored contributes to a vibrant learning environm ent that extends far beyond
+the classroom.
+The Department of Information Technology has always  encouraged students to
+challenge themselves, embrace new opportunities, an d pursue excellence in
+diverse fields. It is inspiring to witness our stud ents continually pushing
+boundaries through technical innovation, research, leadership, sports, and other
+extracurricular pursuits. Their achievements reflec t both individual dedication
+and the collaborative spirit that defines our department.
+ALTIORA brings together many of these experiences a nd accomplishments,
+offering a glimpse into the talent, hard work, and aspirations of our students.
+More importantly, it serves as a celebration of the  collective efforts of everyone
+who contributes to the growth and success of the department.
+I congratulate the editorial team and all contribut ors for their sincere efforts in
+bringing this publication to fruition. May ALTIORA continue to inspire,
+encourage, and showcase the excellence that our department strives to achieve.
+Prasanth R S
+Faculty Editor
+Message from the Faculty Editor
+
+It gives us immense pride and joy to present ALTIOR A, the official magazine of
+the Department of Information Technology. Derived f rom the Latin word
+meaning “higher things” or “greater heights”, ALTIO RA stands as a reflection of
+the creativity, innovation, and intellectual spirit that define our department.
+In an era driven by technology, the field of Inform ation Technology continues to
+evolve at an extraordinary pace. As students and le arners in this dynamic
+domain, we are constantly challenged to think criti cally, adapt quickly, and
+innovate fearlessly. ALTIORA is a platform that cap tures this very essence—
+bringing together thoughts, ideas, and expressions that go beyond textbooks and
+classrooms. Guided by its motto, Disce. Crea. Ascen de. (Learn. Create. Rise.), the
+magazine celebrates a culture of continuous learnin g, creativity, and growth
+while encouraging individuals to strive towards greater heights.
+This edition showcases a diverse collection of writ ings, including articles, poems,
+experiences, and reflections contributed by our stu dents. Each piece carries a
+unique perspective, highlighting not only academic insights but also personal
+journeys, creativity, and social awareness. It is a  testament to the fact that
+learning in IT is not confined to coding and algori thms, but extends to
+imagination, communication, and understanding the world around us.
+We extend our heartfelt gratitude to all contributo rs, editors, and faculty
+members whose efforts have made this magazine possi ble. Their dedication and
+enthusiasm have transformed this vision into reality. As you turn these pages, we
+hope ALTIORA inspires you to think, create, and exp lore beyond boundaries. May
+this magazine serve as a reminder that every idea h as the power to grow, and
+every voice deserves to be heard.
+Editorial Team
+ALTIORA
+Department of Information Technology
+7
+Editorial
+
+The college has earned recognition for its outstand ing academic performance, securing 4th
+rank among colleges under KTU with an impressive 85 .12% pass percentage. This
+achievement reflects the dedication of its students , faculty, and staff in maintaining high
+academic standards and fostering a culture of continuous learning.
+Beyond academics, GEC Barton Hill encourages studen ts to participate in technical
+societies, cultural activities, sports, research in itiatives, and social outreach programmes,
+helping them develop leadership qualities, creativi ty, and a strong sense of social
+responsibility.
+With its unwavering focus on quality education, inn ovation, and integrity, Govt.
+Engineering College Barton Hill continues to empowe r young minds and shape competent
+professionals who contribute meaningfully to society and the engineering profession.
+8
+Govt. Engineering College Barton Hill: 
+Rising Higher, Reaching Further 
+Govt. Engineering College Barton Hill (GECBH),
+Thiruvananthapuram, is one of Kerala’s premier
+government engineering institutions, known for its
+commitment to academic excellence, innovation,
+and holistic student development. Since its
+establishment, the college has consistently
+nurtured talented engineers equipped with the
+knowledge, skills, and values required to meet the
+challenges of a rapidly evolving world.
+Affiliated with APJ Abdul Kalam Technological
+University (KTU), GECBH offers undergraduate and
+postgraduate programmes across various
+engineering disciplines, supported by experienced
+faculty, modern laboratories, and a vibrant 
+academic environment. The institution places equal emphasis on research, innovation,
+industry collaboration, entrepreneurship, and community engagement, enabling students to
+grow both professionally and personally.
+The Department of Information Technology at Govt. E ngineering College,
+Barton Hill stands as a dynamic and forward-thinkin g academic unit
+dedicated to excellence in technical education and innovation.
+Established in 1999, the department has steadily gr own into a center of
+academic strength, producing skilled professionals who contribute to
+diverse sectors of the global IT industry.
+From its inception, the department has focused on n urturing a strong
+foundation in computing, problem-solving, and emerging technologies. It
+offers a comprehensive B.Tech programme in Informat ion Technology,
+along with postgraduate programmes in Network Engin eering and
+Artificial Intelligence & Data Science. The department strives to provide a
+conducive learning environment that promotes academ ic excellence,
+innovation, research, and ethical values, preparing  students to contribute
+meaningfully to society while meeting the evolving demands of the IT
+industry.
+One of the defining strengths of the department lie s in its commitment
+to academic excellence and innovation. Students consistently achieve top
+ranks in university examinations and go on to excel  in higher education,
+research, and professional careers. The department also promotes
+entrepreneurial thinking by encouraging startup ini tiatives and creative
+problem-solving among students.
+The faculty team comprises highly qualified and exp erienced educators,
+including Ph.D. holders and alumni from prestigious  institutions such as
+IITs and NITs. Their expertise and mentorship play a crucial role in
+shaping students into competent IT professionals an d responsible
+innovators.
+9
+About The Department
+10
+Key Strengths
+Academic Excellence: Students consistently perform well in
+university examinations and secure top ranks.
+Highly Qualified Faculty: The department has experienced faculty
+members, including Ph.D. holders and graduates from premier
+institutions.
+Industry Readiness: Strong focus on practical learning, research, and
+skill development prepares students for real-world challenges.
+Strong Alumni Network: Graduates have secured positions in
+multinational companies, research institutions, government
+organizations, and have also established successful entrepreneurial
+ventures.
+Innovation & Entrepreneurship: The department encourages startup
+culture and creative problem-solving among students.
+Facilities & Infrastructure
+Smart Classrooms: Equipped with LCD projectors, smart TVs, and
+digital teaching aids to support interactive learning.
+Computer Laboratories: Well-maintained laboratories with the
+software and computing resources required for practical coursework,
+programming, and project development.
+Seminar Hall (ZoomIT): A dedicated venue equipped for workshops,
+seminars, technical talks, and interactive sessions.
+Central Library Resources: Students have access to the college's
+central library, which houses a wide collection of books, journals,
+and reference materials supporting Information Technology and
+related disciplines.
+Cybersecurity Initiatives: The department actively promotes
+cybersecurity awareness and practical learning through student-led
+initiatives, workshops, and technical activities.
+Industry & Technical Engagement: Regular workshops, expert talks,
+hackathons, and technical events provide students with
+opportunities to enhance their practical knowledge and stay
+updated with emerging technologies.
+11
+Vision Of The College
+To excel in higher learning in engineering and tech nology, nurturing and
+empowering young minds, fostering research and inno vation, and reaching out
+to society, with a relentless pursuit of high academic standards and integrity.
+Mission Of the College
+Impart Engineering knowledge and skills.
+Mould professionals with integrity.
+Nurture the spirit of innovation, creativity and su stainability to address
+needs of society.
+Collaborate with industry, academic and research institutions of repute.
+Vision Of the Department
+To excel in higher learning in engineering and tech nology by nurturing young
+minds, fostering innovation and research, and contr ibuting meaningfully to
+society with a commitment to academic excellence and integrity.
+Mission Of the Department
+To impart strong engineering knowledge and technical skills
+To develop professionals with integrity and ethical values
+To encourage innovation, creativity, and sustainability
+To collaborate with industry and research institutions for advancement
+12
+Programme Educational Objectives (PEOs)
+• PEO 1
+Achieve professional competency in the field of Information Technology to become
+successful IT solution providers and entrepreneurs.
+• PEO 2
+Acquire scientific and engineering knowledge to pursue higher education and research.
+• PEO 3
+Become professionals with effective interpersonal skills, leadership qualities and social
+concern.
+Programme Specific Outcomes (PSOs)
+• PSO 1: Design, implement and manage efficient and secure networking solutions with
+state-of-the- art Information and Communication Technologies.
+• PSO 2: Design and develop solutions for real world problems using suitable programming
+languages and appropriate platforms by following the best software engineering principles
+and methodologies.
+• PSO 3: Develop innovative solutions in the emerging areas of Information Technology.
+Programme Outcomes (POs)
+i.Engineering knowledge: Apply the knowledge of mat hematics, science, engineering
+fundamentals, and an engineering specialization to the solution of complex engineering
+problems
+ii. Problem analysis: Identify, formulate, review r esearch literature, and analyze complex
+engineering problems reaching substantiated conclus ions using first principles of
+mathematics, natural sciences, and engineering sciences.
+13
+iii. Design/development of solutions: Design soluti ons for complex engineering problems and
+design system components or processes that meet the  specified needs with appropriate
+consideration for the public health and safety, and  the cultural, societal, and environmental
+considerations
+iv. Conduct investigations of complex problems: Use  research-based knowledge and research
+methods including design of experiments, analysis and interpretation of data, and synthesis of
+the information to provide valid conclusions
+v. Modern tool usage: Create, select, and apply app ropriate techniques, resources, and modern
+engineering and IT tools including prediction and m odeling to complex engineering activities
+with an understanding of the limitations.
+vi. The engineer and society: Apply reasoning informed by the contextual knowledge to assess
+societal, health, safety, legal and cultural issues  and the consequent responsibilities relevant
+to the professional engineering practice.
+vii. Environment and sustainability: Understand the  impact of the professional engineering
+solutions in societal and environmental contexts, a nd demonstrate the knowledge of, and
+need for sustainable development
+viii. Ethics: Apply ethical principles and commit t o professional ethics and responsibilities and
+norms of the engineering practice.
+ix. Individual and team work: Function effectively as an individual, and as a member or leader
+in diverse teams, and in multidisciplinary settings
+x. Communication: Communicate effectively on comple x engineering activities with the
+engineering community and with society at large, su ch as, being able to comprehend and
+write effective reports and design documentation, m ake effective presentations, and give and
+receive clear instructions.
+xi. Project management and finance: Demonstrate kno wledge and understanding of the
+engineering and management principles and apply the se to one’s own work, as a member and
+leader in a team, to manage projects and in multidisciplinary environments
+xii. Life-long learning: Recognize the need for, and have the preparation and ability to engage
+in independent and life-long learning in the broadest context of technological change
+CONTENTS
+15
+Faculty Section
+20
+Student Achievements
+28
+Featured Achievements
+47
+Competitive Exams &
+ Academic Milestones 
+57
+60
+71
+115
+116
+117
+Publications & Patents
+Department Activities & Events
+Student Contributions
+Future Vision
+Acknowledgements
+Editorial Team
+109
+The Champions' Chronicle
+66
+Leading Beyond the
+ Classroom
+The Department of Information Technology is supported by
+a team of dedicated and highly qualified faculty me mbers
+who play a vital role in academic and research exce llence.
+The faculty includes experienced professors, associ ate
+professors, and assistant professors with strong ac ademic
+backgrounds.
+Many members of the faculty are alumni of prestigio us
+institutions such as IITs and NITs, bringing with t hem a
+wealth of knowledge and expertise. The department a lso
+includes Ph.D. holders who actively contribute to r esearch,
+innovation, and academic development.
+The faculty is committed not only to teaching but a lso to
+mentoring students, guiding projects, and encouragi ng
+participation in research activities, workshops, an d
+technical competitions. Their continuous support he lps
+students develop both technical competence and
+professional skills required in the IT industry.
+Faculty Section
+15
+16
+FACULTY MEMBERS
+Head of the Department:
+Dr. Deepthi Sasidharan leads the department with a strong focus on
+academic excellence, research development, and meaningful industry
+collaboration. Under her guidance, the department continues to
+strengthen its academic and research initiatives while fostering
+innovation, professional growth, and a culture of continuous learning. 
+Her leadership has played a key role in advancing the department as a
+center for quality education and emerging technologies in the field of
+Information Technology.
+Dr. Deepthi Sasidharan 
+– Associate Professor & Head of the Department
+
+17
+Simi Krishna K R- Associate Professor
+Mala J B- Assistant Professor
+Faculty Members
+Dr. Shamna H R- Professor
+Dr. Manju R- Associate Professor
+Dr. Haripriya A P- Associate Professor
+Dr. Randhir R Prasad- Associate Professor
+Josna V R- Associate Professor
+Jayasree P- Assistant Professor
+Minu R Nath- Assistant Professor
+18
+Dhanya C K- Assistant Professor
+Dr. Vishakh R- Assistant Professor
+Prasanth R S- Assistant Professor
+Suryapriya S- Assistant Professor
+Narsheedha Beegum P A- Assistant Professor
+ADHOC STAFF:
+Rini S-Assistant Professor
+Sunitha D-Assistant Professor
+19
+Chinchu U-Trade Instructor
+Technical staff
+Rajesh Kumar K-System Analyst 
+Jaikumar K Kurumackel-Computer 
+Programmer
+Jean V.B-Trade Instructor 
+Suresh B-Trade Instructor 
+Shameer A N-Trade Instructor
+Muhammed Hafsal T-Tradesman 
+Snehjan B-Tradesman
+Gopakumar G-Computer Programmer
+Ajin Babu S-Trade Technician
+Student
+ Achievements
+ 
+Student
+ Achievements
+ 
+20
+21
+HACKATHONS & COMPETITIONS
+2ND PRIZE – INDUSTRY 5.0 HACKATHON | STATE
+CIPHER – YASINA THASNEEM M, M S GAURI
+SANKAR, ASIN NAVED A, EVETTE CATELYN
+FERNANDEZ, MRINAL KRISHNAN J | ASIAN SCHOOL
+OF BUSINESS | 8 FEBRUARY 2026
+2ND PRIZE – GOVTECH HACKATHON | COLLEGE
+BYTEFORCE – AATHMANA S NAIR, AFSANA
+AHMAD S, ARJUN V S, KRISHNAPRIYA R,
+NANDITHA S NAIR | GEC BARTON HILL | 18
+FEBRUARY 2026
+1ST PRIZE – AGRITECH HACKATHON | COLLEGE
+CIPHER – YASINA THASNEEM M, M S GAURI
+SANKAR, ASIN NAVED A, EVETTE CATELYN
+FERNANDEZ, MRINAL KRISHNAN J | GEC
+BARTON HILL | 18 FEBRUARY 2026
+3RD PRIZE – CYBERTECH HACKATHON | COLLEGE
+BYTE404 – NIRUPAMA S, SOORAJ KUMAR S,
+LIZONA LOY PARAYIL, RYAN SEBASTIAN,
+DEVANANDA A | GEC BARTON HILL | 18
+FEBRUARY 2026
+22
+1ST PRIZE – GOVTECH HACKATHON | ZONAL
+BYTEFORCE – AATHMANA S NAIR, AFSANA
+AHMAD S, ARJUN V S, KRISHNAPRIYA R,
+NANDITHA S NAIR | MARIAN ENGINEERING
+COLLEGE | 24 FEBRUARY 2026
+1ST PRIZE – CYBERTECH HACKATHON | ZONAL
+BYTE404 – NIRUPAMA S, SOORAJ KUMAR S,
+LIZONA LOY PARAYIL, RYAN SEBASTIAN,
+DEVANANDA A | SREE CHITRA THIRUNAL
+COLLEGE OF ENGINEERING | 26 FEBRUARY 2026
+1ST PRIZE – AGRITECH HACKATHON | ZONAL
+CIPHER – YASINA THASNEEM M, M S GAURI
+SANKAR, ASIN NAVED A, EVETTE CATELYN
+FERNANDEZ, MRINAL KRISHNAN J | ST. THOMAS
+COLLEGE OF ENGINEERING | 27 FEBRUARY 2026
+2ND PRIZE – KAIZEN’26 | AGENTIC AI
+HACKATHON | ZONAL
+AXIOM – ABHINAV B, ALEX ANTO CHERIAN,
+GREESHMA SUSAN LUKOSE, MILAN SHAJI |
+COLLEGE OF ENGINEERING MUTTATHARA | 21
+FEBRUARY 2026
+1ST PRIZE – AGENTIC AI HACKATHON | ZONAL
+AXIOM – ABHINAV B, ALEX ANTO CHERIAN,
+GREESHMA SUSAN LUKOSE, MILAN SHAJI |
+BASELIOS MATHEWS II COLLEGE OF ENGINEERING |
+27 FEBRUARY 2026
+1ST RUNNER-UP – PROTOTYPE 2.0 PROJECT EXPO |
+ZONAL
+NIYA VALSAN A K | COLLEGE OF ENGINEERING
+PERUMON | 22 MARCH 2026
+23
+INVITED TO IEDC STARTUP SUMMIT 2026 | STATE
+AMAL JYOTHI COLLEGE OF ENGINEERING, KANJIRAPALLY | 7 MARCH 2026
+CIPHER – YASINA THASNEEM M, M S GAURI SANKAR, ASIN NAVED A,
+EVETTE CATELYN FERNANDEZ, MRINAL KRISHNAN J | BYTE404 – NIRUPAMA
+S, SOORAJ KUMAR S, LIZONA LOY PARAYIL, RYAN SEBASTIAN, DEVANANDA
+A | BYTEFORCE – AATHMANA S NAIR, AFSANA AHMAD S, ARJUN V S,
+KRISHNAPRIYA R, NANDITHA S NAIR
+Three teams from the department were invited to the Kerala Startup Mission’s
+IEDC Startup Summit 2026, where they were presented with awards for their
+achievements. 
+Appreciation from SCTIMST | INSTITUTIONAL
+PROF. JASSIM RAFEEK, ARJUNAN M R, CHRISTIN JIJI | S REE CHITRA TIRUNAL
+INSTITUTE FOR MEDICAL SCIENCES AND TECHNOLOGY (SCTI MST) | 23 January
+2025
+Prof. Jassim Rafeek, Arjunan M R, and Christin Jiji  received an appreciation from
+the Sree Chitra Tirunal Institute for Medical Scien ces and Technology (SCTIMST)
+for developing a software system to manage animal i nventory records in the
+institute's laboratory.
+24
+ARJUNAN M R CHRISTIN JIJI PROF. JASSIM RAFEEK
+
+25
+ACADEMIC & QUIZ EVENTS
+1ST PRIZE – ELEVER 5.0 | STATE
+NANDANA PREDEEP | IEEE CS KERALA SECTION | 3
+OCTOBER 2025
+Nandana Predeep secured first prize in multiple tasks at
+Elever 5.0, demonstrating strong communication skills,
+creativity, and the ability to effectively present technical
+concepts in a competitive environment.
+2ND PRIZE – ELEVER 5.0 | STATE
+GOURY VIBIN | IEEE CS KERALA SECTION | 3 OCTOBER
+2025
+Goury Vibin secured second prize in the Tech Product
+Commercial Challenge, reflecting strong presentation
+ability and technical understanding at the state-level.
+WINNER – EXCELSIOR 6.0 | STATE
+M S GAURI SANKAR | CSI SB GECBH | 23 DECEMBER
+2025
+M S Gauri Sankar emerged as the winner of Excelsior
+6.0, a state-level mock placement drive, demonstrating
+strong aptitude, technical knowledge, and performance
+in a competitive evaluation setting.
+PLAYER OF THE TOURNAMENT – KTU A ZONE CRICKET
+TOURNAMENT (2025–26)
+LEADING RUN SCORER & LEADING WICKET TAKER
+ SOORAJ S | FISAT, ANGAMALY
+26
+SPORTS ACHIEVEMENTS
+SECOND RUNNER-UP – KTU A ZONE BADMINTON
+CHAMPIONSHIP ZONAL
+ELIZABETH MAVELY | COLLEGE OF ENGINEERING
+TRIVANDRUM 
+3RD PLACE – KTU A ZONE TABLE TENNIS
+CHAMPIONSHIP (MEN)
+ VIGNESH V, ABHISHEK VIJAYAKUMAR | COLLEGE
+OF ENGINEERING TRIVANDRUM
+PARTICIPATION – KTU STATE ATHLETIC MEET 
+MEN'S 1500 M RUNNING
+ NAVENDU GOPAN | CHANDRASEKHARAN NAIR
+STADIUM
+3RD RUNNER-UP – KTU INTERZONE TUG OF WAR TOURNAMENT | INTERZONE
+MIDHUN M R, HRISHIKESH P R | KTU INTERZONE TOURNAMENT
+MIDHUN M R HRISHIKESH P R 
+PARTICIPATION – KTU STATE ATHLETIC MEET 
+MEN'S 1500 M RUNNING
+ NAVENDU GOPAN | CHANDRASEKHARAN NAIR
+STADIUM
+PARTICIPATION – KTU INTERCOLLEGIATE KARATE
+CHAMPIONSHIP 
+ NAVENDU GOPAN | CHANDRASEKHARAN NAIR STADIUM
+27
+SPORTS ACHIEVEMENTS
+Featured
+Achievements
+Featured
+Achievements
+28
+NATIONAL-LEVEL HACKATHON EXCELLENCE – A SERIES
+OF FIRST-PLACE FINISHES
+Demonstrating exceptional
+consistency and technical excellence,
+Vimun A secured multiple first-place
+finishes across a series of national-
+level hackathons conducted by
+reputed engineering institutions
+during the 2025–26 academic year.
+Competing against participants from
+institutions across the country, these
+achievements highlight a remarkable
+ability to innovate, adapt, and
+deliver impactful solutions across
+diverse problem domains.
+29
+The first of these accomplishments
+was achieved at Sri Ramakrishna
+Institute of Technology, where a
+Gesture-Controlled Home
+Automation system was developed,
+offering an intuitive and efficient
+approach to smart home interaction.
+This was followed by another first-
+place finish at Mailam Engineering
+College for anAI-Based
+Physiotherapy Tool, showcasing the
+practical application of artificial
+intelligence in healthcare.
+30
+Continuing this streak, a General
+Hackathon at MSAJCE saw the
+development of an AI-Based
+Neuro Rehabilitation Device,
+addressing critical needs in
+medical recovery through
+advanced technological
+intervention. The final win in
+this series came at St. Joseph
+College of Engineering, where an
+AI-Based Gesture Recognition
+system was presented, noted for
+its high accuracy and real-time
+performance. What makes this achievement
+particularly noteworthy is the
+consistency maintained across
+multiple competitions, each
+demanding unique problem-solving
+approaches and domain-specific
+innovation. These accomplishments
+reflect not only individual technical
+capability but also the ability to
+independently conceptualize,
+develop, and execute solutions at a
+national- level, bringing significant
+recognition to the department.
+Continuing her success, she was also
+selected to represent APJ Abdul
+Kalam Technological University
+(KTU) at the All India Inter
+University Shooting Championship
+held in Meerut in January 2026.
+Her participation at these national-
+level events reflects her consistent
+performance, dedication, and
+commitment to the sport alongside
+her academic pursuits in
+Information Technology. This
+accomplishment highlights both her
+individual excellence and the
+department's growing presence on
+the national stage.
+31
+NATIONAL REPRESENTATION IN SHOOTING – ADRIKA
+NARAYANAN
+Adrika Narayanan, an S4
+Information Technology student,
+has achieved remarkable success
+in shooting by representing both
+the state and university at
+prestigious national-level
+competitions. She was selected as
+a member of the Kerala State
+Shooting Team for the National
+Games 2025 held in Uttarakhand,
+marking a significant milestone in
+her sporting journey.
+Things (IoT), edge computing, and autonomous systems, the company is
+working to transform conventional farming into a smarter, data-driven
+ecosystem. Its solutions focus on precision agriculture, enabling farmers
+and institutions to improve productivity, optimize resource use, and make
+informed decisions through intelligent technologies.
+During 2025–26, Zelbytes achieved a major milestone by signing a
+Memorandum of Agreement with the K-AgTech Launchpad, a
+collaborative initiative backed by Kerala Agricultural University (KAU),
+NABARD, and Western Sydney University (WSU). Through this
+partnership, the company assumed a dual role by joining the incubation
+programme while also serving as the Technical Infrastructure Partner for
+the Launchpad.
+As the Technical Infrastructure Partner, Zelbytes will architect and deploy
+the technological backbone of the Vellayani campus. This includes
+enterprise-grade edge AI vision systems, intelligent IoT sensor networks,
+and plug-and-play autonomous frameworks designed to create a world-
+class precision agriculture ecosystem. These technologies will support
+continuous crop monitoring, automate data collection, and enable smarter
+farming practices.
+Founded with the vision of
+applying advanced technologies
+to solve real-world agricultural
+challenges, Zelbytes Private
+Limited has rapidly emerged as
+one of Kerala's promising
+agritech startups. By combining
+Artificial Intelligence (AI), the
+Internet of
+32
+Zelbytes Private Limited :
+Engineering the Future of Precision 
+Agriculture 
+As part of the incubation programme,
+the company will further refine its
+Farming-as-a-Service (FaaS) model and
+enhance its machine learning algorithms
+in a real agricultural environment. The
+collaboration is expected to accelerate
+research, product validation, and
+commercial deployment while
+strengthening links between academia,
+industry, and innovation.
+Over the coming months, Zelbytes plans 
+to deploy autonomous farming systems, edge AI camer as, and smart IoT
+networks across the Vellayani campus, creating a st ate-of-the-art
+precision farming facility that demonstrates the pr actical impact of AI-
+powered agriculture.
+Despite beginning with limited resources, Zelbytes has continued to
+grow through innovation, perseverance, and strategi c collaborations.
+From developing intelligent agricultural platforms to partnering with
+leading institutions such as KAU, NABARD, and Weste rn Sydney
+University, the company has demonstrated how startu p-driven
+innovation can contribute meaningfully to the futur e of farming. Its
+journey during 2025–26 reflects the growing role of  deep technology in
+building a more efficient, sustainable, and resilie nt agricultural
+ecosystem.
+33
+
+As part of an academic project at the Sree Chitra T irunal Institute
+for Medical Sciences and Technology (SCTIMST),
+Thiruvananthapuram, a team of Information Technolog y students—
+Preethi Krishna, Syeda Fathima, Bharath Vighnesh, B hairavi H, and
+Archa A. S.—developed a Cardiac Arrhythmia Simulato r to generate
+and analyze abnormal electrocardiogram (ECG) wavefo rms, enabling
+the study of different cardiac arrhythmias and thei r clinical
+significance.
+The simulator provides realistic representations of  various
+arrhythmia conditions, making it a valuable tool fo r medical
+education, research, and software testing. Working in SCTIMST's
+multidisciplinary research environment, the team ga ined hands-on
+experience in ECG signal analysis, software develop ment, and
+healthcare computing. Guided by Ms. Surya Priya S a nd Dr.
+Haripriya, the project reflects the department's co mmitment to
+innovation and interdisciplinary collaboration in h ealthcare
+technology.
+34
+Cardiac Arrhythmia Simulator 
+Developed at SCTIMST 
+Preethi Krishna
+Syeda Fathima
+Bharath Vighnesh
+Bhairavi H
+Archa AS
+The Young Innovators Program (YIP) 6.0, organized by the Kerala
+Development and Innovation Strategic Council (K-DISC), encourages
+students to develop innovative solutions to real-world challenges. A team
+of third-year Information Technology students — Aparna, Ardra, Jyothika,
+Hadiya, and Meenakshi — actively participated in this initiative and
+developed a practical and impactful technological solution.
+Their project, titled “Smart Bus Stop Ticket Generating Machine,”
+addresses common difficulties faced by passengers while purchasing bus
+tickets, especially during peak hours. The proposed system consists of an
+automated ticket-generating machine installed at bus stops, allowing
+passengers to select their destination and make payments using digital
+methods such as UPI or card. Upon successful payment, a printed ticket is
+generated, enabling passengers to board buses without delay.
+The system reduces congestion inside buses, improves efficiency for both
+passengers and conductors, and promotes digital transactions. The team
+undertook extensive research, discussions, and collaborative planning to
+develop and present the concept effectively. Their efforts were recognized
+with a District-Level win in YIP 6.0, marking a proud achievement and
+reinforcing their ability to design solutions with real-world impact.
+ 35
+YIP 6.0 DISTRICT LEVEL WINNING PROJECT 
+- SMART BUS STOP 
+TICKET GENERATING MACHINE
+36
+The Department of Information Technology proudly congratulates the
+GECBH team on securing a place among the finalists at Technoverse
+2026, the prestigious national-level hackathon orga nized by
+Cognizant. We are especially proud of our students Afila Fathima S,
+Apsara M. V., Blessy Mariya Benny, and Christin Jiji, who were part of
+this remarkable achievement and represented the dep artment with
+distinction.
+Competing against talented participants from instit utions across the
+country, the team demonstrated exceptional technica l expertise,
+creativity, and teamwork. Their journey to the finals reflected months
+of dedication, innovative thinking, and the ability  to develop
+impactful solutions in a highly competitive national-level hackathon.
+Reaching the finals of such a prestigious competiti on is a significant
+accomplishment that highlights the students' commit ment to
+excellence and reinforces GECBH's growing presence in technology
+and innovation. Their achievement serves as an inspiration to aspiring
+innovators and showcases the talent, determination,  and
+collaborative spirit fostered within the GECBH community.
+Innovating Beyond Boundaries: GECBH Team Shines
+at Cognizant Technoverse 2026
+The duo earned national recognition for Zyra, an AI-powered
+women's safety solution that promotes safer mobility through
+intelligent route assistance. The system evaluates and scores
+travel routes in real time by analyzing factors including lighting
+conditions, crowd density, traffic movement, crime history, time
+of day, proximity to police stations, CCTV availability, and user-
+generated safety inputs, helping users make informed travel
+decisions.
+Beyond route analysis, Zyra incorporates emergency features
+such as SOS activation, live location sharing, and automatic
+redirection to the nearest safe location, providing immediate
+assistance during emergencies.
+The Allianz Tech Championship featured a rigorous multi-stage
+selection process comprising structured submissions, technical
+evaluations, and final presentations before expert panels.
+NATIONAL RECOGNITION AT ALLIANZ TECH
+CHAMPIONSHIP 2025
+37
+Among 389 submissions from across the
+country and over 200 participants
+representing leading engineering
+institutions, Ziya Moosir T and Bharath
+Vighnesh, third-year Information
+Technology students of Government
+Engineering College Barton Hill, emerged
+among the winners of the prestigious
+Allianz Tech Championship 2025,
+organized by Allianz.
+From Government Engineering College Barton Hill, 12 students
+participated, with Ziya Moosir T and Bharath Vignesh securing places
+among nearly 50 winners nationwide.
+                                                    
+NATIONAL RECOGNITION AT ALLIANZ TECH
+CHAMPIONSHIP 2025
+38
+In recognition of their innovation
+and impactful solution, both
+students were awarded a
+scholarship of €3,000 each,
+acknowledging the technical
+excellence and real-world
+potential of their project. The final
+recognition ceremony was held at
+the Allianz Niagara Convention
+Centre, marking a significant
+milestone for the students and a 
+proud achievement for Government Engineering College Barton Hill in
+innovation and applied problem-solving.
+Deepak Jaimohan, a second-year Information Technology
+student, achieved a significant milestone by being selected to
+the APJ Abdul Kalam Technological University (KTU) cricket
+team. His selection marks the department's return to university-
+level cricket representation after several years.
+His journey began with the A Zone matches in
+Thiruvananthapuram, where the college team defeated Lourdes 
+Engineering College Thrissur. At the All India South Zone Inter-
+University tournament in Mysore, the KTU team faced
+Thiruvalluvar University, Mahatma Gandhi University Nalgonda,
+and REVA University.
+Deepak's selection reflects his dedication, discipline, and
+consistent performance. His achievement highlights the
+successful balance of academics and sports while inspiring
+fellow students.
+39
+SELECTION TO KTU CRICKET TEAM 
+A REMARKABLE SPORTING MILESTONE
+Matha College of Science and
+Technology, Musaliar College of
+Engineering and Technology, Sree
+Chitra Thirunal College of
+Engineering, and progressed to the
+finals against the College of
+Engineering Trivandrum.
+The team then advanced to the Inter
+Zone stage in Angamaly, competing
+against the College of Engineering
+Karunagappally and Government 
+The Department of Information Technology proudly
+congratulates the GECBH Cricket Team, including our students
+Sooraj S, Pavan Tharapel Anil, Abhishek V. S., Deepak Jaimohan,
+and M. Sanjay Krishna, on emerging as the A-Zone Runners-Up
+for the 2025–26 season and qualifying for the KTU Interzone
+Tournament held at FISAT, Angamaly.
+The team's impressive A-Zone campaign reflected resilience,
+discipline, and exceptional teamwork. Facing strong competition,
+the players displayed outstanding sportsmanship and
+determination, making every match a testament to their hard
+work and passion for the game. Their runners-up finish was a
+proud achievement for both the team and the GECBH
+community.
+Their dedication and consistent performances have inspired
+fellow students and strengthened GECBH's presence in collegiate
+sports. Every run scored, wicket taken, and effort on the field
+contributed to a memorable campaign that showcased the true
+spirit of teamwork and perseverance.
+ 40
+GECBH Cricket Team Shines as A-Zone Runners-
+Up: A Proud Moment for the IT Department
+41
+The Department of Information Technology extends its heartfelt
+congratulations to the entire GECBH Cricket Team for this well-
+deserved accomplishment and takes immense pride in the
+contributions of its students to this success. We wish the team
+continued success in all their future sporting endeavors and
+look forward to witnessing many more milestones in the years
+ahead.
+Sargam, the annual cultural festival of the college , is a vibrant
+celebration of talent across disciplines including literature, arts,
+theatre, dance, music, and various creative domains . The festival
+provides a platform for students to showcase their abilities, with
+overall performance determining the Best Department title.
+At Sargam 2026, conducted on April 6 and 7, the Inf ormation
+Technology department emerged as the Best Departmen t, reflecting
+a collective display of talent, dedication, and consistent performance
+across multiple categories.
+Further adding to this achievement, two of the fest ival’s most
+prestigious individual titles were secured by stude nts of the
+department. The title of Kalaprathibha (best male p erformer) was
+awarded to M.S. Gaurisankar (S4 IT), while the titl e of Kalathilakam
+(best female performer) was jointly won by Goury Vi bin (S4 IT) and
+Sreya S.S (S6 IT).
+These recognitions highlight not only individual ex cellence but also
+the department’s strong cultural presence, making S argam 2026 a
+significant milestone in its journey of holistic development.
+ 42
+SARGAM 2026 – DEPARTMENTAL EXCELLENCE IN
+ARTS AND CULTURE
+43
+A Remarkable Achievement:
+Sanjay Selected for Allianz Aspire 2026 Internship
+Program
+Our department proudly congratulates Mr. Sanjayram Prasad, a
+first-year M.Tech student, on his remarkable achiev ement of
+being selected for the prestigious Allianz Aspire 2026 Internship
+Program.
+The Allianz Aspire Internship Program is a highly c ompetitive
+opportunity that recognizes talented students with strong
+technical aptitude, problem-solving skills, and the  potential to
+excel in a professional environment. Earning a plac e in this
+program is a testament to Sanjay's dedication, pers everance,
+and commitment to academic and personal growth.
+This accomplishment not only marks an important mil estone in
+his career but also serves as an inspiration to fel low students to
+pursue excellence and embrace opportunities that co ntribute to
+their professional development. Achievements like t hese reflect
+the quality, talent, and determination fostered wit hin our
+department.
+44
+The Government Engineering College
+Barton Hill (GECBH) Parent-Teacher
+Association (PTA) proudly honoured
+Navendu Gopan in recognition of his
+outstanding achievement of winning
+the Bronze Medal at the KTU Interzone
+Karate Championship 2024–25.
+PTA Honours Navendu Gopan for KTU Interzone
+Karate Championship Achievement 
+The award was presented as a token of
+appreciation for Navendu's dedication,
+perseverance, and exceptional
+performance in representing   the  
+college  at   the  prestigious 
+interzone championship. His achievement reflects th e values of
+discipline, determination, and excellence t hat GECBH strives to
+instill in its students.
+The PTA's recognition celebrates not only Navendu's  sporting
+success but also the hard work and commitment that led to this
+remarkable accomplishment. .
+Such achievements
+inspire fellow students
+to pursue excellence in
+both academics and
+extracurricular 
+activities while bringing pride to the institution
+45
+Scholarship Awarded by Syanandurapuri 
+Charitable Organization
+Ardra N J, a student of the Department of Informati on
+Technology, was awarded a scholarship by the Syanan durapuri
+Charitable Organization, Thycaud, Thiruvananthapura m, in
+recognition of her academic excellence.
+The scholarship is instituted by a group of retired  professionals
+who identify and encourage deserving students throu gh
+academic support initiatives. This recognition refl ects Ardra's
+consistent academic performance and stands as an in spiration
+to fellow students to strive for excellence in thei r educational
+pursuits.
+46
+The Department of Information Technology proudly
+congratulates the GECBH Badminton Team on emerging as
+Champions at the KTU A-Zone Badminton Tournament 20 25–
+26. Among the players who contributed to this remar kable
+achievement are our students Vignesh V and Avinash Vinod
+APK, whose dedication and performances played a vit al role in
+the team's success.
+Facing strong competition throughout the tournament , the
+team displayed exceptional skill, determination, an d teamwork
+to secure the coveted A-Zone Championship. Their vi ctory
+reflects the hard work, disciplined preparation, an d sporting
+excellence fostered at GECBH, while also inspiring fellow
+students to strive for success both on and off the court.
+The Department of Information Technology takes imme nse
+pride in the accomplishments of Vignesh V and Avina sh Vinod
+APK, whose contributions have brought glory to both  the
+department and the institution. We extend our heart felt
+congratulations to the entire badminton team and wi sh them
+continued success in their future sporting endeavours.
+GECBH Badminton Team Clinches 
+KTU A-Zone Championship
+Academic &
+Professional
+Achievements
+ 
+Academic &
+Professional
+Achievements
+ 
+47
+48
+Students of the department have consistently excell ed in
+national-level competitive examinations, reflecting their strong
+academic foundation, analytical skills, and dedicatio n. These
+achievements reinforce the department's commitment to
+academic excellence and higher learning.
+Competitive Exams
+49
+50
+Students of the department have secured placements in reputed
+organizations, marking a significant transition from  academic learning to
+professional practice. These achievements reflect th e department’s emphasis
+on technical proficiency, problem-solving skills, an d industry readiness. The
+diverse placement outcomes highlight the ability of  students to adapt to
+evolving industry demands and excel in competitive professional
+environments.
+BTECH Placements
+51
+
+52
+53
+54
+Students of the M.Tech programme have secured placem ents in
+esteemed organizations and research-driven industri es, reflecting
+the department's emphasis on specialized knowledge, i nnovation,
+research, and industry-oriented learning. These achi evements
+demonstrate their ability to tackle complex enginee ring challenges
+and contribute effectively in dynamic professional environments.
+M.TECH Placements
+
+55
+56
+Certifications & Online 
+learning
+Students actively engaged in online learning platfo rms such as NPTEL, Coursera, Infosys Springboard,
+and others, completing certifications across diverse domains including artificial intelligence, data 
+science, cloud computing, and cybersecurity. 
+Publications
+&
+Patents
+Publications
+&
+Patents
+57
+Dr. HARIPRIYA A.P
+Reinforcement Learning-Driven MOEA Framework for Secure and Efficient Task
+Scheduling in Cloud-Edge Systems
+Conference Paper | January 2026
+Publisher: Springer
+Affiliation: Govt. Engineering College, Barton Hill
+58
+Publications & Research Contributions
+The Department of Information Technology continues to foster a strong culture of research and
+scholarly contribution. During the academic year 20 25–26, facult members published research
+articles and presented papers in reputed journals a nd conferences, contributing to advancements
+across areas such as computer architecture, cloud c omputing, artificial intelligence, cybersecurity,
+signal processing,and computer graphics.
+Dr. MANJU R
+Securing Network-on-Chips against Trojan-Induced Pa cket Duplication
+Attacks
+Research Article | July 2025
+Publisher: Polytechnic University of Catalonia
+Affiliation: Indian Institute of Technology Guwahati
+Comparative Analysis of gem5 and ChampSim: Essential Simulators for
+Microarchitecture Research
+Conference Paper | 2025
+Publisher: IEEE
+Dr. VISAKH R
+Prompt-based Adversarial Text Generation using Large Language Models
+Conference Paper | 2025–26
+Low-light Image Enhancement Techniques for Deepfake Video Detection
+| 2025–26
+Ms. SURYAPRIYA S
+A Survey on Machine Learning Approaches for Botnet Attack Detection Using
+Network Flow Data
+Conference Paper | 2025
+Publisher: IEEE
+59
+Ms. MALA JB                                                                                                               
+Enhanced Self-Supervised Speaker Diarization Framework with Conformer and                   
+Hybrid Clustering                                                                                                                                                            
+Conference Paper | 2025                                                                                                                               
+Publisher: EUSIPCO                                                                                                                                                  
+MINU R NATH                                                                                                                   
+De(l)Noise: A Delaunay Based Point Cloud Denoising Algorithm                                                       
+Journal Article | July 2025                                                                                                                                          
+Publisher: Elsevier                                                                                                                                                   
+Affiliation: Advanced Geometric Computing Lab, Department of Engineering Desgn,            
+Indian Institute of Technology Madras                                                                                                                   
+Department
+Activities
+Department
+Activities
+60
+61
+IFTAR GATHERING – DEPARTMENT INITIATIVE 
+The second-year students of the Department of Information
+Technology organized an Iftar gathering as part of fostering
+inclusivity and cultural harmony within the department. The
+event brought together students and faculty members in a spirit
+of unity, allowing everyone to experience and appreciate the
+significance of the occasion.
+
+62
+The gathering provided a platform for interaction beyond
+academics, strengthening bonds among peers and promoting a
+sense of belonging within the department. The initiative
+reflected the students’ commitment to creating an inclusive and
+respectful campus environment.
+63
+ONAM SADHYA– DEPARTMENT CELEBRATION
+The second-year students of the Department of Information
+Technology hosted a grand Onam Sadhya for the entire
+department, celebrating the spirit of Kerala’s most cherished
+festival. The event witnessed enthusiastic participation from
+students and faculty, bringing the department together in a
+vibrant and festive atmosphere.
+The traditional
+feast was
+organized with
+great
+coordination
+and teamwork,
+showcasing the
+students’ ability
+to manage
+large-scale
+events
+effectively.
+Beyond the
+celebration, the
+initiative
+strengthened
+unity, cultural
+appreciation,
+and collective
+spirit within the
+department.
+64
+The Department of Information Technology, Govt. Eng ineering
+College, Barton Hill, organized a cybersecurity wor kshop titled
+“Encrypto: From Script to Ransom – Watch Data Leak and Files
+Locked in Real Time” on 10 February 2026 at Zoom IT .
+Conducted from 1:00 PM to 3:00 PM, the workshop aim ed to
+provide participants with practical insights into m odern cyber
+threats and the evolving landscape of cybersecurity.
+Led by Alan V Jiju, with Sreerag and Praveen as co- speakers
+from Offenso Hackers Academy, the session offered a  hands-on
+learning experience through live demonstrations of real-world
+attack scenarios. Participants observed how data br eaches can
+occur and how ransomware attacks can compromise sys tems by
+locking files in real time. By illustrating the tec hniques used by
+attackers and discussing preventive measures, the w orkshop
+helped students develop a deeper understanding of cybersecurity
+challenges and the importance of safeguarding digital assets.
+The session also marked the beginning of a continue d
+collaboration with Offenso Hackers Academy. As part  of this
+initiative, opportunities were proposed for a limit ed number of
+students to attend free offline cybersecurity works hops at the
+academy, along with future sessions exploring topics such as the
+design and development of Capture The Flag (CTF) ch allenges.
+These initiatives are expected to provide students with greater
+exposure to practical aspects of cybersecurity and ethical
+hacking.
+CYBERSECURITY WORKSHOP – ENCRYPTO
+65
+The Department of Information Technology took the initiative to
+establish a cybersecurity club for the college titled AEGIS, aimed at
+fostering awareness, technical expertise, and interest in the field of
+cybersecurity among students.
+The club was formed under the guidance of faculty members, with
+Professor Haripriya S, the then Head of the Department, serving as the
+faculty head. The initiative reflects the department’s commitment to
+strengthening cybersecurity knowledge and creating a platform for
+students to explore ethical hacking, digital security, and real-world
+cyber defense practices.
+AEGIS is envisioned as a hub for workshops, hands-on sessions, and
+collaborative learning, encouraging students to stay ahead in the
+rapidly evolving domain of cybersecurity.
+INAUGRATION OF CYBERSECURITY CLUB – AEGIS 
+Leading
+Beyond  the
+ Classroom
+Leading
+Beyond  the
+ Classroom
+66
+67
+Akshay E. Muthu served as Vice Chairperson of the IEEE Computer
+Society Student Branch Chapter, while Navendu Gopan managed the
+branch's digital presence as Webmaster. Pourna Alex contributed as
+Secretary of the IEEE SIGHT Affinity Group, supporting initiatives that
+leveraged technology for social good.
+The department's creative presence was equally significant, with
+Elizabeth Mavely contributing to the IEEE CS Content Team and
+Vishnupriya B. Rajesh serving as the Video Editor of the IEEE Student
+Branch. At the JuniorCom level, Goury Vibin and Nandana Predeep
+represented the department in IEEE CS, while Adhith A. K. and Alex
+Anto Cherian contributed through IEEE SIGHT.
+Together, these students strengthened the department's presence
+within IEEE, demonstrating leadership, technical expertise, creativity,
+and a commitment to professional growth.
+Leading Innovation through IEEE
+Professional societies play a vital role in
+shaping students beyond the classroom,
+providing opportunities to lead, innovate,
+collaborate, and engage with the wider
+technical community. During the 2025–
+2026 tenure, students from the Department
+of Information Technology made a strong
+impact across the IEEE Student Branch and
+its affinity groups, contributing through
+leadership, technical initiatives, creative
+media, and community-driven projects
+68
+Devananda A, who collectively organised collaborative and skill-
+development initiatives.
+The department's Coding Club was led by Airine Johns, Riya Mariyam
+Reji, Apsara M V, and BhagyaLekshmi D, encouraging programming,
+technical learning, and peer mentorship.
+Students also contributed across CSI's Design, Content, Membership,
+Web Development, and General Teams. Sreya S S, Blessy Mariya Benny,
+Lizona Loy Parayil, Gauri Smiju, Hadiya Salma R, Mrinal Krishnan J,
+Krishna S S, Meenakshi S M, Christin Jiji, and Yasina Thasneem M
+played key roles in supporting the society's creative, organisational,
+and technical initiatives.
+Building Communities through CSI
+The Department of Information Technology continued to play a central
+role in the activities of the Computer Society of India (CSI) during the
+2025–2026 tenure. Through the CSI Student Branch, CSI Beta, the
+Coding Club, and various creative and technical teams, students
+contributed to organising events, mentoring peers, promoting technical
+learning, and strengthening the department's student community
+The CSI Student Branch was led by Aiswarya
+Ajikumar (Chairperson) and Govind J (Vice
+Chairperson), with Nirupama S coordinating
+events and Evette Catelyn Fernandez leading
+publicity efforts.
+CSI Beta was headed by Gopika Biju S,
+supported by Archa U B, Swathy Pradeep,
+Alex Anto Cherian, Bhairavi H, and 
+At the senior Board of Governance, Adarsh S. Suresh served as Chief
+Executive Officer (CEO), Shiyas S. as Chief Technology Officer (CTO),
+and Airine Johns as Chief Creative Operations Officer (CCoO), leading
+initiatives that promoted innovation, technology, and student
+entrepreneurship.
+The department was also represented across the Junior Board of
+Governance and operational teams. Keerthana Suresh served as Women
+Entrepreneurship Lead, while Lizona Loy Parayil, Gauri Smiju, Arya S.,
+Joakim Manoj, Yasina Thasneem M., and Aishwarya Sreyas contributed
+through the Operations, Technical, Marketing, and Content Teams.
+Their leadership and continued involvement strengthened the
+department's presence within IEDC and encouraged greater
+participation in innovation, startups, and entrepreneurial activities.
+69
+Driving Entrepreneurship with IEDC
+Innovation and entrepreneurship remained key
+strengths of the department during the 2025–
+2026 tenure, with Information Technology
+students playing prominent roles in the
+Innovation and Entrepreneurship Development
+Centre (IEDC).
+Their collective efforts helped strengthen chapter activities while
+encouraging wider student participation in technical learning,
+leadership, and professional development.
+70
+Engineering Leadership through ISTE
+Students from the Department of Information Technology actively
+contributed to the ISTE Student Chapter during the 2025–2026 tenure
+by taking up leadership, technical, and organisational responsibilities
+across the chapter and its Bartonair Wing.
+The chapter was led by Gouri H N
+(Chairperson) and Shiyas S. (General
+Secretary), while Nithin A. served as
+Senior Webmaster and Secretary of
+Bartonair, overseeing both chapter
+operations and its digital presence.
+Leadership roles were also held by
+Krishnapriya R, Jayalekshmi J, Keerthana
+Suresh, Arjunan M R, Joakim Manoj,
+Gopika G S, Trinita T D, Gauri Smiju, Arya
+S., and Abhay Menon, who contributed
+across finance, publicity, public relations,
+web development, departmental
+representation, and content creation.
+
+Student
+Contributions
+Student
+Contributions
+71
+     We cut the trees that gave us breath, 
+ We poison rivers, slow to death.    
+     The sky, once blue, now filled with smoke, 
+     Nature cries, but we don't notice the choke.
+    We cage the birds, we burn the land,
+All for power, all man-planned.    
+     The earth still gives, asks just for care, 
+Yet greed makes us unaware.        
+  If we choose love instead of greed, 
+   Heal the wounds our actions breed, 
+Nature will smile, fresh and new   
+    But the change must start with me and you
+72
+Human Cruelty 
+Anagha VK
+S2 IT
+To Nature
+73
+" Are we living or  
+In a world where everything is just a tap
+away, we often forget what it means to
+truly live. Our days begin with                
+notifications and end with endless         
+scrolling. Somewhere between reels,      
+ memes, and messages, real moments       
+quietly slip away.                                   
+We are more connected than ever before,
+yet strangely disconnected—from nature,
+from people, and sometimes even from   
+ourselves. Conversations have become    
+shorter, attention spans weaker, and       
+silence uncomfortable. The question we  
+need to ask ourselves is simple:              
+Are we in control of
+technology, or is it
+controlling us? 
+College life, often described as the best phase 
+of one’s life, is now increasingly lived through  
+screens  Friends sit together but speak less,      
+choosing instead to interact through their        
+ phones. Memories are captured, filtered, and     
+ posted-but rarely felt in their raw form.             
+ 
+Siva soorya V
+S2 IT
+This isn’t to say technology is bad. 
+It has transformed learning,          
+connected distant hearts, and       
+ opened doors to endless                 
+ opportunities. But like everything   
+ powerful, it demands balance.       
+ Without it, we risk losing the        
+  essence of human experience—      
+genuine laughter, deep                
+conversations, and the beauty of 
+being present .                           
+ just scrolling ? "
+The solution is not to abandon technology, 
+but to reclaim control: to step outside        
+without our phones once in a while, to talk 
+without distractions, and to live moments   
+that don't need validation from likes or       
+comments.                                                  
+Because at the end of the day, life isn’t 
+measured by the number of views we   
+ get, but by the                                       
+Moments we truly
+ experience
+So maybe, just maybe, it’s time to
+pause... look up... and start living 
+again.                                         
+                                             
+74
+75
+Thenmala: An
+Escape where
+Nature, Adventure, 
+and Silence Meet Me 
+There are some trips that give us photos, and
+there are others that give us peace. My journey
+to Thenmala, India's first planned eco-tourism
+destination, belongs to the second
+category. Nestled in the green
+heart of Kollam district,
+Kerala, Thenmala 
+offered me a rare
+experience-one were 
+nature, adventure, and 
+self-reflection came together 
+beautifully.
+Naveen SV
+S2 IT
+76
+The trip began early in the
+morning. As we moved away from
+the city, the usual noise, traffic,
+and rush slowly disappeared.
+Concrete buildings turned into
+stretches of greenary, rubber
+plantations, and thick forests. The
+air felt cooler, fresher, and lighter
+with every kilometer we travelled.
+Even before reaching Thenmala, the
+journey itself felt therapeutic.
+When we reached Thenmala, the
+first thing I noticed was it's
+peaceful silence and well-
+maintained, eco-friendly
+surroundings. Unlike crowded
+tourist spots it felt calm, organised,
+and perfectly balanced with nature.
+Our first stop was the Thenmala
+dam, where the vast stretch of
+water, surrounded by lush green
+hills, created a soothing view. The
+gentle breeze and stillness of
+the place made it a quiet and
+unforgettable
+moment. 
+ 
+From there, the trip slowly
+shifted from calm to
+excitement as we entered the
+Adventure Zone.The hanging
+bridge was my first challenge.
+Walking across it while feeling
+the slight movement under my
+feet was both thrilling and
+scary. Halfway through, I
+stopped and looked around—the
+forest stretched endlessly, and
+the view made the fear worth it.
+It felt like standing inside a
+nature documentary.
+The forest trail walk was
+another unforgettable
+experience. Every step revealed
+something new e forest trail
+walk was another unforgettable
+experience. Every step revealed
+something new —twisted tree
+roots, small streams, birds flying
+across, and the sound of leaves
+crunching beneath our feet. It
+felt raw and real, reminding me
+how disconnected we usually
+are from nature.
+77
+Activities like rock climbing and
+river crossing tested both physical
+strength and confidence, adding an
+adventurous spark to the trip.One
+of the most peaceful sections was
+the Butterfly Safari. Watching
+butterflies of different colours
+flutter freely around us felt almost
+magical. There were no cages, no
+barriers—just life moving naturally.
+It made me realise how fragile yet
+beautiful ecosystems are and how
+important it is to protect them.One
+of the most peaceful sections was
+the Butterfly Safari. Watching
+butterflies of different colours 
+flutter freely around us felt almost
+magical. There were no cages, no
+barriers—just life moving
+naturally. It made me realise how
+fragile yet beautiful ecosystems are
+and how important it is to protect
+them.
+As evening approached, the
+atmosphere changed again. The
+musical dancing fountain
+became the highlight of the night.
+The combination of lights, water
+movements, and music brought 
+energy and joy, perfectly balancing
+the calm and adventurous parts of
+the day. It was a lively ending to a
+day filled with diverse emotions.
+
+78
+Food stalls nearby served simple snacks, but sittin g there, sharing
+food and laughter after a   long day of exploration, made everything
+taste better. The tiredness in my legs felt satisfy ing—it was the kind
+of tiredness that comes after doing something meaningful.
+What impressed me the most about Thenmala was how i t taught
+lessons without trying to. It showed how tourism ca n exist without
+destroying nature, how adventure doesn’t always req uire danger, and
+how peace doesn’t always require isolation.When we finally left
+Thenmala, I carried back more than memories and pho tos. I carried
+back a calm mind, a refreshed heart, and a deeper respect for nature.
+In a world that constantly feels loud and rushed, Thenmala felt like a
+gentle reminder to slow down and breathe.
+In conclusion, Thenmala is not just a tourist desti nation—it is an
+experience that blends nature,adventure, sustainabi lity, and inner
+peace. For students, nature lovers, and anyone seek ing a break from
+routine life, Thenmala is a place that leaves a lasting impression. It is
+a journey I will always remember and one I would gladly take again.
+A
+ 
+to remember
+December 2024 became a truly unforgettable
+month in my life as I got the opportunity to visit
+Bahrain and celebrate New Year there for the
+first time ever. It was not just a trip to another
+country—it was a journey filled with new
+experiences, cultures, and memories that I will
+always treasure.
+From the moment I landed in Bahrain, everything
+felt exciting and different. The country
+welcomed us with pleasant winter weather, clean
+roads, tall buildings, and a calm yet lively
+atmosphere. Compared to the busy routines back
+home, Bahrain felt peaceful and
+well-organized, giving me a refreshing break
+from academic life.
+During the days, I explored many beautiful
+places. Visiting the Bahrain National Museum
+helped me understand the country’s rich history
+and traditions. Walking along the Corniche
+and spending time at popular shopping malls
+were equally enjoyable. I was fascinated by
+how modern life blends smoothly with traditional
+Arab culture. The food was another
+highlight of the trip—tasting new dishes and
+flavors made every meal special.
+79
+Anamika KP
+S2 IT
+The most memorable part of the journey was welcomin g the New
+Year in a completely new environment. As December 3 1st arrived,
+the atmosphere became festive with lights, decorations, and cheerful
+crowds. At midnight, watching fireworks light up the sky was
+magical. Standing there, far from home, I felt grat eful, hopeful, and
+excited for the year ahead. It was my first time ce lebrating the New
+Year abroad, and the experience made me realize how  beautiful it is
+to welcome new beginnings in a new place. 
+This journey also taught me valuable lessons. Trave ling helped me
+become more confident,
+independent, and open-minded. Meeting people from d ifferent
+backgrounds showed me how diverse yet connected the  world is. It
+reminded me that learning does not happen only in c lassrooms—
+sometimes, it happens through travel and real-life experiences.
+As I returned home, I carried back more than souveni rs. I brought
+memories, inspiration, and a fresh perspective on l ife. My December
+2024 visit to Bahrain and my first-ever New Year ce lebration abroad
+will always remain a special chapter in my student life.
+I am truly grateful for this beautiful experience.
+80
+Shackles Of Exclusion 
+Born beneath a quieter sky, 
+Where dreams were taught not to fly, 
+She learned to shrink, to stay confined, 
+A caged soul with a restless mind. 
+They drew her world in fragile lines, 
+0f do not cross and silent signs, 
+A life designed by chosen hands, 
+I wore the chains they couldn’t see.
+In crowded rooms, I stood alone, 
+A silent heart, a voice unknown. 
+Laughter echoed, yet not for me
+I wore the chains they couldn’t see. 
+Eyes that passed, but never stayed, 
+Words unspoken, bonds delayed, 
+A world so close, yet far away, 
+Where I was lost in shades of gray. 
+Why must her wings be trimmed so small,
+While others rise and stand so tall? 
+Why is her freedom locked away, 
+In shadows that refuse the day? 
+81
+Preethi SP
+S2 IT
+82
+Finding Myself Between
+Pages and People 
+Who
+is She?
+A caged soul with a restless mind. 
+College is not just about classrooms, 
+assignments, or exams—
+it is a journey of discovering
+who I truly am. 
+Every day, between rushing to lectures 
+and sharing laughter with friends,
+I find small moments that shape me 
+into a better version of myself. 
+There are days filled with confidence, 
+where everything feels possible,
+and there are days of doubt,
+where even simple tasks seem
+overwhelming. 
+But I have come to realize that both 
+are equally important.
+Success teaches me to believe in 
+my abilities,
+while challenges teach me patience
+and resilience. 
+Krishnapriya M
+S2 IT
+What makes this journey special are the people I meet along the
+way—friends who turn 
+ordinary days into unforgettable memories. These experiences
+quietly build my identity, 
+helping me grow not just academically, but emotionally as well. 
+As I continue this journey, I may not have everything figured
+out, but I am learning, evolving,  
+and moving forward. And perhaps, that is what college truly
+means—not just finding 
+answers, but finding myself. 
+83
+Outside, the rain wept endlessly   silver threads unraveling the
+night.
+Loneliness clung to every corner, heavy as mist.
+She sat curled beneath a blanket, yet no warmth could calm the 
+storm within her.
+Fear whispered through her veins, quiet but unveiling.
+Then that sound.
+Her eyes darted toward the door, 
+searching for the unseen.
+But her body refused to move.
+In the dark, only one thing 
+breathed light a firefly. 
+It hovered gently, 
+its tiny glow 
+trembling like a heartbeat.
+She dared 
+not place her feet on the cold floor.
+No thunder. No lightning.
+Only rain endless, unrelenting rain.
+Who could it be at my door,
+on such a night?
+Again, the same sound.
+ 84
+Rebirth 
+Of A Woman 
+Arya S
+S4 IT
+85
+It must be past ten.
+Her heart pounded so loudly, it drowned the rain itself.
+Suddenly, a sharp beam of light pierced through the  window   
+uninvited, intrusive.
+Her lips quivered, but no words came.
+Fear had locked her voice away.
+How long could she live like this trapped between s ilence and
+shadow?
+If she stood up, what then?
+If she cried out, what then?
+If she stayed silent forever would the darkness con sume her
+whole?
+Thoughts poured down like rain.
+Time slipped quietly away.
+The sound at the door faded, and at last, exhaustio n pulled her
+into uneasy sleep.
+Outside, the storm softened; inside, her dreams swi rled with
+echoes of fear.
+But then like thunder cracking open the sky that so und
+returned.
+Her eyes flew open. The firefly still danced in the dark.
+Who could it be? What could it be? Why must it be?
+Terror gripped her heart until it almost stopped.
+A scream tore from within   raw, defiant the cry of a woman
+who had been silent too long.
+And in that single breath, something inside her changed.
+Fear broke like glass.
+From its shards rose a new strength  fierce, bright, alive.
+She stood.
+She walked to the door, her steps steady and sure.
+“Who is it?” she called, her voice ringing through the storm.
+“What do you want?”
+A pause.
+Then  footsteps. Fleeing into the rain.
+And in that moment, she felt it the chains of fear falling away.
+For the first time, the silence did not scare her.
+It embraced her. 
+A smile blossomed upon her lips  tender, victorious.
+Outside, the rain still fell, but inside her, a woman was reborn.
+Racing Beyond 
+I had the proud opportunity to represent my school at a
+district-level sports competition, where I particip ated in
+the 100-meter and 200-meter races. The atmosphere o f
+the event was filled with excitement, expectations,  and
+intense competition, which naturally brought moment s
+of tension and stress. Athletes from various school s had
+gathered, each determined to give their best
+performance, making the competition both challengin g
+and motivating.
+ Despite the pressure, I remained focused and gave m y
+best in the 100-meter race, which helped me secure
+first-place. This achievement boosted my confidence, but
+the real test came during the 200-meter race. At th e
+start, I faced an unexpected difficulty as I could not hear
+the siren clearly, which caused momentary confusion and
+anxiety. For a brief moment, it felt overwhelming, but I
+quickly gathered my composure, trusted my training, and
+concentrated on the race ahead.
+ Overcoming my fear and stress, I ran with determination
+and complete focus, pushing myself until the finish  line.
+My efforts were rewarded when I achieved first plac e in
+the 200-meter race as well. Winning two first posit ions
+at the district level was an unforgettable experien ce and
+a proud moment for me and my school. This competiti on
+taught me valuable lessons about perseverance, ment al
+strength, and self-belief, proving that challenges can be
+overcome with confidence and determination.
+86
+Aleen Sheethal Biju
+S2 IT 
+Limits
+Traveling helps us relax and explore new places. During my
+recent vacation, I visited Ooty, one of the most beautiful
+hill stations in India. The trip was refreshing and full of
+pleasant memories. Ooty welcomed us with cool weather,
+green hills, and fresh air. The first place we visited was
+Ooty Lake. The calm water and surrounding trees made the
+place very peaceful. We enjoyed walking around the lake
+and spending time with family while enjoying the lovely
+scenery. We also went boating in the lake, and it was such
+a unique experience. The lake was glowing because of the
+sunlight. Next, we went to the Shooting Point. This place
+was surrounded by wide green fields and misty hills. It
+looked exactly like the scenes we see in movies.
+ The weather was cool, and the view was breathtaking. It
+was the perfect spot to take photographs and enjoy
+nature. We spent a lot of time there, enjoying quality time
+with my family. We took many pictures to save these
+memories. Shooting Point was my favourite place during
+the entire trip. Another beautiful place we visited was the
+Botanical Garden. The garden had many colorful flowers,
+tall trees, and well-maintained lawns. Walking through the
+garden was relaxing and joyful. It also helped us learn
+about different types of plants. Overall, my trip to Ooty
+was wonderful and refreshing. It gave me a break from my
+daily routine and allowed me to connect with nature. This
+trip will always remain special in my heart.
+87
+Ooty – The Queen Of Hills
+Ayisha A
+ S2 IT
+They said the chains were traditional-
+Soft words wrapped around rigid rules
+These were never only on her hands,
+But on her voice too
+Not all shackles make a sound,
+Some are quietly stitched into the fabric of a girl's name
+"Don't laugh like that" they said,
+"Girls should be gentle"
+"Don't go out this late" they said,
+"Stay home and clean"
+So she learns to fold her dreams
+A girls learns early -
+To walk slower, speak softer
+And let her brother dream louder
+The world hands him the road,
+And leaves her with a window
+To watch where it leads
+Inside the walls she called 'home'
+She carries invisible labor,
+work that never earns a name
+Her safety is a question
+Asked every time the sun sets
+Streets turn into cages
+Eyes turn into warnings
+And hence fear walks beside her
+Silent Shackles 
+88
+Evette Catelyn Fernandes 
+S4 IT
+89
+One day she is dressed as a bride,
+Only to acknowledge her worth weighed in terms of dowry
+gold heavier than the dreams she once held
+Her body too was no longer hers
+It becomes a command-
+"Give birth", they say
+As if motherhood was not a choice
+Freedom comes with conditions for a woman
+"Come home early"
+"Don't speak too much"
+"Don't rise too high"
+"Don't go alone" am a wife, not a shadow
+I am a mother, not a sacrifice
+These names are not chains
+But stories that women should carry with pride
+I am a daughter, not a burden
+I am a wife, not a shadow
+I am a mother, not a sacrifice
+These names are not chains
+But stories that women should carry with pride
+The Young Innovators Programme (YIP) is a dynamic initiative
+that promotes innovation and problem-solving among students.
+The scope of YIP goes beyond academics, encouraging learners
+to identify real-world issues and develop practical, technology-
+based solutions. It provides mentorship, exposure, and
+opportunities to transform ideas into impactful projects 
+that benefit society. 
+As part of this programme, our team focused on a pressing local
+issue—the accumulation of   plastic waste in canals, especially
+near railway areas. This leads to pollution, unpleasant
+surroundings, and health risks. Our idea is to develop an AI-
+based system that can automatically detect and collect plastic
+waste from canals, reducing human effort and improving
+cleanliness in a safe manner. 
+ 
+The journey in YIP helped us enhance our creativity, teamwork,
+and presentation skills. With proper guidance and continuous
+improvement, we refined our idea and presented it effectively.
+We are proud to have been selected for the state-level
+evaluation, which recognizes our innovation and dedication. This
+achievement motivates us to further develop our solution and
+contribute towards a cleaner and healthier environment. YIP has
+truly inspired us to think beyond textbooks and become
+responsible innovators for the future. 
+ 90
+From Idea to Impact: 
+Our YIP State-Level Journey
+Gopika MB
+S2 IT
+In the picture of my life, 
+Is blended the shades of a journey, 
+Frozen in but a vague moment of eternity. 
+In my solitude I seek, in my sadness I weep 
+For memories lost racing through time. 
+ 
+I search within myself, 
+Awakening colours long faded. 
+ 
+In the white, I see virgin earth in all her purity. 
+In the blue, I see the eternal sky and endless oceans. 
+In the green, I hear the cry of each tree fallen. 
+In the red, I feel my throbbing heart; 
+I see hands stained with the blood of another. 
+In the yellow,
+I feel the scorching heat of baked earth and starved animals. 
+In the grey, I see neglected lives, existing, never living; 
+In the grey lies the loneliness of my soul. 
+In the black, I sense the end of my journey. 
+91
+RAINBOW
+Gopika GS
+S2 IT
+92
+My professional journey began with NexForz Ressync Pvt Ltd, whe re I
+joined as an App Development Trainee. During this period, I gained
+valuable hands-on experience and real industrial exposure. Working  on
+practical projects helped me understand how technology solution s are
+developed and implemented in real-world scenarios. This experience not
+only strengthened my technical skills but also improved my confiden ce in
+handling responsibilities. 
+ 
+Later, I was selected as the HR Manager at NexForz. This role gav e me the
+opportunity to explore the organizational and management side o f a
+company. I learned how to coordinate with team members, mana ge
+responsibilities efficiently, and handle important documentation. One of 
+my major responsibilities was preparing agreements between the company
+and trainees. Drafting and managing numerous agreements helped me
+understand the importance of clarity, professionalism, and prope r
+documentation. 
+ 
+Balancing these responsibilities along with my academic commitments,
+especially during examination periods, was challenging. However, it
+helped me develop strong time-management skills and the ability to
+manage multiple responsibilities simultaneously. 
+ 
+As my journey continued, I was promoted to the role of Chief Operating
+Officer (COO) at NexForz. This milestone marked an important step in my
+professional growth, allowing me to contribute more actively to th e
+organization’s operations and development. 
+  
+My Journey with                     
+ NexForz & Zelbytes 
+Sherin Reeba Mathew
+S6 IT
+93
+Alongside this, I currently serve as the Head of Finance (HOF) a t Zelbytes
+Pvt Ltd. In this role, I work on preparing audit reports for c ompany bills.
+The process involves carefully reviewing and documenting a large number
+of bills and ensuring that every detail is properly recorded. T hese reports
+are verified by a Chartered Accountant (CA), which makes accurac y and
+attention to detail extremely important. 
+ 
+Handling large volumes of financial records requires patience, focus, an d
+a systematic approach. Through this experience, I have developed a deeper
+understanding of financial auditing, documentation, and accountability. 
+ 
+Overall, these experiences have helped me grow both professionally and
+personally. They have taught me the importance of dedication,
+responsibility, teamwork, and continuous learning in building a
+meaningful professional journey. 
+ 
+94
+ 
+Who thou? quoth the child. 
+I whimpered, yet no drops of sorrow fell on the ground
+I was made. 
+The colour of my lips matched my eyes, so bright and
+dark... 
+I walked towards the lake, but all I could see was the
+darkness. 
+Oh, how could I seemingly forget... the sun only has
+one wife known to you, the lotus. 
+Hey Lord, wasn't I created the same day as 
+him? Our skin the same, our blood red, yet he was the
+sun, 'the brightest in the sky,' and I 
+was the Moon, 'full of craters and dirt.' 
+I tried to rise up like the sun, yet you chained me in
+the name of my children. 
+You wanted him to lay beneath me... but wasn't I one
+independent woman? 
+I broke the chain and tasted the forbidden fruit of
+freedom. 
+Is it because of that, my Lord, I was eyeless to the
+Earth? 
+The sun and the lotus lived an ecstatic life, and 
+who was I? The magnificent moon I was! So I stole his
+rays and wore them... I am Lilith, my 
+child! 
+Lilith
+Layana Santhosh
+S2 IT
+95
+A Foggy Escape to
+ Ponmudi – A Trip
+ to Remember 
+Trips usually begin with excitement, but for me, this one began with a
+sleepless night. The 
+night before our Ponmudi trip, sleep completely avoided me. Ironically, 
+I’m someone who never wakes up early, but that morning felt dif ferent.
+Somehow, I woke up before the alarm, full of energy, and be came the
+unofficial wake-up caller of us all. 
+ 
+By 8:00 a.m., we had boarded our bus, laughter already 
+filling the seats. The journey itself felt like a promise of 
+something special. As the hours passed, the noise of the 
+city slowly faded away. By noon, we reached Ponmudi, 
+and the moment we stepped out, nature 
+welcomed us in the most magical way. 
+ 
+The climate was breathtaking. Cool air brushed 
+against our faces, thick fog floated lazily 
+around the hills, and the entire region l
+ooked like it had been painted in soft
+shades of green and white. The mist 
+wrapped the hills like a blanket, making
+everything feel calm, dreamy, and unreal.
+Every turn revealed vast hilly 
+landscapes,hidden rocks, and 
+winding paths that 
+made us feel tiny yet alive. 
+Nada Ashraf
+S2 IT
+96
+We explored almost every rock and hill we could, carefully climb ing,
+laughing, and pausing often, 
+mostly to admire the view or take photos. Hunger eventually led  us to a
+small café, 
+where warm food tasted extra special in the cold weather. Sitt ing together,
+sharing food and stories, 
+felt as comforting as the climate itself. 
+ 
+Time, as always, moved faster than we wanted. By 4:00 p.m., we b oarded
+the last bus back, 
+carrying phones full of photos and hearts full of memories. The ret urn
+journey was quieter but happier,
+filled with smiles, shared videos, and that silent feeling of “we’ll rem ember
+this forever.” 
+ 
+Ponmudi wasn’t just a trip. 
+It was fog, friendship, laughter, and a break from routine, spent
+wholeheartedly together. 
+Between deadlines and dreams, I stand, 
+With half-built codes and coffee in hand. 
+Assignments whisper, “Due tonight,” 
+While sleep fades softly out of sight. 
+ 
+Lectures pass like drifting air, 
+Some I follow, some I stare. 
+Pages filled, yet mind unsure 
+Of what is truth and what is blur. 
+ 
+In crowded halls, I lose my way, 
+Yet find myself in bits each day. 
+Not just in marks or grades I chase, 
+But in every fall I slowly face. 
+ 
+Circuits fail and programs crash, 
+Confidence breaks in a single flash. 
+Yet somewhere deep, a spark remains, 
+Quietly fighting through the strains. 
+ 
+For I am more than what I score, 
+More than sleepless nights I bore. 
+A work in progress, still I grow, 
+Through every high and every low. 
+ 
+And maybe one day, I will see 
+What all these years have made of me. 
+Between Deadlines
+And Dreams
+Adithya V Sankar
+S2 IT 97
+98
+Beyond the Rush 
+The syllabus tells us exactly what to
+study and when. What it doesn’t
+tell us is how tiring college can feel
+sometimes. Recently, I went to a
+small hill near my place. I was
+standing on the remains of what
+looked like old, abandoned houses.
+Nothing fancy, just broken walls and
+quiet surroundings. From 
+there, I could see everything 
+below—trees, houses, roads,
+people going about their day. 
+It was calm in a way college
+rarely is. 
+Up there, there were no deadlines,
+no attendance worries, no pressure
+to do better than yesterday. Just
+silence. 
+It made me think about our
+department and how days quietly
+fill up. Even when we stay in 
+the same classroom for hours, the
+pressure doesn’t really leave. 
+There’s always an exam coming up,
+a schedule to follow, or a university
+deadline waiting ahead. 
+Between internal tests, practicals,
+and evaluations, it becomes easy to
+focus only on what’s next and
+forget to pause and check how
+we’re actually doing.
+That place didn’t expect anything
+from me. It didn’t care about marks
+or productivity. Standing there, I
+realized how rare it is to just pause
+without feeling guilty. 
+College teaches us a lot of skills,
+knowledge, discipline. But it also
+teaches us things that aren’t written
+anywhere: how to handle pressure,
+how to deal with failure, and how
+to keep going even on difficult
+days. 
+Maybe learning isn’t only about
+moving forward all the time. Maybe
+it’s also about stopping once in a
+while, taking a breath, and then
+coming back with a clearer mind. 
+Because long after we forget some
+lessons, we’ll remember moments
+like these—the quiet ones that
+helped us understand ourselves a
+little better
+Samuel Samson
+S2 IT
+99
+Answers
+I don’t know who I am, 
+just a name, a face, a story
+unfinished. 
+Sometimes I wonder—
+ why was I born into a world 
+where everyone seems to know
+their path, 
+except me? 
+ 
+Questions sit quietly in my mind— 
+What is my aim? 
+What is my dream? 
+But the answers never come, 
+only silence does. 
+ 
+Nandana R
+S2 IT
+ 
+Since the day I opened my eyes, 
+I was handed expectations— 
+heavy, unseen, unspoken. 
+And now I walk in circles, 
+in a life that feels like a loop, 
+repeating, repeating, repeating… 
+ 
+Are we living, 
+or just existing like machines 
+trained to follow? 
+ 
+It feels like a burden— 
+one no one talks about, 
+one no one hears. 
+A L     p Without 
+100
+And somewhere in all of this, I ask— 
+how do we heal 
+when we don’t even understand 
+what broke us? 
+ 
+Maybe the truth is, 
+we never stop to realize. 
+We just keep moving, 
+pretending to be fine, 
+hoping one day 
+it will all make sense. 
+101
+When I first heard the term Quantum computing, I thought it was just
+science fiction a concept only physicists would und erstand. But the
+more I read about it, the more I realized it’s not some far-off dream.
+It’s real, it’s happening, and it might just change  the world as we
+know it.
+So what exactly is quantum computing? And why shoul d we, as
+engineering students, care?
+Let’s explore.
+From Bits to Qubits: The Big Shift
+All our current computers from our laptops to super computers work
+on bits, which are like tiny switches that are eith er ON (1) or OFF (0).
+Everything from WhatsApp messages to Netflix videos  is built using
+just these 0s and 1s.
+Quantum computers, however, use something called qubits. And here’s
+where things get a bit mind-bending: a qubit can be  0, 1, or both at
+the same time. This strange behavior is called supe rposition. There’s
+another quantum phenomenon called entanglement, where two qubits
+become linked, and whatever happens to one instantl y affects the
+other even if they’re far apart.
+Together, these two properties allow quantum comput ers to process
+information in a way that classical computers simply can’t.
+Quantum Computing: A New
+Chapter in the Story of
+Technology Alex Anto 
+S4 IT
+India’s Role in the Quantum Race
+India is not sitting on the sidelines. With the launch of the National
+Quantum Mission, the country is investing heavily in quantum research
+and development. Top institutions like IISc, TIFR, and IITs are already
+exploring quantum technologies.
+Ready to Get Started
+Watch videos, join online communities, or take short courses on
+platforms like Coursera.
+Conclusion
+Quantum computing isn’t some distant future, it's already happening.
+And while we’re still figuring it out, it’s clear that it will change
+everything from modern science.
+For students like us, this is more than just a trending topic, it's an
+opportunity.
+102
+But Why Does It Matter?
+Let’s say you’re trying to crack a really tough math problem. A classical
+computer might take millions of years. But a quantum computer could
+solve it in minutes.
+This could have huge implications:
+• Drug discovery
+• Finance & logistics
+• AI and machine learning
+Imagine if you had a virtual version of yourself th at could predict when you
+might fall sick, suggest improvements to your daily  routine, or even help you
+perform better—all without any risk. Sounds futuris tic, right? This is exactly the
+idea behind Digital Twin, one of the most exciting technologies emerging in the
+IT industry today.
+What is a Digital Twin?
+A Digital Twin is a virtual copy of a real-world ob ject, system, or process. But it’s
+not just a static model—it keeps updating itself us ing real-time data. This means
+the digital version behaves almost exactly like its real-world counterpart.
+For instance, in a smart factory, machines are conn ected to sensors that
+constantly send data. This data is used to create a  digital twin of the machine,
+allowing engineers to monitor its condition, detect  issues early, and improve
+performance—all without stopping production.
+Why is it Important?
+In simple terms, Digital Twin helps us understand b efore we act. Instead of
+waiting for something to fail, we can predict probl ems and solve them in
+advance. This saves time, reduces costs, and improves efficiency.
+Think about how useful this could be:
+● Doctors testing treatments on a digital model of a patient
+● Engineers checking how a bridge will behave under stress
+● Cities managing traffic and energy smarter
+It’s like having a safe testing ground for real-world decisions.
+Where is it Used?
+Digital Twin technology is already making an impact in many fields:
+● Healthcare – Personalized treatment and patient monitoring
+● Smart Cities – Better traffic control and energy usage
+● Manufacturing – Predicting machine failures before they happen
+● Automobiles – Virtual testing of vehicles
+● Aerospace – Monitoring aircraft performance and safety
+ 103
+Digital Twin: 
+When the Real-World Gets a Virtual Partner
+Manu M
+S4 IT
+The Advantages
+What makes Digital Twin so powerful?
+● It helps prevent failures before they occur
+● Reduces maintenance costs
+● Improves system efficiency
+● Supports smarter decision-making
+● Minimises risks by testing in a virtual environment
+Challenges to Overcome
+Like any new technology, it’s not without challenges:
+● High setup cost
+● Data privacy and security concerns
+● Complexity in managing real-time data
+● Need for advanced infrastructure
+What Lies Ahead?
+The future of Digital Twin is incredibly promising.  With the rise of AI, IoT, and
+faster networks like 5G, digital twins will become even more accurate and widely
+used. We may soon see digital replicas of entire ci ties—or even human organs—
+helping us solve complex problems more efficiently.
+Final Thoughts
+Digital Twin is more than just a technological conc ept—it’s a new way of
+thinking. By connecting the physical and digital wo rlds, it allows us to predict,
+improve, and innovate like never before.
+As students stepping into the world of technology, understanding concepts like
+Digital Twin gives us a glimpse into the future we are about to build.
+104
+Introduction
+Edge AI refers to the deployment of artificial inte lligence models on edge devices
+such as IoT sensors, cameras, and smartphones. Unli ke traditional cloud
+computing, Edge AI processes data locally, enabling  faster decision-making and
+reducing dependency on internet connectivity.
+With the rise of IoT, the amount of data generated is massive. Sending all this
+data to cloud servers increases latency and bandwid th usage. Edge AI solves this
+problem by analyzing data at its source.
+Architecture of Edge AI
+Edge AI architecture consists of three main compone nts: edge devices, edge
+gateways, and cloud systems. Edge devices collect a nd process data, gateways
+manage communication, and cloud systems handle trai ning and storage.
+Inference occurs at the edge, while model training is usually performed in the
+cloud due to higher computational requirements. 
+Working of Edge Al 
+The process begins with data collection from sensor s. The data is then
+preprocessed to remove noise and improve quality. A  trained Al model performs
+inference locally and generates results instantly.
+If necessary, selected data is sent to the cloud fo r further analysis and
+improvement of Al models. 
+Advantages
+Edge Al offers real-time processing, which is essen tial for applications like
+autonomous vehicles and industrial automation.
+It enhances privacy as sensitive data remains on th e device. It also reduces
+bandwidth usage and operational costs.
+Edge Al systems are more reliable because they can function even with limited or
+no internet connectivity.
+105
+Edge AI: Transforming Real-Time
+Intelligence in the IT Industry
+Akhil
+S4 IT
+
+Applications
+In manufacturing, Edge Al is used for predictive maintenance and quality control.
+In healthcare, it enables real-time monitoring thro ugh wearable devices.
+Autonomous vehicles use Edge Al to detect obstacles  and make instant decisions.
+Retail uses it for smart checkout systems and customer analytics. Smart cities use
+Edge Al for traffic management, surveillance, and energy optimization. 
+Challenges
+Despite its advantages, Edge Al faces challenges su ch as limited hardware
+resources and the need for optimized Al models. Sec urity risks arise due to
+physical access to devices. Managing large-scale deployments of edge devices can
+also be complex.
+Future Trends
+The future of Edge Al includes integration with 5G networks, enabling ultra-fast
+communication and real-time analytics. 
+Technologies like federated learning allow multiple  devices to learn
+collaboratively without sharing raw data.
+There is also a growing focus on energy-efficient A l models for battery-powered
+devices. 
+Conclusion 
+Edge Al is revolutionizing the IT industry by enabling real-time intelligence at the
+source of data generation. It improves efficiency, enhances security, and reduces
+costs.
+As technology evolves, Edge Al will become a critic al component of modern
+digital systems, supporting innovations in various industries.
+106
+
+107
+Nikhil PS
+S2 IT
+108
+G Athul Krishna
+S2 IT
+The Champions'
+Chronicle
+The Champions'
+Chronicle
+109
+The Department of Information Technology scripted h istory at Sargam 2026, emerging as the
+Overall Department Champions with an outstanding 10 82.5 points. Through exceptional
+performances across music, dance, literature, theat re, fine arts, and cultural events, the
+department demonstrated that excellence is achieved  through talent, passion, dedication, and
+teamwork.
+Alongside securing the Overall Championship, the de partment also claimed the festival's
+highest individual honours, with M. S. Gauri Sankar  (S4 IT) being crowned Kalaprathibha,
+while Goury Vibin (S4 IT) and Sreya S. S. (S6 IT) jointly secured the title of Kalathilakam.
+The department dominated the dance stage with victo ries in Fusion Dance, Bharatanatyam,   
+Vattapaatu, and several other group performances. I n music, IT students excelled in Western
+Vocal, Classical Music, Ghazal, Guitar, Drums, Mridangam, Vrindhavaadhyam, Band, and Group
+Songs, proving their mastery across diverse musical traditions.
+The literary arena was equally impressive, with vic tories in Essay Writing, Story Writing, Poem
+Writing, Extempore, Debates, JAM, Kavyakeli, and Re citation, showcasing the department's
+intellectual and creative excellence. Fine arts bro ught further laurels through outstanding
+performances in Digital Painting, Pencil Drawing, C artoon, Face Painting, Photography,
+Calligraphy, Pot Decoration, Embroidery, and Clay Modelling.
+Behind every medal stood countless hours of practic e, determination, and mutual support.
+Whether on stage or behind the scenes, every partic ipant contributed to the department's
+success. The collective spirit of teamwork transformed individual talents into a championship-
+winning performance.
+The Department of Information Technology extends it s heartfelt appreciation to every
+participant, faculty member, staff member, coordina tor, volunteer, and supporter whose
+encouragement made this remarkable achievement poss ible. This victory belongs not only to
+the prize winners but to the entire IT family that stood together throughout the festival.
+Sargam 2026 will be remembered as a defining chapter in the department's cultural journey—
+one that celebrated excellence, unity, and the collective spirit of the IT family.
+110
+SARGAM 2026 – The Golden Reign of the Department of
+Information Technology
+111
+SreeGowri Rajiv
+Ananthakrishnan A
+Sreya S S 
+Asin Naved A 
+Aditya Raj Gouri Krishna P Yasina Thasneem M
+Shriya S Kumar
+Apoorva CR
+Layana Santhosh
+Krishnapriya
+Lizona Loy Parayil
+Light Music
+Solo Male 
+Classical Music
+Male
+Violin Eastern 
+Water Coloring 
+Cartoon 
+Pencil Drawing 
+Duet 
+Poem Writing English
+ Kavyakeli 
+Photography
+Debate Malayalam
+Drums
+Adaptune 
+Cosplay 
+Light Music
+Solo Female
+Recitation
+Malayalam 
+Chenda Melam
+Vrindhavaadhyam
+Bharatanatyam 
+Quiz 
+Mr GECB 
+Skit 
+Clay Modelling
+Recitation Sanskrit
+ 
+Adzap
+Recitation English
+ 
+Oppana 
+Recitation English
+Kripa Mary Spencer
+Goury Vibin
+Evette Catelyn Fernandez Fahmeeda K
+ 
+Visudhi SV
+Hadiya Salma R
+Greeshma Susan Luckose
+Syeda Fathima S 
+Mrinal Krishnan
+Milan Shaji
+Sivapriya V V
+Nandana
+Light Music Solo
+Female 
+ClassicalMusic
+Female 
+Ghazal 
+Patriotic Song
+GroupSong
+Malayalam
+Band
+Pot Decoration
+Story Writing
+Malayalam
+Maargam Kali 
+Recitation English
+Mehandi
+Pot Decoration
+Maargam Kali
+ Western Vocal Solo
+Female Duet 
+Band 
+Skit 
+Mehandi 
+Calligraphy 
+Clay Modelling 
+Adzap 
+Photography
+Quiz 
+Maargam Kali
+Oppana 
+StoryWriting
+English 
+Maargam Kali 
+Kavyakeli
+112
+Patriotic Song
+ 
+GroupSong
+Malayalam
+ 
+StoryWriting
+English 
+Recitation Hindi
+ 
+113
+Devika R Meenakshi SMElizabeth Mavely
+Ardra N J
+Arjun VS
+Abhinav B
+Sooraj Kumar S
+Niya Valsan AK
+Neeraja BJ
+Fusion Dance 
+EssayWriting
+English 
+StoryWriting
+English
+Maargam Kali
+Debate English
+Story Writing Hindi 
+JAM Hindi
+Fusion Dance
+ 
+Pot Decoration
+ 
+Fusion Dance 
+Pot Decoration
+Chenda Melam
+Mridangam 
+Vrindhavaadhyam Drums 
+Cajon 
+Band 
+StoryWriting
+English
+Mridangam 
+Vrindhavaadhyam
+Western Vocal Solo Male
+Adzap 
+PoemWriting
+Malayalam 
+Pot Decoration 
+Adaptune
+MS GauriSankar
+Guitar Electric
+Guitar Acoustic
+ Vrindhavaadhyam
+Band 
+Adzap Monoact
+Skit 
+Debate Malayalam
+ Debate English
+Extempore
+Malayalam
+ Extempore English
+ JAM English
+ JAM Malayalam
+ 
+Nida S
+Debate Malayalam
+Skit 
+Vattappattu
+Ram Govind
+Debate Malayalam
+114
+Fusion Dance
+Maargam Kali
+Vanchippattu
+Patriotic Song,
+Group Song
+Oppana
+Music Band
+Vattappattu Vrindhavaadyam
+
+Future Vision
+As we look ahead, ALTIORA aspires to grow beyond a magazine
+into a vibrant platform for innovation, expression, and
+collaboration within the Department of Information Technology.
+Our vision is to continuously encourage students to explore
+ideas that bridge technology with creativity, addressing real-
+world challenges with thoughtful solutions.
+We aim to expand the scope of this publication by incorporating
+more technical insights, research-based articles, and
+interdisciplinary perspectives, while still preserving the space for
+artistic and personal expression. By doing so, ALTIORA will serve
+as a balanced reflection of both the analytical and creative
+strengths of our students.
+In the future, we envision ALTIORA as a recognized platform
+that not only documents achievements and ideas but also
+inspires new ones. We hope it becomes a medium where
+students confidently share their voices, collaborate with peers,
+and contribute meaningfully to the ever-evolving world of
+technology.
+With continued support and participation, ALTIORA will keep
+evolving—just like the field of Information Technology itself—
+driven by curiosity, innovation, and the spirit of learning.
+115
+Arjun V S
+The successful publication of ALTIORA has been made  possible through
+the collective efforts and support of many individu als. We extend our
+sincere gratitude to the Head of the Department, fa culty members,
+student contributors, and the editorial team whose encouragement,
+guidance, and dedication helped bring this magazine to life.
+We would also like to thank all students who contributed articles, reports,
+achievements, photographs, and other content featur ed in this magazine.
+Their enthusiasm and willingness to share their exp eriences have enriched
+these pages and made ALTIORA a true reflection of t he Department of
+Information Technology.
+Special appreciation is extended to everyone who wo rked behind the
+scenes in planning, compiling, editing, designing, and reviewing the
+magazine. Every contribution, no matter how small, played an important
+role in shaping this publication.
+As we present this magazine, we look forward to the  continued support
+and participation of our department community in th e years to come.
+May ALTIORA continue to celebrate achievements, ins pire innovation, and
+preserve the stories that define our journey.
+Editorial Team
+ALTIORA
+Department of Information Technology
+116
+Acknowledgements
+
+Student Editors
+117
+Editorial Board
+Faculty Editors
+Design Team
+Content Team
+Josna V R
+M S Gauri SankarSooraj Kumar SKhadeeja Anzar
+Mrinal Krishnan J
+Prasanth R S
+Nirupama S
+Preethi S P
+Yasina Thasneem M
+Neha Manoj D Adhith A K Evette Fernandez
+Head
+Head
+Department of
+ Information Technology 
+Govt. Engineering College, Barton Hill
+119

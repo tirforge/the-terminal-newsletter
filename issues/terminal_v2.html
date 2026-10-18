@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+@font-face { font-family:'GroteskB'; src:url('fonts/SpaceGrotesk-Bold.ttf'); font-weight:700; }
+@font-face { font-family:'GroteskB'; src:url('fonts/SpaceGrotesk-Medium.ttf'); font-weight:500; }
+@font-face { font-family:'InterB'; src:url('fonts/Inter-Regular.ttf'); font-weight:400; }
+@font-face { font-family:'InterB'; src:url('fonts/Inter-SemiBold.ttf'); font-weight:600; }
+@font-face { font-family:'InterB'; src:url('fonts/Inter-Bold.ttf'); font-weight:700; }
+@font-face { font-family:'Jet'; src:url('fonts/JetBrainsMono-Regular.ttf'); }
+@font-face { font-family:'Jet'; src:url('fonts/JetBrainsMono-Bold.ttf'); font-weight:700; }
+@font-face { font-family:'Merri'; src:url('fonts/Merriweather-Regular.ttf'); }
+@font-face { font-family:'Merri'; src:url('fonts/Merriweather-Bold.ttf'); font-weight:700; font-style:normal; }
+
+:root{
+  --indigo:#2B2D6B; --indigo-deep:#1D1E3F; --teal:#00C2CB; --amber:#FFB347;
+  --ink:#23253D; --soft:#5B5E7E; --line:#DCDFEA; --panel:#F7F8FC; --cream:#FBF8F2;
+}
+@page { size: 210mm 297mm; margin: 0; }
+*{ margin:0; padding:0; box-sizing:border-box; }
+body{ font-family:'InterB'; color:var(--ink); }
+.page{ width:210mm; height:296.8mm; page-break-after:always; background:#FFFFFF; position:relative; overflow:hidden; }
+
+/* ---------- shared ---------- */
+.masthead{ position:absolute; top:0; left:0; right:0; height:46mm; background:linear-gradient(90deg,#23255A 0%,#2B2D6B 55%,#343678 100%); color:#fff; padding:8mm 12mm 0 12mm; }
+.chip{ width:26mm; height:26mm; background:#fff; border-radius:4mm; display:flex; align-items:center; justify-content:center; float:left; margin-right:8mm; }
+.chip img{ width:20mm; }
+.mh-dept{ font:600 9pt 'InterB'; letter-spacing:.2em; text-transform:uppercase; color:#BFD3E6; margin-top:1mm; padding-right:42mm; }
+.mh-dept b{ color:#fff; }
+.mh-name{ font:700 38pt 'GroteskB'; letter-spacing:.01em; line-height:1; margin-top:3.2mm; margin-right:42mm; white-space:nowrap; }
+.mh-name .cursor{ display:inline-block; width:6.5mm; height:10.5mm; background:var(--teal); vertical-align:baseline; margin-left:1.5mm; }
+.mh-edition{ position:absolute; right:12mm; top:13mm; text-align:right; font:700 8pt 'Jet'; color:#CFE7EA; line-height:2.0; letter-spacing:.08em; }
+.mh-edition .ed{ font:700 11pt 'Jet'; color:#FFB347; letter-spacing:.14em; }
+
+.pagehead{ position:absolute; top:3mm; left:12mm; right:12mm; height:6.5mm; display:flex; justify-content:space-between; align-items:baseline; }
+.pagehead .sec{ font:700 10pt 'GroteskB'; color:var(--indigo); text-transform:uppercase; letter-spacing:.1em; }
+.pagehead .sec span.dot{ color:var(--amber); }
+.pagehead .brand{ font:700 7.5pt 'Jet'; color:#8A8DAD; letter-spacing:.12em; }
+.pagerule{ position:absolute; top:10.5mm; left:12mm; right:12mm; height:1.1mm; background:var(--indigo); }
+.pagerule.amber{ background:var(--amber); } .pagerule.teal{ background:var(--teal); }
+
+.pagefoot{ position:absolute; bottom:0; left:0; right:0; height:10mm; background:#FFFFFF; border-top:0.8mm solid var(--indigo); padding:2.2mm 12mm 0 12mm; display:flex; justify-content:space-between; align-items:center; }
+.pagefoot .f1{ font:400 7.5pt 'Merri'; color:var(--soft); }
+.pagefoot .f2{ font:700 7.5pt 'Jet'; color:var(--indigo); letter-spacing:.1em; }
+
+.content{ position:absolute; top:14mm; left:12mm; right:12mm; bottom:12mm; }
+
+/* ---------- boxes & stories ---------- */
+.boxhead{ display:flex; align-items:center; gap:2.5mm; margin:0 0 2mm 0; }
+.boxhead .bar{ width:3.5mm; height:3.5mm; background:var(--amber); }
+.boxhead h3{ font:700 12.5pt 'GroteskB'; color:var(--indigo); text-transform:uppercase; letter-spacing:.03em; }
+.story{ border:0.4mm solid var(--line); background:#fff; padding:3.4mm 3.8mm; }
+.story h4{ font:700 12.5pt 'GroteskB'; color:var(--ink); margin-bottom:1.4mm; line-height:1.25; }
+.story h4.lead-marker{ }
+.story p{ font:400 8.6pt 'Merri'; line-height:1.52; color:var(--ink); }
+.story p b{ font-weight:700; }
+.story .kicker{ font:700 6.8pt 'Jet'; color:var(--soft); letter-spacing:.14em; text-transform:uppercase; margin-bottom:1.6mm; }
+.chiprow{ margin-top:1.8mm; }
+.tag{ display:inline-block; font:700 6.6pt 'Jet'; letter-spacing:.04em; padding:.8mm 2mm; border-radius:0.8mm; margin:0 1.2mm 1.2mm 0; background:#EDF7F8; color:#0A7A80; border:0.25mm solid #CBE9EB; }
+.tag.gold{ background:#FFF3E2; color:#9A5B12; border-color:#F4D3A4; }
+.tag.plum{ background:#EEF0F8; color:#2B2D6B; border-color:#C9CBE4; }
+
+.photo{ background:#fff; border:0.4mm solid var(--line); padding:2mm; }
+.photo img{ width:100%; display:block; }
+.photo .cap{ font:400 7pt 'Merri'; font-style:italic; color:var(--soft); padding-top:1.2mm; line-height:1.4; }
+.photo .cap b{ font-style:normal; font-weight:700; color:var(--indigo); }
+
+/* ---------- page 1 ---------- */
+.cover-lower{ position:absolute; top:54mm; left:12mm; right:12mm; bottom:12mm; display:flex; flex-direction:column; justify-content:flex-start; }
+.two-col.peek{ margin-top:7mm; }
+.cover-grid{ display:flex; gap:5mm; margin-bottom:0; }
+.cover-grid .info{ height:52mm; overflow:hidden; }
+.cover-grid2{ display:flex; gap:5mm; margin-bottom:0; }
+.cover-grid2 .info{ height:74mm; overflow:hidden; }
+.cover-strip{ position:absolute; bottom:0; left:0; right:0; background:var(--indigo); color:#fff; height:11mm; display:flex; align-items:center; justify-content:space-between; padding:0 5mm; font:700 7pt 'Jet'; letter-spacing:.1em; }
+.cover-strip .mid{ color:var(--amber); }
+.cover-strip .cursor-s{ display:inline-block; width:3.2mm; height:3.8mm; background:var(--teal); margin-left:2mm; }
+.info-row{ display:flex; gap:5mm; margin-bottom:5mm; }
+.info{ flex:1; border:0.4mm solid var(--line); background:var(--panel); padding:4mm 4.5mm; }
+.info.accent{ background:var(--indigo); border:none; color:#fff; }
+.info h5{ font:700 8pt 'Jet'; letter-spacing:.14em; color:var(--indigo); margin-bottom:2mm; }
+.info.accent h5{ color:var(--teal); }
+.info p{ font:400 8.6pt 'Merri'; line-height:1.55; color:var(--ink); }
+.info .big{ font:700 13pt 'GroteskB'; color:var(--indigo); line-height:1.3; margin-bottom:1.5mm; }
+.info.accent .big{ color:#fff; }
+.toc li{ list-style:none; display:flex; justify-content:space-between; align-items:baseline; gap:4mm; font:400 9.5pt 'Merri'; line-height:2.3; border-bottom:0.2mm solid #E4E6EF; }
+.toc li b{ font-family:'InterB'; font-weight:700; color:var(--indigo); }
+.toc li .pn{ font:700 8pt 'Jet'; color:var(--amber); flex:none; }
+.teaser-h{ font:700 10.5pt 'GroteskB'; text-transform:uppercase; letter-spacing:.08em; color:var(--indigo); margin:4.5mm 0 2.5mm 0; }
+.teaser-h .dash{ color:var(--amber); }
+.cover-photo{ border:0.4mm solid var(--line); padding:2mm; }
+.cover-photo img{ width:100%; display:block; }
+
+/* ---------- page 2 achievements ---------- */
+.two-col{ display:flex; gap:4.5mm; }
+.col{ flex:1; }
+.stack .story + .story{ margin-top:4.5mm; }
+.hero-story{ }
+.big-stat{ font:700 22pt 'GroteskB'; color:var(--amber); line-height:1; margin-bottom:1.2mm; }
+
+/* stats strip */
+.stats{ display:flex; border:0.4mm solid var(--line); background:var(--panel); }
+.stats .st{ flex:1; padding:3.2mm 4mm; border-left:0.4mm solid var(--line); }
+.stats .st:first-child{ border-left:none; }
+.stats .st .n{ font:700 14pt 'GroteskB'; color:var(--indigo); }
+.stats .st .l{ font:700 6.6pt 'Jet'; color:var(--soft); letter-spacing:.1em; text-transform:uppercase; margin-top:1mm;}
+
+/* ladder */
+.ladder{ display:flex; align-items:center; gap:2mm; margin-top:1.5mm; }
+.ladder .step{ flex:1; background:#EEF0F8; border:0.3mm solid #C9CBE4; padding:2mm 2.5mm; text-align:center; font:700 8pt 'GroteskB'; color:var(--indigo); }
+.ladder .arrow{ font:700 10pt 'InterB'; color:var(--amber); }
+.ladder .step small{ display:block; font:400 7pt 'Jet'; color:var(--soft); letter-spacing:.05em; margin-top:.6mm; }
+
+/* poetry chips */
+.poem{ border-left:1.2mm solid var(--teal); background:var(--cream); padding:2.6mm 3mm 2.6mm 3.2mm; margin-bottom:2.4mm; }
+.poem .t{ font:700 9pt 'GroteskB'; color:var(--indigo); }
+.poem .a{ font:400 7.6pt 'Jet'; color:var(--soft); margin-top:.8mm; }
+.mini-log{ display:flex; gap:2.5mm; }
+.mini-log .lg{ border:0.35mm solid var(--line); background:#fff; padding:2.2mm 2.6mm; }
+.mini-log .lg .t{ font:700 8.4pt 'GroteskB'; color:var(--ink); }
+.mini-log .lg .a{ font:400 6.9pt 'Merri'; font-style:italic; color:var(--soft); margin-top:.5mm; line-height:1.35; }
+
+.next-issue{ border:0.5mm solid var(--indigo); background:var(--indigo); color:#fff; padding:3.6mm 4.5mm; display:flex; justify-content:space-between; align-items:center; }
+.next-issue .n1{ font:700 11pt 'GroteskB'; letter-spacing:.02em; }
+.next-issue .n2{ font:400 8pt 'Merri'; color:#BFD3E6; margin-top:1mm; }
+.next-issue .gold{ font:700 8pt 'Jet'; color:var(--amber); letter-spacing:.1em; text-align:right; line-height:1.7; }
+
+/* POLISH — editorial collage: tinted fills, micro-tilts, sticker shadows, washi tape */
+.info, .story, .photo, .cover-photo, .stats, .mini-log .lg{ box-shadow:0 1.1mm 2.4mm rgba(29,30,63,.16); }
+.photo, .cover-photo{ position:relative; }
+.fill-teal{ background:#E7F7F8 !important; }
+.fill-cream{ background:#FBF6EC !important; }
+.fill-amber{ background:#FFF4E3 !important; }
+.fill-indigo{ background:#EEF1FB !important; }
+.tilt-l{ transform:rotate(-1.05deg); }
+.tilt-r{ transform:rotate(.9deg); }
+.tilt-l2{ transform:rotate(-.6deg); }
+.tilt-r2{ transform:rotate(.55deg); }
+.tape{ position:absolute; width:13mm; height:3.8mm; background:#00C2CB; opacity:.82; top:-1.9mm; left:9mm; transform:rotate(-4deg); z-index:6; }
+.tape.amber{ background:#FFB347; left:auto; right:9mm; transform:rotate(3.2deg); }
+</style>
+</head>
+<body>
+
+<!-- ================= PAGE 1 · COVER ================= -->
+<div class="page" style="background:linear-gradient(180deg,#FFFFFF 0%,#FFFFFF 100%);">
+  <div class="masthead">
+    <div class="chip"><img src="imgs/logo_gecbh.png"></div>
+    <div class="mh-dept">GOVT. ENGINEERING COLLEGE, BARTON HILL &nbsp;·&nbsp; <b>DEPARTMENT OF INFORMATION TECHNOLOGY</b></div>
+    <div class="mh-name">THE TERMINAL<span class="cursor"></span></div>
+    <div class="mh-edition">
+      VOL. 1<br><span class="ed">JAN – JUN ’26</span><br><span style="color:#8FA0C9">ISSUE&nbsp;01&nbsp;·&nbsp;REGD.&nbsp;IT.GECBH</span>
+    </div>
+  </div>
+
+  <div class="cover-lower">
+    <div class="cover-grid">
+      <div class="info accent tilt-l" style="flex:0.86;">
+        <h5>OUR MOTTO</h5>
+        <div class="big">Disce. Crea.<br>Ascende.</div>
+        <p style="color:#BFD3E6; font-size:8pt;">LEARN · CREATE · RISE — the banner the department carries into every arena.</p>
+      </div>
+      <div class="info fill-teal tilt-r" style="flex:1.05;">
+        <h5>INSIDE THIS ISSUE</h5>
+        <ul class="toc">
+          <li><b>Achievements &amp; Awards</b><span class="pn">p.02</span></li>
+          <li><b>Events &amp; Camp Life</b><span class="pn">p.03</span></li>
+          <li><b>Placements &amp; Careers</b><span class="pn">p.04</span></li>
+          <li><b>Student Corner</b><span class="pn">p.05</span></li>
+        </ul>
+      </div>
+      <div class="info fill-cream tilt-l2" style="flex:1;">
+        <h5>THE DEPARTMENT</h5>
+        <p>Established <b>1999</b> under <b>APJ Abdul Kalam Technological University</b>, followed by a spirited, self-built culture of code, culture and competitions.</p>
+        <p style="margin-top:1.6mm;">Head of Department: <b>Dr. Deepthi Sasidharan</b></p>
+        <div class="chiprow">
+          <span class="tag plum">KTU · 4TH RANK</span><span class="tag gold">PASS 85.12%</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="teaser-h">IN THIS EDITION <span class="dash">—</span> HEADLINES</div>
+    <div class="cover-grid2">
+      <div class="info fill-amber tilt-r2" style="flex:1.5; display:flex; flex-direction:column; justify-content:space-between;">
+        <p style="font-size:10pt;">
+          <b style="color:var(--indigo)">◆</b> &nbsp;&nbsp;<b>Four IT teams sweep eight podiums</b> across Industry 5.0, GovTech, CyberTech, AgriTech and Agentic AI zonals <i style="color:var(--soft)">(Feb 2026)</i><br>
+          <b style="color:var(--indigo)">◆</b> &nbsp;&nbsp;<b>Ziya Moosir T &amp; Bharath Vighnesh win €3,000 each</b> at the Allianz Tech Championship for “Zyra”<br>
+          <b style="color:var(--indigo)">◆</b> &nbsp;&nbsp;<b>IT dept crowned Overall Champions</b> of Sargam 2026 with <span style="color:#0A7A80;"><b>1082.5 points</b></span> — Kalaprathibha &amp; Kalathilakam victories<br>
+          <b style="color:var(--indigo)">◆</b> &nbsp;&nbsp;<b>Zelbytes, a student startup, signs a MoA</b> with K-AgTech Launchpad (KAU · NABARD · WSU)<br>
+          <b style="color:var(--indigo)">◆</b> &nbsp;&nbsp;<b>Sanjayram Prasad</b> selected for the Allianz Aspire ’26 internship programme
+        </p>
+      </div>
+      <div class="info tilt-r2" style="flex:1; background:#fff; padding:2.4mm; position:relative;"><span class="tape"></span><span class="tape amber"></span>
+        <div class="cover-photo"><img src="imgs/terminal_hero_p.png" style="height:54mm; width:100%; object-fit:cover;"></div>
+        <p style="font:400 6.8pt 'Merri'; font-style:italic; color:var(--soft); margin-top:1.2mm;">The Terminal boots up before the semester does. Artwork: in-house.</p>
+      </div>
+    </div>
+
+    <div class="two-col peek">
+      <div class="photo tilt-l" style="flex:1;">
+        <img src="imgs/src_p021.png" style="height:44mm; width:100%; object-fit:cover;">
+        <div class="cap"><b>Podium sweep.</b> CIPHER after the Industry 5.0 finale — full story p.02.</div>
+      </div>
+      <div class="photo tilt-r" style="flex:1;">
+        <img src="imgs/src_p042.png" style="height:44mm; width:100%; object-fit:cover;">
+        <div class="cap"><b>Sargam ’26.</b> Champions on stage at 1082.5 points — p.03.</div>
+      </div>
+      <div class="photo tilt-l" style="flex:1;">
+        <img src="imgs/src_p036.png" style="height:44mm; width:100%; object-fit:cover;">
+        <div class="cap"><b>Finals bound.</b> Technoverse ’26 at Cognizant — p.02.</div>
+      </div>
+    </div>
+
+    <div class="cover-strip">
+      <div>STATUS&nbsp;·&nbsp;PRESS-READY&nbsp;—&nbsp;ALL&nbsp;SYSTEMS&nbsp;NOMINAL<span class="cursor-s"></span></div>
+      <div class="mid">DISCE.&nbsp;CREA.&nbsp;ASCENDE.</div>
+      <div>JAN–JUN&nbsp;2026&nbsp;·&nbsp;VOL.&nbsp;1</div>
+    </div>
+  </div>
+
+  <div class="pagefoot" style="background:#FFFFFF;">
+    <div class="f1">THE TERMINAL — the newsletter of the Dept. of IT, GEC Barton Hill · Published by the student editorial team</div>
+    <div class="f2">COVER&nbsp;·&nbsp;01/05</div>
+  </div>
+</div>
+
+<!-- ================= PAGE 2 · ACHIEVEMENTS ================= -->
+<div class="page">
+  <div class="pagehead"><div class="sec"><span class="dot">●</span> 02 · ACHIEVEMENTS &amp; AWARDS</div><div class="brand">THE TERMINAL ● VOL.1</div></div>
+  <div class="pagerule amber"></div>
+  <div class="content">
+
+    <div class="two-col" style="">
+      <div class="col stack">
+        <div class="story">
+          <div class="kicker">FEBRUARY 2026 · HACKATHON SWEEP</div>
+          <h4>Four Teams. Eight Podiums. One Month.</h4>
+          <p>February belonged to IT. In a single sweep of zonals and college rounds, four teams carried the department flag onto eight podiums:</p>
+          <p style="margin-top:1.6mm;"><b>CIPHER</b> (Yasina Thasneem M, M S Gauri Sankar, Asin Naved A, Evette Catelyn Fernandez, Mrinal Krishnan J) — 2nd in <b>Industry 5.0 Hack</b> (Asian School of Business, 8 Feb), 1st <b>AgriTech</b> college round (18 Feb) and 1st <b>AgriTech zonal</b> (St. Thomas College of Engineering, 27 Feb).</p>
+          <p style="margin-top:1.6mm;"><b>BYTEFORCE</b> (Aathmana S Nair, Afsana Ahmad S, Arjun V S, Krishnapriya R, NANDitha S Nair) — 2nd <b>GovTech</b> college round (18 Feb), 1st <b>GovTech zonal</b> (Marian Engineering College, 24 Feb).</p>
+          <p style="margin-top:1.6mm;"><b>BYTE404</b> (Nirupama S, Sooraj Kumar S, Lizona Loy Parayil, Ryan Sebastian, Devananda A) — 3rd <b>CyberTech</b> college round (18 Feb), 1st <b>CyberTech zonal</b> (Sree Chitra Thirunal College of Engineering, 26 Feb).</p>
+          <p style="margin-top:1.6mm;"><b>AXIOM</b> (Abhinav B, Alex Anto Cherian, Greeshma Susan Lukose, Milan Shaji) — 2nd <b>KAIZEN ’26 Agentic AI zonal</b> (College of Engineering Muttathara, 21 Feb), 1st <b>Agentic AI zonal</b> (Baselios Mathews II College, 27 Feb).</p>
+          <div class="chiprow">
+            <span class="tag gold">INDUSTRY 5.0 · 2ND</span><span class="tag gold">AGRITECH · 1ST ×2</span><span class="tag gold">GOVTECH · 1ST + 2ND</span><span class="tag gold">CYBERTECH · 1ST + 3RD</span><span class="tag gold">AGENTIC AI · 1ST + 2ND</span>
+          </div>
+        </div>
+      </div>
+      <div class="col stack">
+        <div class="photo tilt-r"><span class="tape"></span><img src="imgs/src_p021.png" style="height:56mm; object-fit:cover;"><div class="cap"><b>Cipher, mid-charge.</b> Team CIPHER celebrates after the Industry 5.0 finale at Asian School of Business, 8 Feb 2026.</div></div>
+        <div class="photo tilt-l2" style="margin-top:4.5mm;"><img src="imgs/src_p022.png" style="height:52mm; object-fit:cover;"><div class="cap"><b>Home ground advantage.</b> The hackathon crews outside the department block before roll-out to the zonal rounds.</div></div>
+      </div>
+    </div>
+
+    <div class="two-col" style="margin-top:4mm;">
+      <div class="photo tilt-l2" style="flex:1;">
+        <img src="imgs/src_p036.png" style="height:44mm; object-fit:cover;">
+        <div class="cap"><b>Technoverse ’26 finalists.</b> Team GECBH at the Cognizant national hackathon finals.</div>
+      </div>
+      <div class="col stack" style="flex:1.15;">
+        <div class="story">
+          <div class="kicker">GETTING PAID TO SOLVE, LITERALLY</div>
+          <h4>€3,000 Each at the Allianz Tech Championship</h4>
+          <p>Battling 389 teams nationwide, <b>Ziya Moosir T</b> and <b>Bharath Vighnesh</b> (both S3 IT) landed among the top ~50 and pocketed <b>€3,000 scholarships each</b> — for <i>Zyra</i>, their AI women’s-safety route-mapping app. All this at a ceremony designed like a tech concert at the Allianz Niagara Convention Centre.</p>
+        </div>
+        <div class="story" style="margin-top:4mm;">
+          <div class="kicker">NATIONAL FINALS · COGNIZANT</div>
+          <h4>Technoverse ’26: The GECBH Four Reach the Finals</h4>
+          <p><b>Afila Fathima S</b>, <b>Apsara M V</b>, <b>Blessy Mariya Benny</b> and <b>Christin Jiji</b> presented their solution to Cognizant judges. Four IT juniors at one national podium table — note the pattern.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="stack" style="margin-top:4mm;">
+      <div class="two-col" style="">
+        <div class="story">
+          <div class="kicker">STATE MOCK PLACEMENT</div>
+          <h4>Excelsior 6.0: Gauri Sankar Takes the Crown</h4>
+          <p><b>M S Gauri Sankar</b> (S4) won <b>Excelsior 6.0</b>, the state-level mock placement championship (23 Dec 2025). Aptitude, coding, HR grilling — all sequenced like a boss fight, and he cleared the table first.</p>
+        </div>
+        <div class="story">
+          <div class="kicker">YOUNG INNOVATORS PROGRAMME 6.0</div>
+          <h4>YIP ’26: District Win &amp; a State-Level Utility</h4>
+          <p>The S3 team (<b>Aparna, Ardra, Jyothika, Hadiya, Meenakshi</b>) won at the <b>district level</b> with their <b>Smart Bus Stop Ticket Generating Machine</b> (UPI + card payments, printed tickets). Meanwhile <b>Gopika MB</b> (S2 IT) reached the <b>state level</b> with her AI-driven plastic-waste canal collector.</p>
+        </div>
+      </div>
+      <div class="two-col" style="margin-top:4mm;">
+        <div class="story">
+          <div class="kicker">ON TARGET, OFF CAMPUS</div>
+          <h4>Adrika Shoots for Kerala</h4>
+          <p><b>Adrika Narayanan</b> (S4) competed for the <b>Kerala State shooting team</b> at the National Games and the <b>All-India Inter-University Championship</b> at Meerut, Jan 2026 — representing the college’s sports colours as loudly as any exam hall.</p>
+        </div>
+        <div class="story">
+          <div class="kicker">STARTUP CIRCUIT</div>
+          <h4>Three Teams Invited to KSUM IEDC Summit ’26</h4>
+          <p>Three IT project teams were <b>invited to the KSUM Startup Summit 2026</b> at Amal Jyothi College (7 Mar 2026) — recognition handed out purely on the strength of prior achievements. Invitations don’t grow on trees; these teams grew them.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="pagefoot">
+    <div class="f1">THE TERMINAL · Dept. of IT, GEC Barton Hill · Thiruvananthapuram</div>
+    <div class="f2">ACHIEVEMENTS&nbsp;·&nbsp;02/05</div>
+  </div>
+</div>
+
+<!-- ================= PAGE 3 · EVENTS ================= -->
+<div class="page">
+  <div class="pagehead"><div class="sec"><span class="dot" style="color:var(--teal)">●</span> 03 · EVENTS &amp; CAMP LIFE</div><div class="brand">THE TERMINAL ● VOL.1</div></div>
+  <div class="pagerule teal"></div>
+  <div class="content">
+
+    <div class="two-col" style="">
+      <div class="col stack" style="flex:1.05;">
+        <div class="photo tilt-r"><span class="tape amber"></span><img src="imgs/src_p042.png" style="height:60mm; object-fit:cover;"><div class="cap"><b>The moment the math mattered.</b> IT grabs the Sargam 2026 overall championship on stage, 6–7 April.</div></div>
+        <div class="story">
+          <div class="kicker">6–7 APRIL 2026</div>
+          <h4>Sargam ’26: IT Crowned Overall Champions — 1082.5 pts</h4>
+          <p><b>Kalaprathibha:</b> M S Gaurisankar (S4). <b>Kalathilakam:</b> Goury Vibin (S4) &amp; Sreya S S (S6), jointly. Wins across dance (fusion, bharatanatyam, vattapaatu), music (western vocal, classical, ghazal, guitar, drums, mridangam, vrindhavaadhyam, band &amp; group), literary (essay, story, poem, extempore, debate, JAM, kavyakeli, recitation), fine arts (digital painting, pencil, cartoon, face painting, photography, calligraphy, pot decoration, embroidery, clay modelling) — plus oppana, maargam kali, chenda melam, skit, adzap, adaptune, cosplay, monoact and Mr. GECB.</p>
+        </div>
+      </div>
+      <div class="col stack">
+        <div class="story">
+          <div class="kicker">CHECKPOINTS ON THE TRANSIT LINE</div>
+          <h4>CAMPUS CALENDAR — WHAT WE LIVED THROUGH</h4>
+          <div class="toc">
+              <li><b>IEDC Startup Summit ’26</b> — three IT teams attend, 7 Mar<br><span class="pn">✓</span></li>
+              <li><b>Department Iftar</b> — hosted by S2 IT, all-day warmth<br><span class="pn">✓</span></li>
+              <li><b>Onam Sadhya</b> — S2 IT again, feeding the corridor wholeheartedly<br><span class="pn">✓</span></li>
+          </div>
+        </div>
+        <div class="story" style="margin-top:3mm;">
+          <div class="kicker">PRINTED &amp; PRESERVED</div>
+          <h4>ALTIORA ’25–26 Carries the Full Year</h4>
+          <p>Every chronicle above — and all the ones that didn’t fit — live in <b>ALTIORA</b>, the department’s annual magazine, themed <i>Learn. Create. Rise.</i> (<b>Disce. Crea. Ascende.</b>) 119 pages of it. This Terminal is the highlight reel; ALTIORA is the full match.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="two-col" style="margin-top:4mm;">
+      <div class="photo tilt-l2" style="flex:0.8;">
+        <img src="imgs/src_p065.png" style="height:58mm;">
+        <div class="cap"><b>Shield raised.</b> AEGIS, the new cybersecurity club of the department — semester mission: live.</div>
+      </div>
+      <div class="col stack" style="flex:1.2;">
+        <div class="story">
+          <div class="kicker">10 FEBRUARY 2026 · 1–3 PM · ZOOM</div>
+          <h4>Encrypto Workshop: “From Script to Ransom”</h4>
+          <p>The <b>Encrypto</b> workshop by <b>Alan V Jiju</b> (Offenso Hackers Academy) walked the room from scripting to full-blown <b>ransomware setups</b> over a feverish two-hour session. Alongside the workshop, the club trail is emerging: a <b>CTF (Capture-the-Flag) collaboration</b> with Offenso Hackers Academy, formally seeded this term for upcoming defenses.</p>
+          <div class="chiprow"><span class="tag">WORKSHOP</span><span class="tag">CTF PIPELINE</span><span class="tag">OFFENSO HACKERS ACADEMY</span></div>
+        </div>
+        <div class="story" style="margin-top:3.5mm;">
+          <div class="kicker">FACULTY LED · CLUB INFORMED</div>
+          <h4>AEGIS Cybersecurity Club: Inaugurated</h4>
+          <p>The <b>AEGIS club</b> of IT (faculty-in-charge: <b>Dr. Haripriya</b>) was inaugurated officially this semester. If Encrypto was the manifestation, AEGIS is the proof-of-concept — the department now runs a permanent security constellation rather than one-off workshops.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="pagefoot">
+    <div class="f1">THE TERMINAL · Dept. of IT, GEC Barton Hill · Thiruvananthapuram</div>
+    <div class="f2">EVENTS&nbsp;·&nbsp;03/05</div>
+  </div>
+</div>
+
+<!-- ================= PAGE 4 · PLACEMENTS ================= -->
+<div class="page">
+  <div class="pagehead"><div class="sec">● 04 · PLACEMENTS &amp; CAREERS</div><div class="brand">THE TERMINAL ● VOL.1</div></div>
+  <div class="pagerule"></div>
+  <div class="content">
+
+    <div class="two-col" style="">
+      <div class="photo tilt-r" style="flex:0.62; position:relative;"><span class="tape"></span>
+        <img src="imgs/src_p043.png" style="height:80mm; object-fit:contain; max-width:88%;">
+        <div class="cap"><b>On the Aspire flight.</b> Sanjayram Prasad, batch of IT-M.Tech with Allianz Aspire card.</div>
+      </div>
+      <div class="col stack" style="flex:1.38;">
+        <div class="story">
+          <div class="kicker">INTERNSHIP WATCH · 2026</div>
+          <h4>Sanjayram Prasad Boards Allianz Aspire ’26</h4>
+          <p>Fresh from the first-year M.Tech cohort, <b>Sanjayram Prasad</b> secured a place in the <b>Allianz Aspire 2026 Internship Program</b> — a big-tile internship only a handful of students across the country usually earn access to. A profile headlined from campus to corporate floor in one application cycle.</p>
+          <div class="chiprow"><span class="tag plum">ALLIANZ TECHNOLOGY</span><span class="tag plum">INTERNSHIP ’26</span><span class="tag plum">M.TECH · IT</span></div>
+        </div>
+        <div class="story" style="margin-top:3.5mm;">
+          <div class="kicker">MOA SIGNED · K-AUGTECH</div>
+          <h4>Zelbytes Signs the K-AgTech Launchpad MoA</h4>
+          <p><b>Zelbytes</b> — the agritech student startup already deep in AI/IoT/edge precision-farming — signed a formal <b>MoA with K-AgTech Launchpad</b> (<b>KAU · NABARD · WSU</b>). By virtue of the deal, Zelbytes becomes technical infrastructure partner for the <b>Vellayani campus</b> precision-agriculture ecosystem and contributes through a <b>Farming-as-a-Service (FaaS)</b> model.</p>
+          <div class="chiprow"><span class="tag gold">FAAS</span><span class="tag gold">KAU + NABARD + WSU</span><span class="tag gold">VELLAYANI</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="two-col" style="margin-top:4mm;">
+      <div class="story" style="flex:1;">
+        <div class="kicker">TAKEOVER IN THREE ACTS</div>
+        <h4>Sherin’s Ladder: Trainee → HR → COO</h4>
+        <p><b>Sherin Reeba Mathew</b> (S6) is hacking the career route harder than any unit test: trainee at <b>NexForz</b> → <b>HR Manager</b> → <b>COO</b>. In parallel she heads <b>Finance at Zelbytes</b>, where audit reports arrive <b>CA-verified</b>. Not a summer internship — a parallel track.</p>
+        <div class="ladder">
+          <div class="step">TRAINEE<small>NEXFORZ</small></div><div class="arrow">→</div>
+          <div class="step">HR MANAGER<small>CAREERS</small></div><div class="arrow">→</div>
+          <div class="step">COO<small>NEXFORZ</small></div>
+        </div>
+      </div>
+      <div class="story" style="flex:1;">
+        <div class="kicker">RESEARCH · SPRINGER JAN 2026</div>
+        <h4>Dr. Haripriya Publishes on Secure Cloud-Edge Scheduling</h4>
+        <p><b>Dr. Haripriya A P</b> published the faculty research of this term — an <b>RL-Driven MOEA framework</b> for secure and efficient task scheduling in <b>cloud-edge</b> environments — in a Springer volume in January 2026. Curriculum teaches pipelines; research teaches the edges of the pipeline.</p>
+        <div class="chiprow"><span class="tag plum">REINFORCEMENT LEARNING</span><span class="tag plum">MOEA</span><span class="tag plum">CLOUD-EDGE</span></div>
+      </div>
+    </div>
+
+    <div class="stats fill-amber" style="margin-top:5mm;">
+      <div class="st"><div class="n">4<span style="color:var(--amber); font-size:9pt;">TH</span></div><div class="l">GECB RANK — KTU</div></div>
+      <div class="st"><div class="n">85.12<span style="color:var(--amber); font-size:9pt;">%</span></div><div class="l">DEPT PASS RATE</div></div>
+      <div class="st"><div class="n">3×</div><div class="l">NPTEL · COURSERA · INFOSYS SPRINGBOARD</div></div>
+      <div class="st"><div class="n">27 <span style="color:var(--amber); font-size:9pt;">YRS</span></div><div class="l">UPTIME (EST. 1999)</div></div>
+    </div>
+
+    <div class="boxhead" style="margin-top:6mm;"><div class="bar" style="background:var(--teal);"></div><h3>Faculty Research Wall</h3></div>
+    <div class="story">
+      <p>The term’s sleeve of faculty papers, beyond Dr. Haripriya’s headline above:</p>
+      <p style="margin-top:1.6mm;">
+      ◆ <b>Dr. Manju R</b> — defences against <b>NoC packet-duplication trojans</b> (July ’25, UPC) and a <b>gem5 vs ChampSim</b> performance study (IEEE ’25).<br>
+      ◆ <b>Dr. Visakh R</b> — prompt-based <b>adversarial text generation with LLMs</b>, plus <b>low-light-robust deepfake detection</b>.<br>
+      ◆ <b>Suryapriya S</b> — survey of <b>ML-based botnet detection</b> (IEEE).<br>
+      ◆ <b>Mala J B</b> — <b>self-supervised speaker diarization</b> (EUSIPCO ’25).<br>
+      ◆ <b>Minu R Nath</b> — <b>De(L)Noise: Delaunay point-cloud denoising</b> (Elsevier, July ’25; IIT Madras affiliation).</p>
+      <div class="chiprow"><span class="tag plum">NETWORKS-ON-CHIP</span><span class="tag plum">LLM SECURITY</span><span class="tag plum">ML DEFENSE</span><span class="tag plum">SPEECH AI</span><span class="tag plum">POINT CLOUDS</span></div>
+    </div>
+
+  </div>
+  <div class="pagefoot">
+    <div class="f1">THE TERMINAL · Dept. of IT, GEC Barton Hill · Thiruvananthapuram</div>
+    <div class="f2">PLACEMENTS&nbsp;·&nbsp;04/05</div>
+  </div>
+</div>
+
+<!-- ================= PAGE 5 · STUDENT CORNER ================= -->
+<div class="page" style="background:linear-gradient(180deg,#FFFFFF 0%,#FFFFFF 100%);">
+  <div class="pagehead"><div class="sec"><span class="dot" style="color:var(--teal)">●</span> 05 · STUDENT CORNER</div><div class="brand">THE TERMINAL ● VOL.1</div></div>
+  <div class="pagerule teal"></div>
+  <div class="content">
+
+    <div class="story" style="background:var(--cream); margin-bottom:4mm;">
+      <div class="kicker">EDITORS · STDOUT</div>
+      <p style="font-size:9pt;"><i>“Everything printed here arrived unsigned, unformatted and unapologetically human — poems, itineraries, 3am notes on quantum bits. The editorial desk only moderated capitalisation.”</i></p>
+    </div>
+
+    <div class="two-col" style="">
+      <div class="col">
+        <div class="boxhead"><div class="bar" style="background:var(--teal);"></div><h3>Poetry Buffer</h3></div>
+        <div class="poem"><div class="t">To Nature</div><div class="a">— Anagha V K, S2</div></div>
+        <div class="poem"><div class="t">Are We Living, or Just Scrolling?</div><div class="a">— Siva Soorya V, S2</div></div>
+        <div class="poem"><div class="t">Shackles of Exclusion</div><div class="a">— Preethi S P, S2</div></div>
+        <div class="poem"><div class="t">Silent Shackles</div><div class="a">— Evette Catelyn Fernandes, S4</div></div>
+        <div class="poem"><div class="t">Rainbow</div><div class="a">— Gopika G S, S2</div></div>
+        <div class="poem"><div class="t">Lilith</div><div class="a">— Layana Santhosh, S2</div></div>
+        <div class="poem"><div class="t">Rebirth of a Woman</div><div class="a">— Arya S, S4</div></div>
+        <div class="poem"><div class="t">Between Deadlines and Dreams</div><div class="a">— Adithya V Sankar, S2</div></div>
+      </div>
+      <div class="col">
+        <div class="boxhead"><div class="bar"></div><h3>Travel &amp; Life Logs</h3></div>
+        <div class="mini-log" style="flex-direction:column;">
+          <div class="lg"><div class="t">Thenmala</div><div class="a">biome-hopping with Naveen S V (S2)</div></div>
+          <div class="lg" style="margin-top:2.2mm;"><div class="t">Bahrain, New Year</div><div class="a">Anamika K P (S2) midnight-gulf edition</div></div>
+          <div class="lg" style="margin-top:2.2mm;"><div class="t">Ooty</div><div class="a">Ayisha A (S2), mist + kozhikkal photos</div></div>
+          <div class="lg" style="margin-top:2.2mm;"><div class="t">Ponmudi</div><div class="a">Nada Ashraf (S2), the hairpin loop rerun</div></div>
+          <div class="lg" style="margin-top:2.2mm;"><div class="t">Racing the 200m/100m District</div><div class="a">Aleen Sheethal Biju (S2), off blocks and running</div></div>
+          <div class="lg" style="margin-top:2.2mm;"><div class="t">Finding Myself</div><div class="a">Krishnapriya M (S2) — U-turn not found</div></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="boxhead" style="margin-top:4mm;"><div class="bar" style="background:var(--amber);"></div><h3>Tech Bytes</h3></div>
+    <div class="two-col" style="">
+      <div class="story"><h4>Quantum Computing</h4><p>Alex Anto (S4) logs the certainty: superposition isn’t a metaphor — it’s a CI/CD implementation waiting for stability.</p></div>
+      <div class="story"><h4>Digital Twins</h4><p>Manu M (S4) walks the mirrored-city market: simulated versions of physical places, simulating before things break.</p></div>
+      <div class="story"><h4>Edge AI</h4><p>Akhil (S4) on the shrinking catch-up: intelligence migrating out of data centres and onto your homies’ smartwatches.</p></div>
+    </div>
+
+    <div class="next-issue" style="margin-top:5mm;">
+      <div>
+        <div class="n1">NEXT UP: THE TERMINAL — JUL–DEC 2026</div>
+        <div class="n2">Submissions open for the next issue — poems, code, photos, chronicles. Drop your story with the editorial desk.</div>
+      </div>
+      <div class="gold">SEND US YOUR STORIES<br>SUBMISSIONS DESK<br>IT DEPT · GEC BARTON HILL</div>
+    </div>
+
+  </div>
+  <div class="pagefoot">
+    <div class="f1">Faculty editors: Josna V R &amp; Prasanth R S · Student editors: M S Gauri Sankar, Sooraj Kumar S, Khadeeja Anzar</div>
+    <div class="f2">CORNER&nbsp;·&nbsp;05/05</div>
+  </div>
+</div>
+
+</body></html>

@@ -1,0 +1,223 @@
+ECE DEPARTMENT
+NEWSLETTER
+GOVERNMENT ENGINEERING COLLEGE BARTON HILL
+EDITION #17
+Published on 12th JANUARY 2025
+EDITORIAL TEAM:
+KEDAR KAMALRAJ, S5 ECE
+NIRANJAN B NAIR, S3 ECE
+ABHILASH A S, S3 ECE
+FACULTY COORDINATOR:
+Prof. Neethu P R 
+MISSION
+(M1) Establish a learning environment that enables 
+students build the fundamentals and study 
+advanced disciplines related to electronics and 
+communication engineering.
+
+(M2) Promote innovation and aptitude for research 
+by exposing students and faculty into new areas of 
+technology.
+
+(M3) Provide an ethical and value-based education 
+by encouraging activities addressing societal 
+needs.
+VISION
+A learning hub in electronics and communication 
+engineering, that enables students develop
+engineering fundamentals, and that builds 
+bidirectional bridges with leading industries and
+world-class research centers.
+0 1
+E D ITO R 'S  N O T E
+D E P A R T M E N T  O F  E LE C T R O N IC S  A N D
+C O M M U N IC A T IO N  E N G IN E E R IN G
+Dear Readers,
+It is w ith great excitem ent that w e bring you this edition of the ECE Departm ent 
+It is w ith great excitem ent that w e bring you this edition of the ECE Departm ent 
+N ew sletter, celebrating the dynam ic w orld of Electronics and Com m unication 
+Engineering. As one of the m ost transform ative fields in m odern technology, ECE 
+continues to shape industries, drive innovation, and im prove everyday life 
+through groundbreaking advancem ents in com m unication, em bedded system s, 
+artificial intelligence, and m ore.
+Our students and faculty have been actively contributing to research, technical 
+Our students and faculty have been actively contributing to research, technical 
+events, and professional organizations like IEEE, further strengthening our de-
+partm ent’s legacy of excellence. Their passion, dedication, and curiosity fuel the 
+technological progress w e w itness today and inspire the innovations of tom o-
+rrow .
+This new sletter serves as a platform  to show case achievem ents, explore new  
+ideas, and highlight the rem arkable potential of ECE. W e encourage students to 
+seize every opportunity to learn, innovate, and contribute to the ever-evolving 
+w orld of electronics and com m unication.
+W ishing you all success in your academ ic and professional journeys!
+W arm  regards,
+Editorial Team ,
+ECE Departm ent N ew sletter
+ECE Departm ent N ew sletter
+Governm ent Engineering College Barton H ill
+# E d itio n  3
+
+0 2
+H O D 's N o te
+D E P A R T M E N T  O F  E LE C T R O N IC S  A N D
+C O M M U N IC A T IO N  E N G IN E E R IN G
+D r. Sanil K D aniel
+H EAD  O F TH E D EPARTM EN T
+# E d itio n  3
+Dear Students, Faculty, and Esteem ed Stakeholders,
+It is w ith great pride and enthusiasm  that I extend m y w arm  greetings to everyone associated w ith the 
+Electronics and Com m unication Engineering (ECE) Departm ent at Governm ent Engineering College, Barton 
+H ill.
+Our departm ent has alw ays been dedicated to academ ic excellence, innovation, and research in the 
+Our departm ent has alw ays been dedicated to academ ic excellence, innovation, and research in the 
+ever-evolving field of Electronics and Com m unication Engineering. Today, as w e w itness rapid advance-
+m ents in Artificial Intelligence, the Internet of Things (IoT), 6G, VLSI, and Em bedded System s, the role of an 
+Electronics and Com m unication Engineer has becom e m ore crucial than ever. From  sm art cities and auto-
+nom ous vehicles to breakthrough developm ents in healthcare and defense, our expertise has a profound 
+im pact on the w orld around us.
+W e are com m itted to equipping our students w ith the technical know ledge, problem -solving skills, and 
+ethical foundation necessary to m eet real-w orld challenges. But education is not just about m astering 
+concepts— it is about applying them  to create m eaningful solutions. I encourage you to cultivate curiosity, 
+em brace innovation, and actively engage in research and entrepreneurship. The opportunities in em erging 
+technologies are vast, and your passion and dedication w ill shape the future of this field.
+As you m ove forw ard in your academ ic and professional journeys, rem em ber that integrity, perseverance, 
+As you m ove forw ard in your academ ic and professional journeys, rem em ber that integrity, perseverance, 
+and a lifelong learning m indset w ill be your greatest assets. Be open to change, adapt to new  challenges, 
+and strive to be pioneers in your respective dom ains.
+W ishing you success and fulfilm ent in all your endeavours!
+Dr. Sanil K Daniel
+H ead of the Departm ent
+Electronics and Com m unication Engineering
+Governm ent Engineering College, Barton H ill
+Governm ent Engineering College, Barton H ill
+
+0 3
+Fam o u s P erso n alities W h o  
+C o n trib u ted  to  EC E
+D E P A R T M E N T  O F  E LE C T R O N IC S  A N D
+C O M M U N IC A T IO N  E N G IN E E R IN G
+Electronics and Com m unication Engineering (ECE) has 
+been shaped by brilliant m inds w hose groundbreaking 
+contributions have transform ed technology and so-
+ciety. H ere are som e of the m ost influential personali-
+ties in the field:
+Claude Shannon (1916-2001) – Know n as the "Father 
+of Inform ation Theory," Shannon laid the foundation 
+for digital com m unication and data com pression, 
+w hich form  the backbone of m odern com m unication 
+system s.
+N ikola Tesla
+N ikola Tesla (1856-1943) – A visionary inventor, Tesla 
+m ade significant contributions to alternating current 
+(AC) pow er system s, w ireless com m unication, and 
+radio w aves, paving the w ay for m odern electronics.
+John B ardeen
+John B ardeen (1908-1991) – A tw o-tim e N obel Prize 
+w inner in physics, Bardeen co-invented the transistor, 
+w hich revolutionized electronic circuits and led to the 
+developm ent of m odern com puting.
+W illiam  Shockley 
+W illiam  Shockley (1910-1989) &  W alter Brattain 
+(1902-1987) – Along w ith John Bardeen, they co-in-
+vented the transistor, w hich replaced bulky vacuum  
+tubes and transform ed the electronics industry.
+Jack Kilby (1923-2005) &  Robert N oyce (1927-1990) – 
+Kilby and N oyce independently developed the integra-
+ted circuit (IC), leading to the m iniaturization of elec-
+tronic devices and the rise of m icroelectronics.
+G uglielm o M arconi (1874-1937) – A pioneer in w ireless 
+com m unication, M arconi developed the first practical 
+radio transm ission system , w hich becam e the foun-
+dation for m odern telecom m unications.
+Tim  B erners-Lee (Born 1955) – The inventor of the 
+W orld W ide W eb, Berners-Lee revolutionized com m u-
+nication by enabling the seam less exchange of infor-
+m ation over the internet.
+Shuji N akam ura (Born 1954) – Aw arded the N obel Prize 
+for his invention of blue LEDs, w hich led to energy-effi-
+cient lighting and advancem ents in display technology.
+Charles Kao (1933-2018) – Know n as the "Father of 
+Fiber Optics," Kao’s research on optical fiber com m uni-
+cation revolutionized high-speed internet and global 
+connectivity.
+A m ar B ose (1929-2013) – Founder of Bose Corporation, 
+he contributed significantly to audio engineering and 
+sound system s, enhancing m odern acoustics and com -
+m unication technologies.
+These pioneers have laid the foundation for num erous 
+innovations in electronics and com m unication, shaping 
+the w orld w e live in today. Their w ork continues to ins-
+pire engineers and researchers to push the boundaries 
+of technology.
+# E d itio n  3
+
+
+0 5
+Stu d en t A ch ievem en ts an d  A w ard s
+D E P A R T M E N T  O F  E LE C T R O N IC S  A N D
+C O M M U N IC A T IO N  E N G IN E E R IN G
+IEEE SB G ECBH  H onors O utstanding Volunteers at 
+AG M  2025
+At the IEEE SB GECBH  Annual General M eeting 2025, three 
+outstanding students w ere recognized for their exceptional 
+contributions to IEEE activities.
+A nkitha V N  
+A nkitha V N  (S6 ECE) w as aw arded the IEEE SB GECBH  Outs-
+tanding Student Volunteer Aw ard 2024 for her rem arkable 
+dedication, leadership, and active involvem ent in IEEE initia-
+tives.
+Kavya S N air (S6 ECE) received the IEEE SB GECBH  Outstan-
+ding RAS Volunteer Aw ard 2024 for her exceptional contribu-
+tions to the IEEE Robotics and Autom ation Society (RAS) 
+Chapter.
+N iranjan B N air (S4 ECE) w as honored w ith the IEEE SB 
+GECBH  Outstanding Design Volunteer Aw ard 2024 for his in-
+novative and creative contributions to the chapter's design 
+projects.
+These prestigious aw ards w ere presented by Principal Dr. 
+Shiny G in recognition of their hard w ork and com m itm ent 
+to advancing the IEEE SB GECBH  com m unity.
+B est Engineer 10.0
+The Best Engineer 10.0' com petition organized by IEEE SB 
+The Best Engineer 10.0' com petition organized by IEEE SB 
+GECBH  celebrates exceptional technical talent and inno-
+vative thinking. Bharat Raj from  S1 ECE em erged w inner,, 
+w ho dem onstrated an im pressive ability to solve engi-
+neering challenges. The com petition em phasizes creativi-
+ty, problem -solving, and the application of engineering 
+principles in real-w orld scenarios
+Kick O ff 5.0
+Sreya P Babu (S1 ECE) em erges as the w inner of 'Kick Off 
+Sreya P Babu (S1 ECE) em erges as the w inner of 'Kick Off 
+5.0,' a flagship event by IEEE SB GECBH  designed to intro-
+duce and engage first-year students w ith the w orld of 
+technology and engineering. H er success reflects her en-
+thusiasm  and adaptability in navigating com plex techni-
+cal challenges, m arking the beginning of a prom ising aca-
+dem ic journey.
+Pixel Perfect 3.0
+ Unleash Your Creativity, an innovative initiative by IEEE 
+ Unleash Your Creativity, an innovative initiative by IEEE 
+SB GECBH  aim ed at encouraging creativity and 
+forw ard-thinking. W ith the them e 'Unleash Your Creativi-
+ty: Design the Future,' the event invites participants to 
+explore and present transform ative ideas, prom oting a 
+culture of innovation and interdisciplinary collaboration. 
+N iranjan B N air of S3 ECE w as proclaim ed the w inner of 
+this event.
+# E d itio n  3
+
+0 6
+Stu d en t A ch ievem en ts an d  A w ard s
+D E P A R T M E N T  O F  E LE C T R O N IC S  A N D
+C O M M U N IC A T IO N  E N G IN E E R IN G
+Techstreak 3.0
+Raif Iza M uham ed (S4 ECE) is recognized as the w inner of  Te-
+Raif Iza M uham ed (S4 ECE) is recognized as the w inner of  Te-
+chstreak 3.0, an event hosted by the IEEE APS and IEEE M TTS 
+SBCs under IEEE SB GECBH . This technical com petition em pha-
+sizes innovation in electrom agnetics, antennas, and m icrow ave 
+technologies. Raif's victory highlights his technical expertise 
+and his ability to navigate com plex engineering challenges.
+# E d itio n  3

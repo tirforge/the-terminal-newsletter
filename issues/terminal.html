@@ -1,0 +1,500 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>THE TERMINAL</title>
+<style>
+@font-face{font-family:"Grotesk";src:url("fonts/SpaceGrotesk-Medium.ttf")}
+@font-face{font-family:"GroteskB";src:url("fonts/SpaceGrotesk-Bold.ttf")}
+@font-face{font-family:"Mono";src:url("fonts/JetBrainsMono-Regular.ttf")}
+@font-face{font-family:"MonoB";src:url("fonts/JetBrainsMono-Bold.ttf")}
+@font-face{font-family:"Body";src:url("fonts/Inter-Regular.ttf")}
+@font-face{font-family:"BodyS";src:url("fonts/Inter-SemiBold.ttf")}
+@font-face{font-family:"BodyB";src:url("fonts/Inter-Bold.ttf")}
+
+@page{size:A4 portrait;margin:0}
+*{margin:0;padding:0;box-sizing:border-box;line-height:1.32}
+.page{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;background:#fff}
+.page:last-child{page-break-after:avoid}
+
+/* ============ COVER ============ */
+.cover{background:#191B45}
+.cover .grad{position:absolute;left:0;top:0;right:0;bottom:0;
+  background:linear-gradient(160deg,#191B45 0%,#2B2D6B 42%,#23255E 62%,#191B45 100%)}
+.cover .glowT{position:absolute;width:120mm;height:120mm;border-radius:50%;right:-50mm;top:-46mm;
+  background:radial-gradient(circle,rgba(0,194,203,.30) 0%,rgba(0,194,203,0) 70%)}
+.cover .glowA{position:absolute;width:110mm;height:110mm;border-radius:50%;left:-46mm;bottom:-42mm;
+  background:radial-gradient(circle,rgba(255,179,71,.20) 0%,rgba(255,179,71,0) 70%)}
+.cover .grid{position:absolute;left:0;top:0;right:0;bottom:0;
+  background:repeating-linear-gradient(90deg,rgba(0,194,203,.055) 0px,rgba(0,194,203,.055) 1px,transparent 1px,transparent 24px),
+             repeating-linear-gradient(0deg,rgba(0,194,203,.045) 0px,rgba(0,194,203,.045) 1px,transparent 1px,transparent 24px)}
+.fl1{position:absolute;color:rgba(0,194,203,.20);font-family:"MonoB"}
+.crestbox{position:absolute;left:14mm;top:12mm;width:15mm;height:15mm;background:#fff;border-radius:3.2mm;text-align:center;line-height:15mm}
+.crestbox img{width:12.4mm;height:12.4mm;vertical-align:middle}
+.toptxt{position:absolute;left:31.5mm;top:13mm;color:#fff}
+.toptxt .l1{font-family:"BodyS";font-size:8.6pt;letter-spacing:.5px;color:#DDE2F6}
+.toptxt .l2{font-family:"Mono";font-size:6.4pt;color:#00C2CB;letter-spacing:1.6px;margin-top:1mm}
+.topright{position:absolute;right:14mm;top:15mm;text-align:right;font-family:"Mono";font-size:6.6pt;color:rgba(255,255,255,.55);letter-spacing:1.2px}
+.masthead{position:absolute;left:14mm;top:36mm;color:#fff}
+.masthead .t1{font-family:"GroteskB";font-size:64pt;letter-spacing:-1px;line-height:.95;color:#F4F6FC}
+.masthead .cursor{display:inline-block;width:14pt;height:38pt;background:#00C2CB;margin-left:4pt;border-radius:2pt;vertical-align:-2pt}
+.masthead .t2{font-family:"Mono";font-size:8.4pt;color:#00C2CB;letter-spacing:3px;margin-top:5mm}
+.edchip{position:absolute;left:14mm;top:108mm;background:#FFB347;color:#14152F;font-family:"MonoB";font-size:9pt;letter-spacing:2px;padding:2.6mm 5mm;border-radius:2mm}
+.teasers{position:absolute;left:14mm;top:137mm;width:88mm;color:#C9CFEE;font-family:"Mono";font-size:8.2pt;line-height:2.05}
+.teasers em{color:#FFB347;font-style:normal}
+.teasers .sel{background:rgba(0,194,203,.16);outline:1px solid rgba(0,194,203,.45);border-radius:1mm}
+.motto{position:absolute;left:14mm;bottom:58mm;font-family:"BodyS";font-size:10.5pt;color:#F4F6FC;letter-spacing:1.4px}
+.motto span{color:#00C2CB}
+.coverphoto{position:absolute;right:12mm;top:96mm;width:86mm;height:118mm;border-radius:4mm;
+  background-image:url("imgs/terminal_hero_p.png");background-size:cover;background-position:center;
+  box-shadow:0 4mm 14mm rgba(0,0,0,.5);border:.6px solid rgba(0,194,203,.6)}
+.coverphoto .tag{position:absolute;left:0;bottom:0;background:#00C2CB;color:#111;font-family:"MonoB";font-size:6.2pt;letter-spacing:1.5px;padding:1.8mm 3.5mm;border-radius:0 0 4mm 0}
+.footbar{position:absolute;left:0;right:0;bottom:0;height:38mm;background:rgba(16,17,44,.85);
+  border-top:1px solid rgba(0,194,203,.4);padding:7mm 14mm 0 14mm;color:#AEB5DF}
+.footbar .dept{font-family:"BodyB";font-size:9.6pt;color:#F4F6FC}
+.footbar .sub{font-family:"Mono";font-size:6.6pt;letter-spacing:1.4px;color:#00C2CB;margin-top:1.6mm}
+.footbar .team{font-family:"Mono";font-size:6.2pt;color:rgba(255,255,255,.5);margin-top:2.4mm;line-height:1.75}
+.fakecode{position:absolute;right:12mm;bottom:46mm;font-family:"Mono";font-size:6.2pt;color:rgba(255,255,255,.28);text-align:right;line-height:1.9}
+
+/* ============ INNER COMMON ============ */
+.hdr{position:absolute;left:0;right:0;top:0;height:13mm;padding:0 14mm;color:#8B90BC;
+  font-family:"Mono";font-size:6.6pt;letter-spacing:1.6px;line-height:13mm;background:#191B45}
+.hdr .pg{float:right;color:#F4F6FC}
+.hdr .dot{color:#00C2CB}
+.foot{position:absolute;left:0;right:0;bottom:0;height:11mm;background:#191B45;color:rgba(255,255,255,.55);
+  font-family:"Mono";font-size:6.2pt;letter-spacing:1.2px;padding:0 14mm;line-height:11mm}
+.foot .pg2{float:right;color:#8B90BC}
+.content{padding:23mm 14mm 12mm 14mm;position:absolute;left:0;right:0;top:0;bottom:0}
+.sectiontitle{margin-bottom:4mm}
+.sectiontitle .kicker{font-family:"MonoB";font-size:7pt;letter-spacing:2.5px}
+.sectiontitle h2{font-family:"GroteskB";font-size:26pt;letter-spacing:-0.5px;line-height:1.05;margin-top:1.5mm}
+.sectiontitle .bar{width:34mm;height:2.2mm;border-radius:2mm;margin-top:3mm;margin-bottom:2.8mm}
+.sectiontitle .intro{font-family:"Body";font-size:9pt;color:#3A3B5C;width:170mm}
+.card{background:#fff;border-radius:3.5mm;border:1px solid #E3E5F0;box-shadow:0 1.5mm 4mm rgba(28,30,82,.07)}
+.card .cbody{padding:3mm 3.8mm 3.2mm 3.8mm}
+.cardt{font-family:"GroteskB";font-size:11.5pt;color:#1D1E3F;line-height:1.2}
+.cardk{font-family:"MonoB";font-size:6pt;letter-spacing:1.8px;color:#B77A22;margin-bottom:1.2mm}
+.chip{display:inline-block;font-family:"MonoB";font-size:5.7pt;letter-spacing:.4px;border-radius:1.6mm;padding:.9mm 2mm;margin:.8mm 1mm 0 0}
+.chip.gold{background:#FFF3E0;color:#8F5B12;border:1px solid #FFDCA8}
+.chip.teal{background:#E2FAFB;color:#00757E;border:1px solid #9EE8EC}
+.chip.indigo{background:#E7E9F8;color:#2B2D6B;border:1px solid #C3C7EA}
+.names{font-family:"Body";font-size:6.6pt;color:#56587C;line-height:1.45;margin-top:1.3mm}
+.names b{color:#1D1E3F}
+.photo{background-size:cover;background-position:center;border-radius:3.5mm;border:1px solid #E3E5F0}
+.phcap{font-family:"Mono";font-size:5.8pt;color:#56587C;letter-spacing:.6px;margin-top:1.6mm}
+.mini{border:1px solid #E3E5F0;border-radius:2.5mm;padding:2.4mm 3mm}
+.teamname{font-family:"MonoB";font-size:9.5pt;color:#1D1E3F}
+
+.p2{background:#F4F6FC}
+.p2 .kicker{color:#B77A22}
+.p2 h2{color:#1D1E3F}
+.p2 .bar{background:#FFB347}
+.p3{background:#EDF7F8}
+.p3 .kicker{color:#00757E}
+.p3 h2{color:#103A3F}
+.p3 .bar{background:#00C2CB}
+.p3 .cardk{color:#00757E}
+.p4{background:#F4F6FC}
+.p4 .kicker{color:#2B2D6B}
+.p4 h2{color:#1D1E3F}
+.p4 .bar{background:linear-gradient(90deg,#00C2CB 0%,#00C2CB 50%,#FFB347 50%,#FFB347 100%)}
+.p4 .cardk{color:#2B2D6B}
+.p5{background:#FBF8F2}
+.p5 .kicker{color:#8F5B12}
+.p5 h2{color:#33334D}
+.p5 .bar{background:#FFB347}
+.quotechip{background:#fff;border:1px solid #EFE6D2;border-left:2.2mm solid #FFB347;border-radius:2.5mm;
+  padding:2.4mm 3.4mm;font-family:"Grotesk";font-size:9.3pt;color:#33334D}
+.quotechip .who{font-family:"Mono";font-size:6.1pt;color:#8F5B12;letter-spacing:.8px;margin-top:1mm}
+.minicard{background:#fff;border:1px solid #EFE6D2;border-radius:2.5mm;box-shadow:0 1mm 3mm rgba(70,50,10,.05)}
+.trends{font-family:"GroteskB";font-size:9.5pt;color:#33334D}
+.whod{font-family:"Mono";font-size:6.1pt;color:#8F5B12;margin-top:.8mm;letter-spacing:.6px}
+.loglabel{font-family:"MonoB";font-size:6.4pt;color:#8F5B12;letter-spacing:2px;margin:4mm 0 2.6mm 0}
+.codemeta{font-family:"Mono";font-size:5.9pt;color:#8B90BC}
+</style></head>
+<body>
+
+<!-- ================= PAGE 1 : COVER ================= -->
+<div class="page cover">
+  <div class="grad"></div><div class="glowT"></div><div class="glowA"></div><div class="grid"></div>
+  <span class="fl1" style="left:8mm;top:64mm;font-size:9pt">&gt;</span>
+  <span class="fl1" style="left:180mm;top:80mm;font-size:11pt">{&#125;</span>
+  <span class="fl1" style="left:30mm;top:230mm;font-size:10pt">/</span>
+  <span class="fl1" style="left:196mm;top:150mm;font-size:9pt">1</span>
+  <span class="fl1" style="left:60mm;top:72mm;font-size:8pt">#</span>
+  <span class="fl1" style="left:160mm;top:250mm;font-size:10pt">&lt;&gt;</span>
+  <span class="fl1" style="left:18mm;top:160mm;font-size:8pt">0</span>
+  <span class="fl1" style="left:188mm;top:210mm;font-size:8pt">$</span>
+
+  <div class="crestbox"><img src="imgs/logo_gecbh.png"></div>
+  <div class="toptxt">
+    <div class="l1">GOVT. ENGINEERING COLLEGE, BARTON HILL</div>
+    <div class="l2">DEPARTMENT OF INFORMATION TECHNOLOGY</div>
+  </div>
+  <div class="topright">DEV: ROOT@IT.GECBH<br>SHELL: BASH 5.2<br>UPTIME: 27 YRS</div>
+
+  <div class="masthead">
+    <div class="t1">THE<br>TERMINAL<span class="cursor"></span></div>
+  </div>
+  <div class="edchip">JAN&#8211;JUN 2026 EDITION</div>
+  <div style="position:absolute;left:14mm;top:124mm;color:#F4F6FC;font-family:'Mono';font-size:7.4pt;letter-spacing:2.4px">THE IT DEPARTMENT NEWSLETTER &#183; VOL.1</div>
+
+  <div class="teasers">
+    <div>&gt; <em>Feb '26:</em> four teams, eight podiums &#8212; the great hackathon sweep</div>
+    <div>&gt; <em>Sargam '26:</em> IT crowned overall champions with <span class="sel">&nbsp;1082.5&nbsp;</span> pts</div>
+    <div>&gt; <em>&#8364;3,000</em> scholarship at the Allianz Tech Championship</div>
+    <div>&gt; <em>AEGIS</em> rises &#8212; our new cyber club is on duty</div>
+  </div>
+
+  <div class="coverphoto"><div class="tag">BOOT_SEQ: DEPARTED &#10095;</div></div>
+
+  <div class="motto">Disce. <span>Crea.</span> Ascende.<br>
+    <span style="font-family:'Mono';font-size:6.6pt;color:rgba(255,255,255,.45);letter-spacing:2px">LEARN. CREATE. RISE.</span></div>
+
+  <div class="fakecode">while(semester){<br>&#160;&#160;learn();<br>&#160;&#160;create();<br>&#160;&#160;rise();<br>}<br>// jan&#8211;jun 2026</div>
+
+  <div class="footbar">
+    <div class="dept">Department of Information Technology &#183; GEC Barton Hill &#183; Thiruvananthapuram</div>
+    <div class="sub">EST. 1999 &#183; APJ ABDUL KALAM TECHNOLOGICAL UNIVERSITY</div>
+    <div class="team">FACULTY EDITORS: JOSNA V R &#183; PRASANTH R S &nbsp;&#124;&nbsp; STUDENT TEAM: GAURI SANKAR &#183; SOORAJ KUMAR S &#183; KHADEEJA ANZAR</div>
+  </div>
+</div>
+
+<!-- ================= PAGE 2 : ACHIEVEMENTS ================= -->
+<div class="page p2">
+  <div class="hdr">THE TERMINAL <span class="dot">&#9679;</span> JAN&#8211;JUN 2026 &#183; ACHIEVEMENTS <span class="pg">PAGE 02 <span class="dot">/</span> 05</span></div>
+  <div class="content">
+    <div class="sectiontitle">
+      <div class="kicker">&#9679; SUCCESS LOG</div>
+      <h2>ACHIEVEMENTS &amp; AWARDS</h2>
+      <div class="bar"></div>
+      <div class="intro">February 2026 got a five-star rating: our collab-practice teams ran one podium after another across GovTech, CyberTech, AgriTech and Agentic AI hackathons.</div>
+    </div>
+
+    <div style="display:flex">
+      <div style="width:106mm;margin-right:4mm">
+        <div class="card">
+          <div class="cbody">
+            <div class="cardk">FEBRUARY 2026 &#183; HACKATHON SWEEP</div>
+            <div class="cardt">Four Teams. Eight Podiums.</div>
+            <div style="display:flex;flex-wrap:wrap;margin-top:2.2mm">
+              <div class="mini" style="width:45.2mm;margin:0 2.4mm 2.4mm 0">
+                <span class="teamname">CIPHER</span>
+                <div class="names">Yasina Thasneem M &#183; M S Gauri Sankar &#183; Asin Naved A &#183; Evette Catelyn Fernandez &#183; Mrinal Krishnan J</div>
+                <div style="margin-top:1.4mm">
+                  <span class="chip gold">2ND INDUSTRY 5.0 &#183; 8 FEB</span>
+                  <span class="chip gold">1ST AGRITECH COL &#183; 18 FEB</span>
+                  <span class="chip gold">1ST AGRITECH ZONAL &#183; 27 FEB</span>
+                </div>
+              </div>
+              <div class="mini" style="width:45.2mm;margin-bottom:2.4mm">
+                <span class="teamname">BYTEFORCE</span>
+                <div class="names">Aathmana S Nair &#183; Afsana Ahmad S &#183; Arjun V S &#183; Krishnapriya R &#183; NANDitha S Nair</div>
+                <div style="margin-top:1.4mm">
+                  <span class="chip gold">2ND GOVTECH COL &#183; 18 FEB</span>
+                  <span class="chip gold">1ST GOVTECH ZONAL &#183; 24 FEB</span>
+                </div>
+              </div>
+              <div class="mini" style="width:45.2mm;margin:0 2.4mm 0 0">
+                <span class="teamname">BYTE404</span>
+                <div class="names">Nirupama S &#183; Sooraj Kumar S &#183; Lizona Loy Parayil &#183; Ryan Sebastian &#183; Devananda A</div>
+                <div style="margin-top:1.4mm">
+                  <span class="chip gold">3RD CYBERTECH COL &#183; 18 FEB</span>
+                  <span class="chip gold">1ST CYBERTECH ZONAL &#183; 26 FEB</span>
+                </div>
+              </div>
+              <div class="mini" style="width:45.2mm">
+                <span class="teamname">AXIOM</span>
+                <div class="names">Abhinav B &#183; Alex Anto Cherian &#183; Greeshma Susan Lukose &#183; Milan Shaji</div>
+                <div style="margin-top:1.4mm">
+                  <span class="chip gold">2ND KAIZEN'26 &#183; 21 FEB</span>
+                  <span class="chip gold">1ST AGENTIC AI ZONAL &#183; 27 FEB</span>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div style="width:72mm">
+        <div class="photo" style="width:72mm;height:44mm;background-image:url('imgs/src_p021.png')"></div>
+        <div class="phcap">Team CIPHER &#183; Industry 5.0 Hack finals, Asian School of Business &#183; 8 Feb</div>
+        <div class="photo" style="width:72mm;height:42mm;margin-top:1.6mm;background-image:url('imgs/src_p022.png');background-position:center 38%"></div>
+        <div class="phcap">Squads outside college before the February circuit</div>
+      </div>
+    </div>
+
+    <div style="display:flex;margin-top:4mm">
+      <div style="width:72mm;margin-right:4mm">
+        <div class="photo" style="width:72mm;height:46mm;background-image:url('imgs/src_p036.png')"></div>
+        <div class="phcap">Technoverse finals &#183; Cognizant stand</div>
+      </div>
+      <div style="width:106mm">
+        <div class="card">
+          <div class="cbody">
+            <div class="cardk">ALLIANZ TECH CHAMPIONSHIP 2025</div>
+            <div class="cardt" style="font-size:10.5pt">Ziya &amp; Bharath Bag &#8364;3,000 Scholarships Each</div>
+            <div class="names">S3 IT pair <b>Ziya Moosir T</b> and <b>Bharath Vighnesh</b> made the final cut &#8212; among ~50 of 389 teams nationwide &#8212; for <b>Zyra</b>, an AI women's-safety route-mapping app. Felicitated at the Allianz Niagara Convention Centre.</div>
+          </div>
+        </div>
+        <div class="card" style="margin-top:3mm">
+          <div class="cbody">
+            <div class="cardk">NATIONAL FINALS &#183; COGNIZANT</div>
+            <div class="cardt" style="font-size:10.5pt">Technoverse 2026 Finalists</div>
+            <div class="names"><b>Afila Fathima S &#183; Apsara M V &#183; Blessy Mariya Benny &#183; Christin Jiji</b> &#8212; one of the few teams still standing at Cognizant's national hackathon in February.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;margin-top:4mm">
+      <div class="card" style="width:43.2mm;margin-right:3.2mm">
+        <div class="cbody">
+          <div class="cardk">EXCELSIOR 6.0</div>
+          <div class="cardt" style="font-size:9.5pt">State Mock-Placement Winner</div>
+          <div class="names"><b>M S Gauri Sankar</b> topped the state mock placement challenge (23 Dec 2025).</div>
+        </div>
+      </div>
+      <div class="card" style="width:43.2mm;margin-right:3.2mm">
+        <div class="cbody">
+          <div class="cardk">YIP 6.0</div>
+          <div class="cardt" style="font-size:9.5pt">District &#8594; State Streak</div>
+          <div class="names">District: <b>Smart Bus Stop Ticket Generator</b> (Aparna, Ardra, Jyothika, Hadiya, Meenakshi). State run: AI plastic-waste canal collector by <b>Gopika MB</b> (S2).</div>
+        </div>
+      </div>
+      <div class="card" style="width:43.2mm;margin-right:3.2mm">
+        <div class="cbody">
+          <div class="cardk">NATIONAL ARENA</div>
+          <div class="cardt" style="font-size:9.5pt">Adrika on Target</div>
+          <div class="names"><b>Adrika Narayanan</b> (S4) shot for Kerala at the National Games and the All-India Inter-University Championship, Meerut (Jan 2026).</div>
+        </div>
+      </div>
+      <div class="card" style="width:43.2mm">
+        <div class="cbody">
+          <div class="cardk">STARTUP TRACK</div>
+          <div class="cardt" style="font-size:9.5pt">3 Teams &#8594; KSUM Summit</div>
+          <div class="names">Teams invited to the KSUM IEDC Startup Summit 2026, Amal Jyothi College (7 Mar) for their winning work.</div>
+        </div>
+      </div>
+    </div>
+<div class="card" style="margin-top:3.6mm">
+      <div class="cbody" style="padding:2.4mm 3.8mm">
+        <div class="cardk" style="margin-bottom:0.8mm">COURTS &amp; GREENS</div>
+        <div class="names" style="margin-top:.8mm"><b>KTU A-Zone cricket:</b> runners-up &#8212; Sooraj S, Pavan Tharapel Anil, Abhishek V.S., Deepak Jaimohan, M. Sanjay Krishna. <b>Badminton:</b> team champions &#8212; Vignesh V &amp; Avinash Vinod APK. <b>Deepak Jaimohan</b> selected to the KTU cricket team &#183; <b>Navendu Gopan</b> (PTA) honoured for his karate bronze.</div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">THE TERMINAL &#183; DEPT OF IT &#183; GEC BARTON HILL <span class="pg2">JAN&#8211;JUN 2026 &#183; VOL.1 &#183; 02</span></div>
+</div>
+
+<!-- ================= PAGE 3 : EVENTS ================= -->
+<div class="page p3">
+  <div class="hdr">THE TERMINAL <span class="dot">&#9679;</span> JAN&#8211;JUN 2026 &#183; EVENTS <span class="pg">PAGE 03 <span class="dot">/</span> 05</span></div>
+  <div class="content">
+    <div class="sectiontitle">
+      <div class="kicker">&#9679; RUNTIME</div>
+      <h2>EVENTS &amp; ACTIVITIES</h2>
+      <div class="bar"></div>
+      <div class="intro">From a ransomware workshop on a quiet Tuesday to sweeping Sargam's biggest trophy &#8212; the semester rarely idled.</div>
+    </div>
+
+    <div style="display:flex">
+      <div style="width:104mm;margin-right:4mm">
+        <div class="photo" style="width:104mm;height:58mm;border-color:#BCE5E8;background-image:url('imgs/src_p042.png')"></div>
+        <div class="phcap">The celebration right after the final points were read out &#183; Sargam '26</div>
+        <div class="card" style="margin-top:2.6mm">
+          <div class="cbody">
+            <div class="cardk">ARTS FESTIVAL &#183; 6&#8211;7 APRIL 2026</div>
+            <div class="cardt">SARGAM '26: Overall Champions!</div>
+            <div class="names">The IT department lifted the overall championship with <b>1082.5 points</b> &#8212; wins across dance, music, literary and fine arts events.</div>
+            <div style="margin-top:1.8mm">
+              <span class="chip teal">KALAPRATHIBHA: M S GAURISANKAR (S4)</span>
+              <span class="chip teal">KALATHILAKAM: GOURY VIBIN (S4) + SREYA S S (S6)</span>
+            </div>
+            <div class="moB" style="font-family:'MonoB';font-size:5.9pt;color:#00757E;letter-spacing:1.1px;margin-top:2.2mm;line-height:1.85">FUSION &#183; BHARATANATYAM &#183; WESTERN VOCAL &#183; CLASSICAL &#183; GHAZAL &#183; GUITAR &#183; DRUMS &#183; MRIDANGAM &#183; BAND &#183; ESSAY &#183; STORY &#183; POEM &#183; DEBATE &#183; JAM &#183; DIGITAL PAINTING &#183; CARTOON &#183; FACE PAINTING &#183; PHOTOGRAPHY &#183; OPPANA &#183; MAARGAM KALI &#183; CHENDA MELAM &#183; MEHENDI &#183; QUIZ &#183; SKIT &#183; ADZAP &#183; COSPLAY &#183; MONOACT</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="width:74mm">
+        <div class="card">
+          <div class="cbody">
+            <div class="cardk">CYBERSECURITY WEEK &#183; 10 FEB 2026</div>
+            <div class="cardt" style="font-size:11pt">Encrypto: "From Script to Ransom"</div>
+            <div class="names">Hands-on ransomware workshop on ZoomIT, 1&#8211;3 PM, by <b>Alan V Jiju</b> &amp; team (Offenso Hackers Academy). Our CTF collab took its first bow here.</div>
+          </div>
+        </div>
+        <div class="card" style="margin-top:3.6mm">
+          <div style="display:flex">
+            <div style="width:18mm;height:18mm;background:#fff;border-radius:2.5mm;margin:3.4mm;box-shadow:0 1mm 3mm rgba(0,0,0,.09)">
+              <img src="imgs/src_p065.png" style="width:14.4mm;height:14.4mm;margin:1.8mm">
+            </div>
+            <div style="padding-right:4mm">
+              <div class="cardk">NEW CLUB</div>
+              <div class="cardt" style="font-size:11pt">AEGIS Inaugurated</div>
+              <div class="names">IT's dedicated cybersecurity club, with <b>Prof. Haripriya</b> as faculty head &#8212; born straight out of the Encrypto buzz.</div>
+            </div>
+          </div>
+        </div>
+        <div class="card" style="margin-top:3.6mm">
+          <div class="cbody">
+            <div class="cardk">CAMPUS CALENDAR</div>
+            <div class="names" style="margin-top:.5mm">
+              <b>IEDC Startup Summit</b> &#8212; 3 teams invited, Amal Jyothi College (7 Mar &#183; KSUM)<br>
+              <b>Department Iftar</b> &#8212; hosted by S2 students, a season of sharing<br>
+              <b>Onam Sadhya</b> &#8212; IT's banana-leaf feast, thrown by S2 IT
+            </div>
+          </div>
+        </div>
+        <div class="card" style="margin-top:3.6mm;background:#1D1E3F;border:none">
+          <div class="cbody">
+            <span class="moB" style="font-family:'MonoB';font-size:6pt;color:#00C2CB;letter-spacing:1.6px">SPOTLIGHT_PING:</span>
+            <span style="font-family:'Mono';font-size:6.2pt;color:#B9BFE6"> trophies now live in room IT-1. next_up: Encrypto Season 2 &#183; CTF Ladder &#183; Sargam '27</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">THE TERMINAL &#183; DEPT OF IT &#183; GEC BARTON HILL <span class="pg2">JAN&#8211;JUN 2026 &#183; VOL.1 &#183; 03</span></div>
+</div>
+
+<!-- ================= PAGE 4 : PLACEMENTS ================= -->
+<div class="page p4">
+  <div class="hdr">THE TERMINAL <span class="dot">&#9679;</span> JAN&#8211;JUN 2026 &#183; CAREERS <span class="pg">PAGE 04 <span class="dot">/</span> 05</span></div>
+  <div class="content">
+    <div class="sectiontitle">
+      <div class="kicker">&#9679; DEPLOY LOG</div>
+      <h2>PLACEMENTS &amp; CAREERS</h2>
+      <div class="bar"></div>
+      <div class="intro">Internships, a startup MoA and PhD-grade publications &#8212; the semester's deploy log came back green.</div>
+    </div>
+
+    <div style="display:flex">
+      <div style="width:72mm;margin-right:4mm">
+        <div class="photo" style="width:72mm;height:76mm;border-color:#E3E5F0;background-color:#1D1E3F;background-image:url('imgs/src_p043.png');background-size:contain;background-position:center center;background-repeat:no-repeat"></div>
+        <div class="phcap">Sanjayram Prasad &#183; IT M.Tech Y1 &#8212; Allianz Aspire '26</div>
+      </div>
+      <div style="width:106mm">
+        <div class="card" style="margin-bottom:4mm">
+          <div class="cbody">
+            <div class="cardk">INTERNSHIP WATCH</div>
+            <div class="cardt">Sanjayram Prasad &#8594; Allianz Aspire 2026</div>
+            <div class="names">First-year M.Tech student selected for the Allianz Aspire 2026 Internship Program &#8212; a global cohort pick from a campus that keeps feeding the industry.</div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="cbody">
+            <div class="cardk">STUDENT STARTUP</div>
+            <div class="cardt">Zelbytes Signs MoA with K-AgTech Launchpad</div>
+            <div class="names">Zelbytes Pvt Ltd &#8212; the student agritech startup (AI / IoT / edge for precision agriculture) &#8212; signed an MoA with the K-AgTech Launchpad (KAU + NABARD + WSU) and is now Technical Infrastructure Partner of the Vellayani campus precision-ag ecosystem, running a Farm-as-a-Service model.</div>
+            <div style="margin-top:2mm"><span class="chip indigo">FaaS MODEL</span><span class="chip teal">KAU &#183; NABARD &#183; WSU</span><span class="chip gold">VELLAYANI ECOSYSTEM</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="display:flex;margin-top:4mm">
+      <div class="card" style="width:106mm;margin-right:4mm">
+        <div class="cbody">
+          <div class="cardk">CAREER ARCADE</div>
+          <div class="cardt">Sherin's Ladder: Trainee &#8594; HR &#8594; COO</div>
+          <div style="margin-top:2.6mm;display:flex">
+            <div style="width:26mm;background:#E7E9F8;border-radius:2mm;padding:2.2mm;text-align:center"><span style="font-family:'MonoB';font-size:6pt;color:#2B2D6B;letter-spacing:.8px">NEXFORZ</span><div style="font-family:'Body';font-size:6.4pt;color:#56587C;margin-top:.7mm">Trainee</div></div>
+            <span style="font-family:'MonoB';color:#B77A22;font-size:9pt;margin:4mm 2mm 0 2mm">&#8594;</span>
+            <div style="width:26mm;background:#FFF3E0;border-radius:2mm;padding:2.2mm;text-align:center"><span style="font-family:'MonoB';font-size:6pt;color:#8F5B12;letter-spacing:.8px">HR MANAGER</span><div style="font-family:'Body';font-size:6.4pt;color:#56587C;margin-top:.7mm">People ops</div></div>
+            <span style="font-family:'MonoB';color:#B77A22;font-size:9pt;margin:4mm 2mm 0 2mm">&#8594;</span>
+            <div style="width:26mm;background:#E2FAFB;border-radius:2mm;padding:2.2mm;text-align:center"><span style="font-family:'MonoB';font-size:6pt;color:#00757E;letter-spacing:.8px">COO</span><div style="font-family:'Body';font-size:6.4pt;color:#56587C;margin-top:.7mm">the wheel seat</div></div>
+          </div>
+          <div class="names"><b>Sherin Reeba Mathew (S6)</b> also heads finance at Zelbytes &#8212; audit reports included, CA-verified.</div>
+        </div>
+      </div>
+      <div class="card" style="width:72mm">
+        <div class="cbody">
+          <div class="cardk">FACULTY RESEARCH</div>
+          <div class="cardt" style="font-size:10.5pt">Springer Paper Landing</div>
+          <div class="names"><b>Dr. Haripriya A P</b> published <i>RL-Driven MOEA Framework for Secure &amp; Efficient Task Scheduling in Cloud-Edge Environments</i> (Jan 2026).</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card" style="margin-top:4mm">
+      <div style="padding:2.6mm 4mm">
+        <span class="chip indigo">GECB: 4TH RANK, KTU</span>
+        <span class="chip teal">PASS: 85.12%</span>
+        <span class="chip gold">CERT POWER: NPTEL &#183; COURSERA &#183; INFOSYS SPRINGBOARD</span>
+        <span style="font-family:'Mono';font-size:6pt;color:#8B90BC;float:right;margin-top:1mm">uptime: 27 years &#183; 0 regrets</span>
+      </div>
+    </div>
+  </div>
+  <div class="foot">THE TERMINAL &#183; DEPT OF IT &#183; GEC BARTON HILL <span class="pg2">JAN&#8211;JUN 2026 &#183; VOL.1 &#183; 04</span></div>
+</div>
+
+<!-- ================= PAGE 5 : STUDENT CORNER ================= -->
+<div class="page p5">
+  <div class="hdr">THE TERMINAL <span class="dot">&#9679;</span> JAN&#8211;JUN 2026 &#183; STUDENT CORNER <span class="pg">PAGE 05 <span class="dot">/</span> 05</span></div>
+  <div class="content">
+    <div class="sectiontitle">
+      <div class="kicker">&#9679; STDOUT</div>
+      <h2>STUDENT CORNER</h2>
+      <div class="bar"></div>
+    </div>
+
+    <div class="quotechip" style="border-left-color:#00C2CB">
+      This corner is where the department's real stdout lives &#8212; poems, journeys, code and everything in between. Keep typing, keep shipping, keep writing.<br>
+      <span class="who">EDITOR'S NOTE &#183; THE TERMINAL DESK</span>
+    </div>
+
+    <div style="display:flex;margin-top:4mm">
+      <div style="width:88mm;margin-right:6mm">
+        <div class="loglabel">// POETRY BUFFER</div>
+        <div class="quotechip">Are we living, or just scrolling?<div class="who">SIVA SOORYA V &#183; S2</div></div>
+        <div class="quotechip" style="margin-top:2.2mm">Shackles of Exclusion<div class="who">PREETHI SP &#183; S2</div></div>
+        <div class="quotechip" style="margin-top:2.2mm">Rainbow<div class="who">GOPIKA GS &#183; S2</div></div>
+        <div class="quotechip" style="margin-top:2.2mm">Between Deadlines &amp; Dreams<div class="who">ADITHYA V SANKAR &#183; S2</div></div>
+      </div>
+      <div style="width:88mm">
+        <div class="loglabel">// MORE POETRY</div>
+        <div class="quotechip">To Nature<div class="who">ANAGHA VK &#183; S2</div></div>
+        <div class="quotechip" style="margin-top:2.2mm">Rebirth of a Woman<div class="who">ARYA S &#183; S4</div></div>
+        <div class="quotechip" style="margin-top:2.2mm">Silent Shackles<div class="who">EVETTE CATELYN FERNANDES &#183; S4</div></div>
+        <div class="quotechip" style="margin-top:2.2mm">Limits<div class="who">SAMUEL SAMSON &#183; S2</div></div>
+      </div>
+    </div>
+
+    <div class="loglabel">// TRAVEL &amp; LIFE LOGS</div>
+    <div style="display:flex;flex-wrap:wrap">
+      <div class="minicard" style="width:58.7mm;margin-right:2.9mm;margin-bottom:2.9mm;padding:2.6mm 3mm"><span class="trends">Thenmala</span><div class="whod">NAVEEN S V &#183; S2</div></div>
+      <div class="minicard" style="width:58.7mm;margin-right:2.9mm;margin-bottom:2.9mm;padding:2.6mm 3mm"><span class="trends">Bahrain, New Year</span><div class="whod">ANAMIKA K P &#183; S2</div></div>
+      <div class="minicard" style="width:58.7mm;margin-bottom:2.9mm;padding:2.6mm 3mm"><span class="trends">Ooty</span><div class="whod">AYISHA A &#183; S2</div></div>
+      <div class="minicard" style="width:58.7mm;margin-right:2.9mm;padding:2.6mm 3mm"><span class="trends">Ponmudi</span><div class="whod">NADA ASHRAF &#183; S2</div></div>
+      <div class="minicard" style="width:58.7mm;margin-right:2.9mm;padding:2.6mm 3mm"><span class="trends">Racing 200m/100m</span><div class="whod">ALEEN SHEETHAL BIJU &#183; DISTRICT</div></div>
+      <div class="minicard" style="width:58.7mm;padding:2.6mm 3mm"><span class="trends">Finding Myself</span><div class="whod">KRISHNAPRIYA M &#183; S2</div></div>
+    </div>
+
+    <div class="loglabel">// TECH BYTES</div>
+    <div style="display:flex">
+      <div class="minicard" style="width:58.7mm;margin-right:2.9mm;padding:2.8mm 3mm;border-top:2mm solid #00C2CB"><span class="trends">Quantum Computing</span><div class="whod">ALEX ANTO S &#183; S4</div></div>
+      <div class="minicard" style="width:58.7mm;margin-right:2.9mm;padding:2.8mm 3mm;border-top:2mm solid #FFB347"><span class="trends">Digital Twin</span><div class="whod">MANU M &#183; S4</div></div>
+      <div class="minicard" style="width:58.7mm;padding:2.8mm 3mm;border-top:2mm solid #2B2D6B"><span class="trends">Edge AI</span><div class="whod">AKHIL &#183; S4</div></div>
+    </div>
+
+    <div class="card" style="margin-top:5mm;background:#2B2D6B;border:none">
+      <div style="padding:3.4mm 5mm">
+        <span style="font-family:'GroteskB';font-size:13pt;color:#fff;letter-spacing:-0.2px">Next up: THE TERMINAL &#8212; JUL&#8211;DEC 2026</span>
+        <span style="font-family:'Mono';font-size:6.6pt;color:#00C2CB;letter-spacing:1.4px;float:right;margin-top:4mm">echo ""
+</span>
+        <div style="font-family:'Mono';font-size:6.6pt;color:#00C2CB;letter-spacing:1.6px;margin-top:1.4mm">SEND US YOUR STORIES &#8594; ANY S5/S6 TYPING IN A TERMINAL NEAR YOU</div>
+      </div>
+    </div>
+  <div class="card" style="margin-top:3.6mm;background:#191B45;border:none">
+      <div style="padding:3mm 5mm;display:flex">
+        <div style="width:132mm">
+          <span style="font-family:'MonoB';font-size:6.2pt;color:#00C2CB;letter-spacing:1.8px">CREDITS.STDOUT</span>
+          <div style="font-family:'Body';font-size:7.2pt;color:#C9CFEE;margin-top:1.2mm;line-height:1.55">Faculty editors <b style="color:#fff">Josna V R</b> &amp; <b style="color:#fff">Prasanth R S</b> &#183; with the student team: <b style="color:#fff">M S Gauri Sankar</b>, <b style="color:#fff">Sooraj Kumar S</b>, <b style="color:#fff">Khadeeja Anzar</b> and every contributor who typed footnotes at 2 AM.</div>
+        </div>
+        <div style="width:44mm;text-align:right;font-family:'Mono';font-size:6pt;color:rgba(255,255,255,.45);line-height:1.8">Disce. Crea. Ascende.<br>IT DEPT &#183; GECBH &#183; EST. 1999</div>
+      </div>
+    </div>
+  </div>
+  <div class="foot">THE TERMINAL &#183; DEPT OF IT &#183; GEC BARTON HILL <span class="pg2">JAN&#8211;JUN 2026 &#183; VOL.1 &#183; 05</span></div>
+</div>
+
+</body></html>
