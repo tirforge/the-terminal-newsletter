@@ -2,3 +2,5 @@
 __pycache__/
 .DS_Store
 chk_*.png
+_chk_*.png
+_c_*.png
