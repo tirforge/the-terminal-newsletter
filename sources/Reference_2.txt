@@ -1,0 +1,265 @@
+Dear Readers,
+I am delighted to share with you this edition of  newsletter
+from UG IT Programme of our college. At LBS Engineering College, Poojapura, we
+believe education is not only about acquiring knowledge but also about building
+character, fostering creativity, and preparing our students to meet the challenges of a
+dynamic world.
+This newsletter showcases the dedication, achievements, and vibrant spirit of our
+students and faculty. I congratulate the editorial team and all contributors for their
+efforts. Let us continue to work together in shaping a future where our institution stands
+as a beacon of excellence and innovation.
+Dear Readers,
+It gives me immense pleasure to present this edition of our 
+UG  Information Technology  programme’s  newsletter. 
+As we stand at the forefront of a rapidly evolving digital era,
+our department remains committed to nurturing innovation, research, and academic
+excellence.
+Our faculty, staff, and students continue to strive towards building a vibrant learning
+environment that blends strong technical foundations with creativity and problem-solving
+skills. Through academic initiatives, industry collaborations, and co-curricular activities, we
+aim to equip our students with the knowledge and confidence to face global challenges.
+I take this opportunity to appreciate the dedication of our faculty, the enthusiasm of our
+students, and the support of our alumni in shaping the department’s growth. This newsletter
+reflects our collective achievements and ongoing journey towards excellence.
+I hope this edition inspires our readers and provides valuable insights into the dynamic world
+of Information Technology at LBS Engineering College, Poojapura.
+Message from HOD Desk
+From the Principal’s Desk
+To be a centre of
+academic excellence
+empowering women in
+technical domain 
+IT NEWSLETTER
+LBS INSTITUTE OF TECHNOLOGY FOR WOMEN
+JULY-DEC’24
+VISION
+MISSION
+Imparting values  based
+technical education for
+transforming young women
+to professionals excelling
+globally in
+academics,research &
+development and industry
+meeting societal
+challenges .
+Dr  Smithamol MB ,Principal LBSITW
+Dr  Smitha Vas  P ,HOD   IT
+From the principal’s desk - p.1
+Highlights of the sem - p.2
+Academic engagements - p.3
+Achievements - p.4
+This issue
+1
+NSS  conducted a Digital Literacy Program
+aimed at empowering senior citizens. This
+initiative was designed to help older people
+confidently use smartphones and embrace
+technology, fostering a more connected and
+digitally skilled Kerala.
+ Satellite IoT – Connecting the Unconnected
+Satellite IoT emerged as a key IT trend in late 2024,
+combining Internet of Things with satellite communications
+to deliver global connectivity. It enables devices to stay
+online even in remote areas, unlocking innovations in smart
+farming, disaster response, environmental monitoring, and
+logistics. With its worldwide coverage and reliability,
+Satellite IoT is shaping the future of connected systems.
+Arundhathy puts LBS onGlobal Podium
+Arundhathy R Nair of S3 IT won Asian Championship gold medal  for
+Chess Boxing which was held in  Kolkata on 26-28th July 2024 .
+Bridging Generations: StudentsTeach Tech
+Smart Waste, Smarter LBSMinds
+IT Students Get Git-Savvy!
+LBS hosted an interactive
+hands-on workshop on Git &
+GitHub, conducted by
+Uttara Praveen and
+Meenakshi A M of S7 IT. The
+session aimed to equip
+students with practical skills
+in version control,
+collaboration, and efficient
+code management,
+empowering them to
+confidently use Git and
+GitHub for their projects and
+teamwork.
+Session conducted by Uttara Praveen
+and Meenakshi A M of S7 IT
+A student team has initiated a project
+aimed at developing an AI-powered,
+IoT-enabled smart waste management
+system to detect and report improper
+waste disposal in real time. The system
+is designed to assist municipalities in
+tracking waste-related violations,
+generating timely alerts, and
+streamlining collection processes
+through a smart dashboard integrated
+with citizen and enforcement apps.
+Notably, Manupriya from S3 IT was also
+an active member of the project team,
+highlighting the collaborative spirit
+across departments in driving forward
+impactful and technology-driven
+solutions.
+2
+From Tags to Style: GDG LBSITWHosts HTML/CSS Workshop
+The Google Developers Group
+(GDG) LBSITW hosted a hands-on
+HTML & CSS Basics workshop,
+led by speaker Aavani U B. The on-
+campus organizer ensured an
+interactive session where
+participants learned essential
+web-building skills — from
+structuring pages with HTML to
+styling them with CSS. Attendees
+practiced live coding exercises,
+gained practical tips for building
+responsive layouts, and left with
+the confidence to start their own
+web projects.
+Act for Earth: Climate Awareness Sessionby Manupriya
+A Climate Action Awareness Web
+Contribution session was
+conducted by Manupriya, focusing
+on educating students about
+environmental responsibility and
+the importance of collective action.
+The session highlighted practical
+ways to contribute online and
+offline, inspiring participants to take
+meaningful steps toward a
+sustainable future.
+From LBSIT to Industry: Anjali Menon onIntellectual Property Rights
+Anjali Menon, Co-Founder of
+IPRGENIE LLP and an IT
+alumnus of LBSIT, conducted an
+engaging alumni talk session on
+the Basics of Intellectual
+Property Rights (IPR). The
+session provided students with
+valuable insights into the
+importance of protecting
+innovations, understanding
+patents, copyrights, and
+trademarks, and applying IPR
+knowledge in real-world
+scenarios. 
+Her experience and practical tips inspired students to think
+innovatively and responsibly about intellectual property.
+RageBots Leads Flagship RoboticsWorkshop at LBS
+The Robotics Club at LBSITW hosted its flagship two-day
+workshop featuring Ant Bot and 3D Printing, conducted by
+RageBots. Students gained hands-on experience in building
+and programming Ant Bots, as well as designing and printing
+3D models, fostering innovation, technical skills, and
+teamwork. The workshop provided an immersive platform for
+students to explore the latest advancements in robotics and
+additive manufacturing.
+Hands-On Chatbot Workshop InspiresStudents at Trinity College
+Manupriya conducted an
+insightful chatbot building
+session at Trinity College,
+providing students with
+practical knowledge of AI-
+driven chatbot development.
+The session focused on building
+conversational agents,
+integrating AI tools, and hands-
+on practice, helping
+participants gain real-world
+experience in chatbot
+technology.
+Future Leaders in Action: IT Students Excelat Mock Parliament
+The  students of LBS  Institute Of
+Technology for Women
+showcased their leadership,
+debating, and parliamentary skills
+at the Mock Parliament held at
+Niyamasabha. Demonstrating
+excellent knowledge of
+legislative procedures, effective
+communication, and teamwork,
+the students impressed the
+judges and participants alike,
+highlighting the department’s
+commitment to nurturing well-
+rounded and confident future
+leaders.
+ACADEMIC ENGAGEMENTS
+3
+S5 IT Soars High with 100% PassResult
+Thasneem N Shaik has been
+awarded the Coordinator Award for
+outstanding contributions to Project
+Aksharam. This recognition
+highlights her dedication ,  leadership
+ACHIEVEMENTS
+Connecting Alumni: LITAAGoes Live
+ATHIRA P S of the 2021–2025 batch has
+successfully launched the official LBSIT Alumni
+Website – LITAA. The platform aims to connect
+past and present students, foster networking,
+and keep alumni updated with college events
+and achievements. Check it out here:
+https://alumnilbsitw.in
+Innovative Minds: S8IT Receives CERDGrant
+The S8 IT team, consisting of Athira P S,
+Parvathy Jayakumar, Praveena S under the
+mentorship of Dr Dileep V K, has
+successfully secured CERD funding for
+their innovative project. This achievement
+reflects the team’s creativity, hard work,
+and the department’s commitment to
+fostering research and development
+among students.
+Celebrating Dedication: CoordinatorAward for Thasneem N Shaik
+TOPPERS OF IT
+S3
+S1
+S5
+S7
+The S5 IT has achieved a
+remarkable milestone by
+securing a 100% pass
+percentage in the recent
+examinations. This outstanding
+accomplishment is a true
+reflection of the dedication,
+perseverance, and
+commitment of the students,
+guided and supported by the
+faculty members who
+consistently strive for
+academic excellence.
+Such an achievement not only highlights the hard work and discipline of the batch but
+also showcases the strong academic culture and mentoring within the department.
+This perfect pass rate stands as a proud moment for the entire institution, inspiring
+juniors to aim higher and reinforcing the reputation of the IT Department as a hub of
+excellence and consistent performance.
+Speed and Determination: RithikaSecures 200m Silver
+Rithika V H showcased her athletic prowess by
+winning the Silver Medal in the 200m race. Her
+speed, determination, and consistent training led
+to this remarkable achievement, making her a
+proud representative of the college in athletics.
+and commitment to driving impactful initiatives through
+the project.
+LBS Institute of Technology
+for women
+Poojappura ,
+Thiruvananthapuram Kerala
+695012
+phone : 0471 234 9232
+4
+Student editor:Nanditha D H  S3 IT
+Prof Seena Thomas from the UG IT
+programme of our college has successfully
+secured CERD funding for a student team
+from the Computer Science and
+Engineering Department. This achievement
+highlights the spirit of mentorship and
+academic support 
