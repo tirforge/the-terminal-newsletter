@@ -10,7 +10,7 @@ The non-negotiable constraints that shaped Issue 01. Any new contributor / next 
 
 ## 2. Structure
 
-- Exactly **4 pages**, A4, print-first (margins zero, everything sized in mm).
+- Exactly **5 pages**, A4, print-first (margins zero, everything sized in mm). Page 5 = S4 Toppers honors board (25 faces cropped from the dept-supplied graphic, rebuilt in template style).
 - p1 Cover + Principal & HoD letters · p2 Events + PEO/PSO + stats strip · p3 Semester stories + CTEP/CLAD/awards · p4 YIP/individual wins + MoU + roadmap + Editorial Board + closer band.
 
 ## 3. Design system

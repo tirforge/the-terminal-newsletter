@@ -11,7 +11,7 @@
 
 ## 📰 What
 
-`THE TERMINAL` is a **4-page, print-ready newsletter** (210 × 297 mm, A4) — the accreditation-season edition covering **January – June 2026**. Four pages, four jobs:
+`THE TERMINAL` is a **5-page, print-ready newsletter** (210 × 297 mm, A4) — the accreditation-season edition covering **January – June 2026**. Five pages, five jobs:
 
 | Page | Section | Contents |
 |------|---------|----------|
@@ -19,6 +19,7 @@
 | 02 | Academic Excellence & Technical Activities | Faculty paper in *Safety Science* (Elsevier), NSA/Cipher club workshops, Aramco CyberPatriot, KSUM IEDC startups, KPI stats strip, PEO & PSO snapshot |
 | 03 | Student Achievements & Industry | February hackathon sweep (4 teams, 8 podiums), Technoverse '26, Sargam '26 overall championship, career ladders, startup MoU, national hackathon streak |
 | 04 | University Honors, MoUs & Editorial Board | YIP 6.0 state winners, photography honors, sports selections, industry–academia linkages, roadmap, editorial board |
+| 05 | S4 Toppers | Full honors board: 24 toppers of the 2024 – '28 batch with SGPA standings, rebuilt in the newsletter's template style from the department-supplied graphic |
 
 The identity: an **indigo / teal / amber editorial system** on warm paper, Space Grotesk headlines, Merriweather body copy, JetBrains Mono metadata — designed to look like a printed newspaper, not a slide deck.
 
@@ -67,7 +68,7 @@ Print-CSS in WeasyPrint has sharp edges, all of which are crystallized into the 
 - **The silent content-vanishing bug.** Content lives in one absolutely-positioned `.content` box per page (`top / bottom` constrained). When in-flow children overflow that box, WeasyPrint moves the *entire* following block into a *hidden fragment* under the next page's opaque background — content disappears without any error. The fix is discipline: make content *fit*, verify every page visually, every build.
 - **Flex quirks.** `margin-top:auto` inside flex columns misbehaves (dead-center signatures painted mid-card) — solved with absolute-positioned signature blocks. Nested flex cards stretch to giant blank boxes unless pinned with `align-self:flex-start`.
 - **Stack spacing without `gap`.** `.stack .story + .story { margin-top }` replaces `gap` in stacks — WeasyPrint's flex `gap` is not trustworthy inside absolutely-positioned parents.
-- **The phantom page.** Page height is `296.8mm` against a `297mm` `@page` size — the 0.2mm slack keeps WeasyPrint from spawning a spurious 5th page.
+- **The phantom page.** Page height is `296.8mm` against a `297mm` `@page` size — the 0.2mm slack keeps WeasyPrint from spawning a spurious 6th page.
 
 ### Data policy
 
