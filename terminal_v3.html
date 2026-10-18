@@ -50,7 +50,7 @@ body{ font-family:'InterB'; color:var(--ink); }
 .boxhead{ display:flex; align-items:center; gap:2.5mm; margin:0 0 2mm 0; }
 .boxhead .bar{ width:3.5mm; height:3.5mm; background:var(--amber); }
 .boxhead h3{ font:700 12.5pt 'GroteskB'; color:var(--indigo); text-transform:uppercase; letter-spacing:.03em; }
-.story{ border:0.4mm solid var(--line); background:#FCF9F2; padding:3.4mm 3.8mm; }
+.story{ border:0.4mm solid var(--line); background:#FCF9F2; padding:3.4mm 3.8mm; box-sizing:border-box; }
 .story h4{ font:700 12.5pt 'GroteskB'; color:var(--ink); margin-bottom:1.4mm; line-height:1.25; }
 .story p{ font:400 8.6pt 'Merri'; line-height:1.52; color:var(--ink); }
 .story p b{ font-weight:700; }
@@ -126,6 +126,22 @@ body{ font-family:'InterB'; color:var(--ink); }
 .tilt-r2{ transform:rotate(.55deg); }
 .tape{ position:absolute; width:13mm; height:3.8mm; background:#00C2CB; opacity:.82; top:-1.9mm; left:9mm; transform:rotate(-4deg); z-index:6; }
 .tape.amber{ background:#FFB347; left:auto; right:9mm; transform:rotate(3.2deg); }
+
+/* CHROMA SYSTEM: 60/30/10, solid pre-blended tints (no rgba double-paint) */
+.ch-indigo{ border-left:0.85mm solid #2A3170; background:#EEF1FB; }
+.ch-indigo .kicker{ color:#2A3170; }
+.ch-teal{ border-left:0.85mm solid #0F6B5C; background:#E9F2EF; }
+.ch-teal .kicker{ color:#0F6B5C; }
+.ch-amber{ border-left:0.85mm solid #B97A16; }
+.ch-amber .kicker{ color:#8A5A10; }
+.ch-rose{ border-left:0.85mm solid #A53D57; background:#F8EEF1; }
+.ch-rose .kicker{ color:#932F49; }
+.ch-violet{ border-left:0.85mm solid #5C3E96; background:#F1EDF9; }
+.ch-violet .kicker{ color:#4E3285; }
+.ch-olive{ border-left:0.85mm solid #55703A; background:#EFF4E7; }
+.ch-olive .kicker{ color:#46602C; }
+.ch-sky{ border-left:0.85mm solid #2A6CA8; background:#EAF2F9; }
+.ch-sky .kicker{ color:#27639B; }
 </style>
 </head>
 <body>
@@ -160,12 +176,12 @@ body{ font-family:'InterB'; color:var(--ink); }
     </div>
 
     <div class="two-col" style="flex:1;">
-      <div class="info letter fill-cream tilt-l2">
+      <div class="info letter ch-indigo fill-cream tilt-l2">
         <div class="lh"><span>INSTITUTIONAL DESK</span>Message from the Principal</div>
         <p>“The January–June 2026 period has marked an era of purposeful progress for Government Engineering College, Barton Hill. Our institution has continued to strengthen its benchmarks in academics, research and innovation, and the Department of Information Technology stands evidence of that momentum — national hackathon podiums, university-level recognitions and an industry-linked startup culture that translates classroom learning into real solutions. The initiatives documented in this newsletter reflect the vibrant energy of our students and the steady dedication of our faculty. I commend the department for upholding institutional standards across academics, innovation and community engagement, and I trust this edition will serve both as an archive of milestones and an inspiration toward higher horizons.”</p>
         <div class="sig">— DR. BIJULAL D.<small>Principal (In-charge)</small></div>
       </div>
-      <div class="info letter fill-cream tilt-r2">
+      <div class="info letter ch-teal fill-cream tilt-r2">
         <div class="lh"><span>DEPARTMENTAL DESK</span>Message from the Head of the Department</div>
         <p>“It is with great pride that I present this edition of <i>The Terminal</i>, chronicling the January–June 2026 semester of the Department of Information Technology. This period saw our students sweep eight podiums across state hackathon zonals, reach a Cognizant national hackathon final, and clinch the overall championship at Sargam 2026 — while our faculty published research on secure cloud-edge scheduling in Springer. In line with our accreditation goals, the department deepened experiential learning through the Encrypto workshop, the AEGIS cybersecurity club and internship pathways. Every achievement recorded here is a testament to the synergy between our faculty mentors and driven students. I congratulate the editorial team for their thorough documentation.”</p>
         <div class="sig">— DR. DEEPTHI SASIDHARAN<small>Associate Professor &amp; Head, Dept. of IT</small></div>
@@ -202,19 +218,19 @@ body{ font-family:'InterB'; color:var(--ink); }
 
     <div class="two-col">
       <div class="col stack" style="flex:1.25;">
-        <div class="story fill-amber">
+        <div class="story ch-amber fill-amber">
           <div class="kicker">10 FEBRUARY 2026 · 1–3 PM · ZOOM</div>
           <h4>Encrypto Workshop: “From Script to Ransom”</h4>
           <p>The department’s <b>Encrypto</b> workshop, led by <b>Alan V Jiju</b> of Offenso Hackers Academy, walked participants from scripting fundamentals to a live <b>ransomware-breaking session</b> in two intensive hours. The session seeded a formal <b>Capture-the-Flag (CTF) collaboration</b> with Offenso Hackers Academy — a continuing skills pipeline for campus security defenders.</p>
           <div class="chiprow"><span class="tag">WORKSHOP</span><span class="tag">CRYPTO &amp; RANSOMWARE</span><span class="tag">OFFENSO COLLAB</span></div>
         </div>
-        <div class="story">
+        <div class="story ch-teal">
           <div class="kicker">FEBRUARY 2026 · CLUB INVESTITURE</div>
           <h4>AEGIS: The Cybersecurity Club Is Born</h4>
           <p><b>AEGIS</b>, the department’s dedicated cybersecurity club (faculty-in-charge: <b>Dr. Haripriya</b>), was formally inaugurated this semester — converting one-off workshops into a permanent student-run security programme: follow-up sessions, CTF training and peer mentoring built in.</p>
           <div class="chiprow"><span class="tag">STUDENT CHAPTER</span><span class="tag">CTF PIPELINE</span></div>
         </div>
-        <div class="story">
+        <div class="story ch-sky">
           <div class="kicker">RESEARCH · SPRINGER · JANUARY 2026</div>
           <h4>Faculty Research: RL-Driven MOEA for Secure Cloud-Edge</h4>
           <p><b>Dr. Haripriya A P</b> published the term’s headline faculty paper — a <b>reinforcement-learning-driven multi-objective evolutionary (MOEA) framework</b> for secure and efficient task scheduling in <b>cloud-edge</b> environments — in a Springer volume (January 2026).</p>
@@ -227,13 +243,13 @@ body{ font-family:'InterB'; color:var(--ink); }
           <img src="imgs/src_p065.png" style="height:46mm; object-fit:contain;">
           <div class="cap"><b>Sigil raised.</b> AEGIS — the cybersecurity club of the Dept. of IT, Feb 2026.</div>
         </div>
-        <div class="story fill-indigo">
+        <div class="story ch-indigo fill-indigo">
           <div class="kicker">COMPETITION ODYSSEY · FEB 2026</div>
           <h4>The February Hackathon Odyssey</h4>
           <p>Four teams — <b>CIPHER, BYTEFORCE, BYTE404, AXIOM</b> — campaigned through Industry 5.0, GovTech, AgriTech, CyberTech and Agentic AI college and zonal rounds, returning with <b>eight podium finishes in one month</b>. The full roster and venues: page 03.</p>
           <div class="chiprow"><span class="tag gold">8 PODIUMS</span><span class="tag gold">4 TEAMS</span><span class="tag gold">5 TRACKS</span></div>
         </div>
-        <div class="story">
+        <div class="story ch-olive">
           <div class="kicker">STARTUP SPRINGBOARD · 7 MARCH 2026</div>
           <h4>Three Teams at KSUM IEDC Startup Summit ’26</h4>
           <p>Three IT project teams were <b>invited to the Kerala Startup Mission IEDC Startup Summit 2026</b> (Amal Jyothi College of Engineering, 7 March 2026), awarded on the strength of their prior achievements and pitches.</p>
@@ -248,7 +264,7 @@ body{ font-family:'InterB'; color:var(--ink); }
       <div class="st"><div class="n">8</div><div class="l">ZONAL PODIUMS · FEB 2026</div></div>
       <div class="st"><div class="n">27 <span style="color:var(--amber); font-size:9pt;">YRS</span></div><div class="l">UPTIME (EST. 1999)</div></div>
     </div>
-    <div class="story" style="margin-top:5mm;">
+    <div class="story ch-violet" style="margin-top:5mm;">
       <div class="kicker">PROGRAMME FRAMEWORK · ACCREDITATION SNAPSHOT</div>
       <h4>PEOs &amp; PSOs — What the Department Commits To</h4>
       <p><b>PEO 1:</b> Professional competency in Information Technology — successful IT solution providers and entrepreneurs. &nbsp;<b>PEO 2:</b> Scientific and engineering depth for higher education and research. &nbsp;<b>PEO 3:</b> Professionals with interpersonal skill, leadership and social concern.</p>
@@ -272,7 +288,7 @@ body{ font-family:'InterB'; color:var(--ink); }
 
     <div class="two-col">
       <div class="col" style="flex:1.55;">
-        <div class="story">
+        <div class="story ch-indigo">
           <div class="kicker">FEBRUARY 2026 · HACKATHON SWEEP</div>
           <h4>Four Teams. Eight Podiums. One Month.</h4>
           <p><b>CIPHER</b> (Yasina Thasneem M, M S Gauri Sankar, Asin Naved A, Evette Catelyn Fernandez, Mrinal Krishnan J) — 2nd <b>Industry 5.0 Hack</b> (Asian School of Business, 8 Feb), 1st <b>AgriTech</b> college round (18 Feb) and 1st <b>AgriTech zonal</b> (St. Thomas College of Engineering, 27 Feb).</p>
@@ -294,7 +310,7 @@ body{ font-family:'InterB'; color:var(--ink); }
 
     <div class="two-col" style="margin-top:4.5mm;">
       <div class="col stack" style="flex:1;">
-        <div class="story">
+        <div class="story ch-teal">
           <div class="kicker">NATIONAL FINALS · COGNIZANT</div>
           <h4>Technoverse ’26: GECBH Reaches the Finals</h4>
           <p><b>Afila Fathima S</b>, <b>Apsara M V</b>, <b>Blessy Mariya Benny</b> and <b>Christin Jiji</b> carried the department to the finalist round of <b>Technoverse 2026</b>, the national-level hackathon organized by Cognizant.</p>
@@ -303,12 +319,12 @@ body{ font-family:'InterB'; color:var(--ink); }
           <img src="imgs/src_p036.png" style="height:52mm; object-fit:cover;">
           <div class="cap"><b>Finals bound.</b> The GECBH quartet at the Cognizant stand.</div>
         </div>
-        <div class="story">
+        <div class="story ch-rose">
           <div class="kicker">CULTURAL SUPREMACY · 6–7 APRIL 2026</div>
           <h4>Sargam ’26: IT Crowned Overall Champions — 1082.5 pts</h4>
           <p><b>Kalaprathibha:</b> M S Gaurisankar (S4). <b>Kalathilakam:</b> Goury Vibin (S4) &amp; Sreya S S (S6), jointly. Victory across dance, music, literary and fine-arts sections — a full-spectrum title defence.</p>
         </div>
-        <div class="story">
+        <div class="story ch-olive">
           <div class="kicker">CAREER LADDER · ON PARALLEL TRACKS</div>
           <h4>Sherin’s Ladder: Trainee → HR → COO</h4>
           <div class="ladder">
@@ -321,18 +337,18 @@ body{ font-family:'InterB'; color:var(--ink); }
       </div>
 
       <div class="col stack" style="flex:1;">
-        <div class="story fill-amber">
+        <div class="story ch-amber fill-amber">
           <div class="kicker">NATIONAL HACKATHON STREAK · 2025–26 ACADEMIC YEAR</div>
           <h4>Vimun A Racks Up Four First-Place Finishes</h4>
           <p><b>Gesture-Controlled Home Automation</b> takes 1st at <b>Sri Ramakrishna Institute of Technology</b>; an <b>AI-Based Physiotherapy Tool</b> wins 1st at <b>Mailam Engineering College</b>; an <b>AI-Based Neuro Rehabilitation Device</b> tops the General Hackathon at <b>MSAJCE</b>; and an <b>AI-Based Gesture Recognition</b> system — noted for high accuracy and real-time performance — closes the streak at <b>St. Joseph College of Engineering</b>.</p>
           <div class="chiprow"><span class="tag gold">4 × 1ST PLACE</span><span class="tag gold">AI FOR HEALTHCARE</span><span class="tag gold">NATIONAL LEVEL</span></div>
         </div>
-        <div class="story">
+        <div class="story ch-sky">
           <div class="kicker">PLACEMENT &amp; INTERNSHIP SPOTLIGHT</div>
           <h4>Sanjayram Prasad Boards Allianz Aspire ’26</h4>
           <p>First-year <b>M.Tech</b> cohort — <b>Sanjayram Prasad</b> earns a place in the competitive <b>Allianz Aspire 2026 Internship Program</b>.</p>
         </div>
-        <div class="story">
+        <div class="story ch-violet">
           <div class="kicker">STUDENT STARTUP · MoA SIGNED</div>
           <h4>Zelbytes × K-AgTech Launchpad</h4>
           <p><b>Zelbytes</b>, the student agritech startup, signed a formal <b>MoA with K-AgTech Launchpad (KAU · NABARD · WSU)</b> — technical partner for the <b>Vellayani campus</b> under a <b>Farming-as-a-Service</b> model.</p>
@@ -359,24 +375,24 @@ body{ font-family:'InterB'; color:var(--ink); }
 
     <div class="two-col">
       <div class="col stack" style="flex:1.28;">
-        <div class="story">
+        <div class="story ch-teal">
           <div class="kicker">YOUNG INNOVATORS PROGRAMME 6.0 · K-DISC</div>
           <h4>YIP ’26: District Win — the Smart Bus Stop</h4>
           <p>S3 IT team (<b>Aparna, Ardra, Jyothika, Hadiya, Meenakshi</b>) won at the <b>district level of YIP 6.0</b> (Kerala Development and Innovation Strategic Council) with the <b>Smart Bus Stop Ticket Generating Machine</b> — destination selection, <b>UPI/card payment</b>, printed onboard tickets; easing congestion for passengers and conductors alike.</p>
           <div class="chiprow"><span class="tag gold">DISTRICT LEVEL WIN</span><span class="tag gold">UPI · CARD</span><span class="tag gold">K-DISC</span></div>
         </div>
-        <div class="story">
+        <div class="story ch-rose">
           <div class="kicker">STATE-LEVEL SELECTION · CLEAN-RIVERS AI</div>
           <h4>Gopika MB Carries YIP to the State Level</h4>
           <p><b>Gopika MB</b> (S2 IT) advanced to the <b>state level</b> of YIP 6.0 with an AI-aided <b>plastic-waste canal collector</b> — an innovation aimed at cleaner, healthier waterways.</p>
         </div>
         <div class="two-col">
-          <div class="story">
+          <div class="story ch-indigo">
             <div class="kicker">UNIVERSITY REPRESENTATION · JANUARY 2026</div>
             <h4>Adrika Shoots for Kerala at the Universities</h4>
             <p><b>Adrika Narayanan</b> (S4) represented the university at the <b>All-India Inter-University Championship</b> (Meerut, January 2026), alongside Kerala State shooting-team duty at the National Games ’25.</p>
           </div>
-          <div class="story">
+          <div class="story ch-olive">
             <div class="kicker">KTU SPORTS COLOURS</div>
             <h4>Deepak Jaimohan Selected to the KTU Cricket Team</h4>
             <p><b>Deepak Jaimohan</b> (S2 IT) was selected to the <b>APJAKTU cricket team</b> after the college’s A-zone campaign (Thiruvananthapuram); the KTU side then played the All-India South Zone Inter-University tournament, Mysore.</p>
@@ -385,12 +401,12 @@ body{ font-family:'InterB'; color:var(--ink); }
       </div>
 
       <div class="col stack">
-        <div class="story fill-indigo">
+        <div class="story ch-indigo fill-indigo">
           <div class="kicker">INDUSTRY–ACADEMIA LINKAGE</div>
           <h4>MoUs &amp; Partnerships This Half-Year</h4>
           <p>◆ <b>Zelbytes × K-AgTech Launchpad</b> (KAU · NABARD · WSU) — three-agency launchpad partnership; technical-infrastructure partner duties at <b>Vellayani</b>; <b>FaaS</b> delivery model.<br>◆ <b>Offenso Hackers Academy</b> — formal <b>CTF collaboration</b> seeding a training pipeline around AEGIS.<br>◆ <b>Allianz</b> — the Aspire ’26 internship seat (M.Tech).</p>
         </div>
-        <div class="story fill-cream">
+        <div class="story ch-amber fill-cream">
           <div class="kicker">ROADMAP · JULY–DECEMBER 2026</div>
           <h4>Looking Ahead</h4>
           <p>◆ Prototype hardening &amp; state-level milestones for the <b>YIP Smart Bus Stop machine</b>.<br>◆ Grow <b>AEGIS</b>: Encrypto series, CTF ladder and campus cyber drills.<br>◆ <b>Sargam ’27</b> — defend the ’26 overall title; feed the half-year into ALTIORA ’26–’27.</p>
